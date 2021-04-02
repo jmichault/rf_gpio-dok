@@ -7,10 +7,10 @@ lang:
   komentoButono: 'Aldoni vian komenton (pri github)'
   komentoj: 'Komentoj:'
   malsamaLingvo: 'Legu ĉi tiun paĝon en alia lingvo'
-  priskribo: 'Priskribo.'
+  priskribo: 'RF_GPIO: Kontrolu kun 433 MHz-ekipaĵo de via frambo.'
   rajtoj: 'Permesilo <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="display:inline;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="CC-BY-SA 4.0"/></a>'
   rigardiEn: 'Rigardi en'
   rilatajAfisxoj: 'Rilataj Afiŝoj'
   sercxi: 'Serĉu per Google.'
-  titolo: 'Titolo.'
+  titolo: Rf_gpio
   tradukoAverto: 'Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:'

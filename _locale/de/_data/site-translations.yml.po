@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-19 19:02+0100\n"
+"POT-Creation-Date: 2021-04-02 18:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,22 +36,19 @@ msgstr "Wähle deine Sprache"
 
 #. type: Hash Value - Key: komentis
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "komentis:"
 msgstr "kommentiert:"
 
 #. type: Hash Value - Key: komentoButono
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Aldoni vian komenton (pri github)"
 msgstr "Füge einen Kommentar (zu Github) hinzu"
 
 #. type: Hash Value - Key: komentoj
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Komentoj:"
 msgstr "Bemerkungen:"
 
@@ -63,9 +60,10 @@ msgstr "Lesen Sie diese Seite in einer anderen Sprache"
 
 #. type: Hash Value - Key: priskribo
 #: >lang
-#, fuzzy, no-wrap
-msgid "Priskribo."
-msgstr "Beschreibung."
+#, no-wrap
+#, fuzzy
+msgid "RF_GPIO: Kontrolu kun 433 MHz-ekipaĵo de via frambo."
+msgstr "Rf_GPIO: Kontrolu kun 433 MHz-ekipaĵo de via frambo."
 
 #. type: Hash Value - Key: rajtoj
 #: >lang
@@ -93,12 +91,21 @@ msgstr "Google suchen."
 
 #. type: Hash Value - Key: titolo
 #: >lang
-#, fuzzy, no-wrap
-msgid "Titolo."
-msgstr "Titel."
+#, no-wrap
+#, fuzzy
+msgid "Rf_gpio"
+msgstr "Rf_gpio"
 
 #. type: Hash Value - Key: tradukoAverto
 #: >lang
 #, fuzzy, no-wrap
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "Bitte beachten Sie: Diese Seite wurde automatisch übersetzt. Wenn Sie können, sollten Sie es in einer dieser Sprachen lesen:"
+
+#, fuzzy, no-wrap
+#~ msgid "Priskribo."
+#~ msgstr "Beschreibung."
+
+#, fuzzy, no-wrap
+#~ msgid "Titolo."
+#~ msgstr "Titel."
