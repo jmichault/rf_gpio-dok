@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-04-02 18:41+0200\n"
+"POT-Creation-Date: 2021-11-09 21:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,33 +17,626 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: YAML Front Matter: lang
-#: ./index.md:1
+#: index.md:1
 #, no-wrap
 msgid "eo"
 msgstr "pa"
 
 #. type: YAML Front Matter: lang-niv
-#: ./index.md:1
+#: index.md:1
 #, no-wrap
-msgid "fonto"
+msgid "auto"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
-#: ./index.md:1
+#: index.md:1
 #, no-wrap
 msgid "indekso"
 msgstr "indekso"
 
 #. type: YAML Front Matter: layout
-#: ./index.md:1
+#: index.md:1
 #, no-wrap
-msgid "index"
-msgstr "index"
+msgid "page"
+msgstr "page"
 
 #. type: YAML Front Matter: title
-#: ./index.md:1
+#: index.md:1
+#, fuzzy, no-wrap
+msgid "Rf_gpio"
+msgstr "ਆਰਐਫ_gpio"
+
+#. type: Title #
+#: index.md:9
+#, fuzzy, no-wrap
+msgid "Prezento"
+msgstr "ਪੇਸ਼ਕਾਰੀ"
+
+#. type: Plain text
+#: index.md:11
+#, fuzzy, no-wrap
+msgid " _rf_GPIO_ ebligas simuli rflink kun dissendilo kaj ricevilo konektita rekte al la havenoj _GPIO_ de a _raspberry pi_.\n"
+msgstr ".\n"
+
+#. type: Title ##
+#: index.md:13
+#, fuzzy, no-wrap
+msgid "Instalado:"
+msgstr "ਇੰਸਟਾਲੇਸ਼ਨ:"
+
+#. type: Fenced code block
+#: index.md:15
+#, no-wrap
+msgid ""
+"cd /home/pi\n"
+"git clone https://github.com/jmichault/rf_gpio.git\n"
+"cd rf_gpio  \n"
+"sudo cp -p rf_gpio.sh /etc/init.d  \n"
+"sudo update-rc.d rf_gpio.sh defaults  \n"
+"sudo service rf_gpio.sh start  \n"
+msgstr ""
+"cd /home/pi\n"
+"git clone https://github.com/jmichault/rf_gpio.git\n"
+"cd rf_gpio  \n"
+"sudo cp -p rf_gpio.sh /etc/init.d  \n"
+"sudo update-rc.d rf_gpio.sh defaults  \n"
+"sudo service rf_gpio.sh start  \n"
+
+#. type: Plain text
+#: index.md:24
+#, fuzzy, no-wrap
+msgid "Konekti la ricevilon al GPIO2 BCM27 (PIN 13)  \n"
+msgstr "ਪ੍ਰਾਪਤ ਕਰਨ ਵਾਲੇ ਨੂੰ GPO2 BCM27 (ਪਿੰਨ 13)  )  ਤੇ ਕਨੈਕਟ ਕਰੋ\n"
+
+#. type: Plain text
+#: index.md:25
+#, fuzzy, no-wrap
+msgid "Konekti la dissendilon al GPIO0 BCM17 (PIN 11)  \n"
+msgstr "ਟ੍ਰਾਂਸਮੀਟਰ ਨੂੰ gpo0 BCM17 (ਪਿੰਨ 11)  ਨੂੰ ਕਨੈਕਟ ਕਰੋ)  \n"
+
+#. type: Title ##
+#: index.md:27
+#, fuzzy, no-wrap
+msgid "Uzo kun DOMOTICZ:"
+msgstr "ਹੋਸਟਿਕਾਂ ਨਾਲ ਵਰਤੋਂ:"
+
+#. type: Plain text
+#: index.md:29
 #, no-wrap
 #, fuzzy
-msgid "Plej novaj afiŝoj"
-msgstr "ਤਾਜ਼ਾ ਪੋਸਟਾਂ"
+msgid ""
+"Aldoni materialon de tipo _«RFLink Gateway with LAN interface»_\n"
+"\tRemota Adreso: 127.0.0.1  \n"
+msgstr "ਕਿਸਮ ਦੀ ਸਮੱਗਰੀ  _«RFLink Gateway with LAN interface»_ \n \t ਰਿਮੋਟ ਐਡਰੈਸ ਸ਼ਾਮਲ ਕਰੋ: 127.0.0.1   \n"
 
+#. type: Plain text
+#: index.md:32
+#, no-wrap
+#, fuzzy
+msgid ""
+"\t haveno: 10000   \n"
+"Se la aparataro estas agnoskita, la integriĝo kun Domomoticz estas simpla: sufiĉas uzi la butonon \"Aŭtomata Detekto\" sur la langeto \"Ŝaltiloj\", aŭ aktivigi la opcion \"Permesi 5 Minutoj\"   \n"
+msgstr "\t ਪੋਰਟ: 10000    \n ਜੇ ਹਾਰਡਵੇਅਰ ਨੂੰ ਮਾਨਤਾ ਦਿੱਤੀ ਜਾਂਦੀ ਹੈ, ਤਾਂ domomoticz ਨਾਲ ਏਕੀਕਰਣ \" ਟੈਬ ਤੇ \" ਟੈਬ, ਜਾਂ ਕਿਰਿਆਸ਼ੀਲ) ਦੀ ਵਰਤੋਂ ਕਰਨਾ ਕਾਫ਼ੀ ਹੈ ਵਿਕਲਪ  \" 5 ਮਿੰਟ \"  ਦੀ ਆਗਿਆ ਦਿਓ   \n"
+
+#. type: Title ##
+#: index.md:33
+#, fuzzy, no-wrap
+msgid "Transceivers testis:"
+msgstr "ਟ੍ਰਾਂਸਸਿਸ ਟੈਸਟ ਕੀਤਾ:"
+
+#. type: Bullet: '* '
+#: index.md:34
+#, fuzzy, no-wrap
+msgid "Ĉina ilaro kun reaga ricevilo (asin = b00z9sznp0, MX-05V + MX-FS-03V), vidita en Amazono je 1 €.  \n"
+msgstr "ਰਿਫਰ ਰਿਐਕਟਰ (ਦੇ ਨਾਲ ਚੀਨੀ ਗੀਅਰ (asin = b00z9sznp0, ਐਮਐਕਸ -05v + fs-03v)ਵਿੱਚ ਐਮਾਜ਼ਾਨ ਵਿੱਚ ਵੇਖਿਆ ਗਿਆ.  \n"
+
+#. type: Plain text
+#: index.md:36
+#, fuzzy, no-wrap
+msgid "\tLa dissendilo estas bone, sed la ricevilo estas tre malalta (gamo de ĉirkaŭ 4m), por uzi nur por lernaj kodoj.  \n"
+msgstr ".  \n"
+
+#. type: Bullet: '* '
+#: index.md:37
+#, fuzzy, no-wrap
+msgid "WL101-341 + WL102-341, Superheterodyne 433 MHz, vidita sur AliExpress je 1 €.  \n"
+msgstr "Wl101-341 + ਡਬਲਯੂਐਲ 102-341, ਸੁਪਰਟਰੋਲਟਨੇ 433 ਮੈਗਾਹਰਟਜ਼, ਅਲੀਕਸਪਰੈਸ 'ਤੇ € 1 ਤੇ ਵੇਖਿਆ.  \n"
+
+#. type: Plain text
+#: index.md:40
+#, no-wrap
+#, fuzzy
+msgid "\t La ricevilo havas pli bonan sentemon ol la antaŭa.   \n"
+msgstr "\t ਰਿਸੀਵਰ ਕੋਲ ਪਿਛਲੇ ਨਾਲੋਂ ਇਕ ਬਿਹਤਰ ਸੰਵੇਦਨਸ਼ੀਲਤਾ ਹੈ.    \n"
+
+#. type: Plain text
+#: index.md:42
+#, fuzzy, no-wrap
+msgid "Noto: Por bonaj rezultoj, la ricevilo devas esti protektita kontraŭ pestoj elsenditaj de _raspberry-pi_. Por testado, vi povas uzi aluminan tavoleton en folio de papero faldita duone.\n"
+msgstr "ਨੋਟ: ਚੰਗੇ ਨਤੀਜਿਆਂ ਲਈ, ਪ੍ਰਾਪਤ ਕਰਨ ਵਾਲੇ ਨੂੰ ਕੀੜਿਆਂ ਤੋਂ ਤਿਆਰ ਕੀੜਿਆਂ ਤੋਂ _raspberry-pi_ਦੁਆਰਾ ਜਾਰੀ ਕੀਤੇ ਕੀੜਿਆਂ ਤੋਂ ਸੁਰੱਖਿਅਤ ਰੱਖਣਾ ਚਾਹੀਦਾ ਹੈ. ਟੈਸਟਿੰਗ ਲਈ, ਤੁਸੀਂ ਇੱਕ ਅਲਮੀਨੀਅਮ ਕੋਟ ਨੂੰ ਅੱਧੇ ਵਿੱਚ ਫੋਲਡ ਕੀਤੇ ਕਾਗਜ਼ ਦੀ ਸ਼ੀਟ ਵਿੱਚ ਵਰਤ ਸਕਦੇ ਹੋ.\n"
+
+#. type: Title ##
+#: index.md:43
+#, fuzzy, no-wrap
+msgid "Materialoj rekonitaj:"
+msgstr "ਮਾਨਤਾ ਪ੍ਰਾਪਤ ਸਮੱਗਰੀ:"
+
+#. type: Plain text
+#: index.md:44
+#, fuzzy, no-wrap
+msgid "estis sukcese testita:  \n"
+msgstr "ਸਫਲਤਾਪੂਰਵਕ ਜਾਂਚ ਕੀਤੀ ਗਈ:  \n"
+
+#. type: Bullet: '* '
+#: index.md:45
+#, fuzzy, no-wrap
+msgid "Kyg (ASIN: B07DPmpw1, markita Intertk, vidpunktoj de Amazon)(agnoskita kiel \"impulsoj\")  \n"
+msgstr "ਕਿਯੇਂ (ਅਸਿਨ: ਬੀ 07 ਡੀ ਪੀ ਐਮ ਐਮ, ਨਿਸ਼ਾਨੇ ਦੇ ਹੱਲ ਦੇ ਅੰਕ \"ਪ੍ਰਭਾਵ\"ਦੇ ਤੌਰ ਤੇ ਪਛਾਣੇ ਗਏ ਐਮਾਜ਼ਾਨ)  \n"
+
+#. type: Bullet: '* '
+#: index.md:47
+#, fuzzy, no-wrap
+msgid "Ĉina ĉina aneng ( termometro kun ekrano LCD, vidita sur AliExpress.)  \n"
+msgstr "ਚੀਨੀ ਚੀਨੀ ਵਨੈਂ ( ਇੱਕ LCD ਸਕਰੀਨ ਨਾਲ ਥਰਮਾਮੀਟਰ ਇੱਕ LCD ਸਕਰੀਨ ਨਾਲ ਵੇਖੀ ਗਈ, ਅਲੀਕਸਪਰੈਸ 'ਤੇ ਦਿਖਾਈ ਦਿੱਤੀ.)  \n"
+
+#. type: Bullet: '* '
+#: index.md:49
+#, fuzzy, no-wrap
+msgid "DigOOOO RG-8B higrometer-higrómetro ĉina-kosto, sen ekrano, vidita sur AliExpress.)  \n"
+msgstr "ਡਿਗੋ ਓ ਐਨ ਜੀ -8 ਬੀ ਹਿਗ੍ਰਾਮੀਟਰ-ਹਿਗ੍ਰਾਮੋਮੀਟਰ ਚੀਨੀ ਕੀਮਤ, ਬਿਨਾ ਸਕ੍ਰੀਨ ਕੀਤੇ ਬਿਨਾਂ, ਅਲੀਅਕਸਪਰੈਸ 'ਤੇ ਨਜ਼ਰ ਰੱਖੋ.)  \n"
+
+#. type: Plain text
+#: index.md:52
+#, fuzzy, no-wrap
+msgid "Aliaj sensiloj estas antaŭdifinitaj en sentiloj.ini, sed ne estis testitaj.  \n"
+msgstr "ਹੋਰ ਸੈਂਸਰ ਸੈਂਸਰਾਂ ਐਸਨੀਜ਼ ਵਿੱਚ ਪਰਿਭਾਸ਼ਿਤ ਕੀਤੇ ਗਏ ਹਨ.  \n"
+
+#. type: Title ##
+#: index.md:54
+#, fuzzy, no-wrap
+msgid "Por aldoni novan sensor:"
+msgstr "ਇੱਕ ਨਵਾਂ ਸੈਂਸਰ ਸ਼ਾਮਲ ਕਰਨ ਲਈ:"
+
+#. type: Plain text
+#: index.md:55
+#, fuzzy, no-wrap
+msgid "La datuma transporto-protokolo kaj la datuma formato devas esti identigitaj.  \n"
+msgstr "ਡੇਟਾ ਟ੍ਰਾਂਸਫਰ ਪ੍ਰੋਟੋਕੋਲ ਅਤੇ ਡੇਟਾ ਫਾਰਮੈਟ ਦੀ ਪਛਾਣ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ.  \n"
+
+#. type: Title ###
+#: index.md:56
+#, fuzzy, no-wrap
+msgid "Opcio 1:"
+msgstr "ਵਿਕਲਪ 1:"
+
+#. type: Plain text
+#: index.md:57
+#, fuzzy, no-wrap
+msgid "Sekvu la eliron de RF_gpio, soit en le lançant dans une fenêtre shell, soit en s'y connectant avec la commande «telnet 127.0.0.1 10000».  \n"
+msgstr ""
+"RF_gpio, soit en le lançant dans une fenêtre shell, soit en s'y connectant avec la commande «telnet 127.0.0.1 10000».  \n"
+"ਦੇ ਬਾਹਰ ਜਾਣ ਦਾ ਅਨੁਸਰਣ ਕਰੋ  \n"
+
+#. type: Plain text
+#: index.md:59
+#, fuzzy, no-wrap
+msgid "Kiam la sensor sendas datumojn, kaj la transiga protokolo estas agnoskita, vi vidos ion, kio aspektas tiel:  \n"
+msgstr "ਜਦੋਂ ਸੈਂਸਰ ਡੇਟਾ ਭੇਜਦਾ ਹੈ, ਅਤੇ ਟ੍ਰਾਂਸਫਰ ਪ੍ਰੋਟੋਕੋਲ ਨੂੰ ਮਾਨਤਾ ਦਿੱਤੀ ਜਾਂਦੀ ਹੈ, ਤਾਂ ਤੁਸੀਂ ਉਹ ਚੀਜ਼ ਵੇਖੋਗੇ ਜੋ ਇਸ ਤਰ੍ਹਾਂ ਦਿਖਾਈ ਦਿੰਦੀ ਹੈ:  \n"
+
+#. type: Plain text
+#: index.md:60
+#, fuzzy, no-wrap
+msgid "20; 00; p0102, bitoj = 36, d0 = 529, d1 = 949, d2 = 1926, ds = 3865; binara = 01110011000000100000, hex = 7300d8f20;  \n"
+msgstr "20; 00; P0102, ਬਿੱਟ = 36, ਡੀ 029, ਡੀ 1 = 949, ਡੀ 2 = 1926, ਡੀਐਸ = 3865; ਬਾਈਨਰੀ = 011100100000000000000, ਹੇਕਸ = 7300D8F20;  \n"
+
+#. type: Plain text
+#: index.md:61
+#, fuzzy, no-wrap
+msgid "  20; = Ajna Framo pri RFLINK-Emisioj komenciĝas tiel.  \n"
+msgstr "  20; = ਕੋਈ ਆਰਐਫਐਲਿੰਕ ਨਿਕਾਸ ਫਰੇਮ ਇਸ ਤਰ੍ਹਾਂ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ.  \n"
+
+#. type: Plain text
+#: index.md:63
+#, no-wrap
+#, fuzzy
+msgid ""
+"   00; = Unua kadro eldonita.   \n"
+"   p0102, bitoj = 36, d0 = 529, d1 = 949, d2 = 1926, ds = 3865 = rf _gpio a identifié un protocole du type :  \n"
+msgstr "    00; = ਪਹਿਲਾਂ ਪ੍ਰਕਾਸ਼ਤ ਪਹਿਲਾ ਫਰੇਮਵਰਕ.    \n p0102, ਬਿੱਟ = 36, ਡੀ 029, ਡੀ 1 = 949, ਡੀ 2 = 1926, ਡੀਐਸ = 3865 = ਆਰਐਫ  _gpio a identifié un protocole du type :  \n  \n"
+
+#. type: Plain text
+#: index.md:65
+#, fuzzy, no-wrap
+msgid "\tBito 0 = D0 D1  \n"
+msgstr "\tਬਿੱਟ 0 = d0 d1  \n"
+
+#. type: Plain text
+#: index.md:66
+#, fuzzy, no-wrap
+msgid "\tbito 1 = d0 d2  \n"
+msgstr "\tਬਿੱਟ 1 = d0 d2  \n"
+
+#. type: Plain text
+#: index.md:67
+#, fuzzy, no-wrap
+msgid "\t36 datumoj bitoj  \n"
+msgstr "\t36 ਡਾਟਾ ਬਿੱਟ  \n"
+
+#. type: Plain text
+#: index.md:68
+#, fuzzy, no-wrap
+msgid "\tDaŭro D0 = 520 μs  \n"
+msgstr "\tਦੀ ਅਵਧੀ D0 = 520 μs  \n"
+
+#. type: Plain text
+#: index.md:69
+#, fuzzy, no-wrap
+msgid "\tDaŭro D1 = 957 μs  \n"
+msgstr "\tਦੀ ਅਵਧੀ D1 = 957 μs  \n"
+
+#. type: Plain text
+#: index.md:70
+#, fuzzy, no-wrap
+msgid "\tDaŭro d2 = 1936 μs  \n"
+msgstr "\tਦੀ ਅਵਧੀ D2 = 1936 μs  \n"
+
+#. type: Plain text
+#: index.md:72
+#, no-wrap
+#, fuzzy
+msgid ""
+"\t sinkrona daŭro DS = 3881 μs   \n"
+"  Duuma = 0111001100000000100000, hex = 7300D8F20; : Datumoj ricevitaj en duuma kaj hexa.  \n"
+msgstr "\t ਸਮਕਾਲੀ ਅਵਧੀ DS = 3881 μ = 3881 μ = h2> duuma = 011100110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, : ਬਾਈਨਰੀ ਅਤੇ ਹੇਕਸਾ ਵਿੱਚ ਪ੍ਰਾਪਤ ਕੀਤਾ ਡਾਟਾ.   \n"
+
+#. type: Title ###
+#: index.md:74
+#, fuzzy, no-wrap
+msgid "Opcio 2:"
+msgstr "ਵਿਕਲਪ 2:"
+
+#. type: Plain text
+#: index.md:75
+#, fuzzy, no-wrap
+msgid "Kuru en ŝelo:  \n"
+msgstr "ਸੱਕ ਵਿੱਚ ਚਲਾਓ:  \n"
+
+#. type: Plain text
+#: index.md:76
+#, fuzzy, no-wrap
+msgid "./analizi  \n"
+msgstr "./analyzi  \n"
+
+#. type: Plain text
+#: index.md:77
+#, fuzzy, no-wrap
+msgid "kaj premu la butonon sur la fora kontrolo, aŭ atendu la sensilon por sendi datumojn. Se la protokolo estas agnoskita, ni vidas ion similan al tio:  \n"
+msgstr "ਅਤੇ ਰਿਮੋਟ ਕੰਟਰੋਲ 'ਤੇ ਬਟਨ ਦਬਾਓ, ਜਾਂ ਸੈਂਸਰ ਨੂੰ ਡੇਟਾ ਭੇਜਣ ਲਈ ਇੰਤਜ਼ਾਰ ਕਰੋ. ਜੇ ਪ੍ਰੋਟੋਕੋਲ ਨੂੰ ਮਾਨਤਾ ਦਿੱਤੀ ਜਾਂਦੀ ਹੈ, ਤਾਂ ਅਸੀਂ ਇਸ ਦੇ ਸਮਾਨ ਕੁਝ ਵੇਖਦੇ ਹਾਂ:  \n"
+
+#. type: Plain text
+#: index.md:81
+#, no-wrap
+#, fuzzy
+msgid ""
+"  73 Praktika Protokolo:  \" XXX; P0001, Bits = 36, D0 = 689, D1 = 1923, DS = 3890; ID: B1-B36 \"   \n"
+"   Binary Datumoj: 0111001100000011011000111100100000   \n"
+"   hexa datumo: 7300d8f20   \n"
+msgstr "   73 ਵਿਹਾਰਕ ਪ੍ਰੋਟੋਕੋਲ:   \" xxx; P0001, ਬਿੱਟ = 36, ਡੀ 0 = 689, ਡੀ 1 = 1923, ਡੀਐਸ = 3890; ID: B1-B36  \"  \" ਬਾਈਨਰੀ ਡੇਟਾ: 0111100110000001101101101100011000110001100011000110001100011000110012 )   \n"
+
+#. type: Plain text
+#: index.md:83
+#, fuzzy, no-wrap
+msgid "Vi nun bezonas analizi binarajn datumojn por identigi la signifon de ĉiu peco.  \n"
+msgstr "ਤੁਹਾਨੂੰ ਹਰੇਕ ਟੁਕੜੇ ਦੇ ਅਰਥ ਦੀ ਪਛਾਣ ਕਰਨ ਲਈ ਬਾਈਨਰੀ ਡੇਟਾ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਨ ਦੀ ਜ਼ਰੂਰਤ ਹੈ.  \n"
+
+#. type: Plain text
+#: index.md:84
+#, no-wrap
+#, fuzzy
+msgid "Vi povas tiam aldoni linion en la dosieron Dentilos.ini, ĉiu linio konsistas el tri elementoj apartigitaj per punktokomo:  \n"
+msgstr "ਫਿਰ ਤੁਸੀਂ ਡੈਂਟਲੋਸ ਇਨਿਵ ਯੂਜ਼ਰਆਈ ਫਾਈਲ ਵਿੱਚ ਇੱਕ ਲਾਈਨ ਜੋੜ ਸਕਦੇ ਹੋ, ਹਰੇਕ ਲਾਈਨ ਵਿੱਚ ਤਿੰਨ ਤੱਤ ਹੁੰਦੇ ਹਨ ਜੋ ਸੈਮੀਕੋਲਨ ਦੁਆਰਾ ਵੱਖ ਹੁੰਦੇ ਹਨ:   \n"
+
+#. type: Bullet: '* '
+#: index.md:85
+#, fuzzy, no-wrap
+msgid "Unua elemento: nomo de la teamo. Atento, se ĝi estas ŝaltilo, ĝi devas esti parto de la listo de elementoj agnoskitaj de DomotiCz.  \n"
+msgstr "ਪਹਿਲਾ ਤੱਤ: ਉਪਕਰਣ ਦਾ ਨਾਮ. ਧਿਆਨ, ਜੇ ਇਹ ਸਵਿਚ ਹੈ, ਤਾਂ ਇਹ ਪੇਂਨਿਕਜ਼ ਦੁਆਰਾ ਮਾਨਤਾ ਪ੍ਰਾਪਤ ਤੱਤ ਦੀ ਸੂਚੀ ਦਾ ਹਿੱਸਾ ਹੋਣਾ ਲਾਜ਼ਮੀ ਹੈ.  \n"
+
+#. type: Bullet: '* '
+#: index.md:87
+#, fuzzy, no-wrap
+msgid "Dua elemento: Protokolo. Kopiu tion, kio estas montrita de RF_gpio ou analizo.  \n"
+msgstr ""
+"ਦੂਜਾ ਤੱਤ: ਪ੍ਰੋਟੋਕੋਲ. ਜੋ ਦਿਖਾਇਆ ਗਿਆ ਹੈ, ਨਕਲ ਕਰੋ_gpio ou analizo.  \n"
+"  \n"
+
+#. type: Plain text
+#: index.md:90
+#, fuzzy, no-wrap
+msgid "\tEkzemplo: p0102, bitoj = 36, d0 = 561, d1 = 1899, d2 = 3845, ds = 9158  \n"
+msgstr "\tਉਦਾਹਰਣ: s0102, ਬਿੱਟ = 36, ਡੀ 061, ਡੀ 1 = 3845, ਡੀਐਸ = 9158  \n"
+
+#. type: Plain text
+#: index.md:91
+#, fuzzy, no-wrap
+msgid "\t\tsignifas: Protokolo P0102 (Bito 0 = D0 D1, BIT 1 = D0 D2), 36 bitoj por kadro, daŭro d0 = 561 μs, daŭro d1 = 1899 μs, daŭro d2 = 3845 μs, daŭro Synchro DS = 9158 μs  \n"
+msgstr "\t(10 2) ਦਾ ਅਰਥ: ਪ੍ਰੋਟੋਕੋਲ P0102 (ਬਿੱਟ 0 = d0 d2), ਮਿਆਦ ਦੇ ਅਨੁਸਾਰ 36 ਬਿੱਟ D0 = 561 μ = 1899 μ = 91345 μ = 9158 r1s = 9158 r1 = 9158 000)  \n"
+
+#. type: Plain text
+#: index.md:92
+#, fuzzy, no-wrap
+msgid "\t\tLa protokolo, bitoj, D0 kaj D1-partoj estas uzataj por diferencigi aparatojn.  \n"
+msgstr "\t\tਪ੍ਰੋਟੋਕੋਲ, ਬਿੱਟ, ਡੀ 0 ਅਤੇ ਡੀ 1 ਪਾਰਟਸ ਨੂੰ ਵੱਖ ਕਰਨ ਲਈ ਵਰਤੇ ਜਾਂਦੇ ਹਨ.  \n"
+
+#. type: Bullet: '* '
+#: index.md:93
+#, fuzzy, no-wrap
+msgid "Tria Elemento: Data Priskribo, ĉiu kampo apartiĝas de aliaj per komo  \n"
+msgstr "ਤੀਜਾ ਐਲੀਮੈਂਟ: ਡਾਟਾ ਵੇਰਵਾ, ਹਰੇਕ ਖੇਤਰ ਹੋਰਾਂ ਤੋਂ ਕੋਮਾਦੁਆਰਾ ਵੱਖ ਕਰਦਾ ਹੈ  \n"
+
+#. type: Plain text
+#: index.md:95
+#, fuzzy, no-wrap
+msgid "\tEkzemplo por multi-kanalo Remote Kontrolo, ID: ID: B1-20, CMD: B21-21, SWILE: B22-24  \n"
+msgstr "\tਮਲਟੀ-ਚੈਨਲ ਰਿਮੋਟ ਕੰਟਰੋਲ ਲਈ, ID: ID: B1-20, cmd: b21-21, swile: b22-24  \n"
+
+#. type: Plain text
+#: index.md:99
+#, no-wrap
+#, fuzzy
+msgid ""
+"\t\tID: B1-20 signifas, ke la ID de la fora kontrolo estas en bitoj 1 ĝis 20 (bito 1 = unua bito transdonita\n"
+"\t \t Cmd: B21-21 signifas, ke la komando transdonita  ( ON / OFF )  situas en Ilo 21.   \n"
+"\t \t ŝanĝi: B22-24 signifas, ke la nombro de la funkciigita Jack situas ĉe la bitoj 22 ĝis 24.   \n"
+"\tEsti agnoskita de Domomoticz, la nomo de la kampo devas esti en la rekonita listo (vidu sentilos.txt). Ni tamen povas meti tion, kion ni volas, simple la kampo estos ignorita de Domomoticz.  \n"
+msgstr "\t \t ID: B1-20 ਦਾ ਮਤਲਬ ਹੈ ਕਿ ਰਿਮੋਟ ਕੰਟਰੋਲ ਦੀ ਆਈਡੀ 1 ਤੋਂ 20 \t st 1 = h21-21 ਦਾ ਅਰਥ ਹੈ ਕਮਾਂਡ ਸੰਚਾਰਿਤ   (  on 21> i8> \t  \t ਬਦਲੋ. > \t domomoticz ਦੁਆਰਾ ਸਵੀਕਾਰਿਆ ਜਾਵੇਗਾ, ਖੇਤਰ ਦਾ ਨਾਮ ਪ੍ਰਸਿੱਧ ਸੂਚੀ ਵਿੱਚ  ( sysilos.txt <H1TX> ਵੇਖੋ. ਹਾਲਾਂਕਿ, ਅਸੀਂ ਉਹ ਪਾ ਸਕਦੇ ਹਾਂ ਜੋ ਅਸੀਂ ਚਾਹੁੰਦੇ ਹਾਂ, ਡੋਮੋਮੋਟਿਕਜ਼ ਦੁਆਰਾ ਖੇਤਰ ਨੂੰ ਨਜ਼ਰ ਅੰਦਾਜ਼ ਕਰ ਦਿੱਤਾ ਜਾਵੇਗਾ.   \n"
+
+#. type: Plain text
+#: index.md:100
+#, fuzzy, no-wrap
+msgid "\tEkzistas pluraj bita suitoj, ekzemple: CMD: B17-17: B15-15: B16-16 Concatenate la bitoj 17 kaj 16 en tiu ordo.  \n"
+msgstr ".  \n"
+
+#. type: Plain text
+#: index.md:101
+#, fuzzy, no-wrap
+msgid "\tLa valoro de certaj bitoj povas esti testita, ekzemple: CST2: B43-48 = 1 konfirmos, ke la bitoj 43 48 enhavas la valoron 1 (deksesuma) en ricevo, kaj Influas ĉi tiujn pecojn en dissendo, CST2: B43-48! 1 konfirmos, ke la bitoj 43 48 ne enhavas la valoron 1 (deksesuma) en ricevo.  \n"
+msgstr ". , CST2: B43-48! 1 ਪੁਸ਼ਟੀ ਕਰੋ ਕਿ ਬਿੱਟ 438 ਵਿਚ ਰਿਸੈਪਸ਼ਨ ਵਿਚ ਹੈਕਸਾਡੈਸੀਮਲ) ਹੈਕਸਾਡੈਸੀਮਲ) ਨਹੀਂ ਹੁੰਦੇ.  \n"
+
+#. type: Plain text
+#: index.md:103
+#, no-wrap
+#, fuzzy
+msgid ""
+"\t Ni povas deklari BCD-koditajn kampojn  ( Dekuma kodita duuma ) : metu b anstataŭ b. Ekzemplo: Temp: B12-15: B16-19: B20-23 deklaras temperaturan kampon kies unua cifero estas al la bitoj 12-15, la dua al la bitoj 16 ĝis 20 kaj la tria ĉe la bitoj 21 ĝis 23.   \n"
+"\tKampo finanta kun \"-inv\" estas speciala kampo kiu prenos la inversan (komplemento al unu) de ĝia homonima kampo en la spektaklo.  \n"
+msgstr "\t ਅਸੀਂ ਬੀਸੀਡੀ-ਕੋਡਡ ਖੇਤਰਾਂ ਦਾ ਐਲਾਨ ਕਰ ਸਕਦੇ ਹਾਂ   (  ਦਸ਼ਮਲਵ ਕੋਡਿੰਗ ਬਾਈਨਰੀ  ) : ਬੀ ਦੀ ਬਜਾਏ ਪਾਓ. ਉਦਾਹਰਣ: byst: b12-15: B16-19: B20-23 ਇੱਕ ਤਾਪਮਾਨ ਦੇ ਖੇਤਰ ਦਾ ਐਲਾਨ ਕਰਦਾ ਹੈ ਜਿਸਦੀ ਪਹਿਲੀ ਗਿਣਤੀ 12 ਤੋਂ 20 ਅਤੇ ਤੀਜੇ ਨੂੰ ਬਿੱਟ 21 ਤੋਂ 23 ਅਤੇ ਤੀਜੇ ਨੂੰ ਬਿੱਟ 21 ਤੋਂ 23 ਤੱਕ ਹੈ. > \t -inv \" ਨਾਲ ਫਸਟਿੰਗ ਫੀਲਡ ਇੱਕ ਵਿਸ਼ੇਸ਼ ਖੇਤਰ ਹੈ ਜੋ ਬਦਲੇ ਵਿੱਚ  ( ਇੱਕ )  ਵਿੱਚ ਸ਼ੋਅ ਵਿੱਚ ਹੈ.   \n"
+
+#. type: Plain text
+#: index.md:104
+#, fuzzy, no-wrap
+msgid "\tVi povas atribui valoron al kampo, kiu ne troviĝas en la datumoj per \"=\". Ekzemplo: cmd = sur  \n"
+msgstr "\tਤੁਸੀਂ ਇੱਕ ਖੇਤਰ ਵਿੱਚ ਇੱਕ ਮੁੱਲ ਨਿਰਧਾਰਤ ਕਰ ਸਕਦੇ ਹੋ ਜੋ ਕਿ ਪ੍ਰਤੀ ਭਾਗ ਵਿੱਚ ਨਹੀਂ ਮਿਲਿਆ ਹੈ \"=\"ਡਾਟਾ ਵਿੱਚ ਨਹੀ ਮਿਲਿਆ. ਉਦਾਹਰਣ: ਸੀ.ਐੱਮ.ਡੀ = ਚਾਲੂ  \n"
+
+#. type: Plain text
+#: index.md:106
+#, no-wrap
+#, fuzzy
+msgid ""
+"\t Simplaj kalkuloj povas esti faritaj: aldono, multipliko kaj subtraho estas eblaj  ( en ĉi tiu ĝusta ordo ), la konstantoj estas en deksesuma.   \n"
+"\t\tEkzemplo por konverti en dekonojn de ° C datumo kiu estas en dekonoj de ° F + 900:  \n"
+msgstr "\t ਸਧਾਰਣ ਗਣਨਾ ਕੀਤੀ ਜਾ ਸਕਦੀ ਹੈ: ਇਸ ਤੋਂ ਇਲਾਵਾ, ਗੁਣਾ ਸੰਭਵ ਹਨ  ), ਸਥਿਰਤਾ ਹੈਕਸਾਡੈਸੀਮਲ ਵਿੱਚ ਹਨ.    \n \t \t ਉਦਾਹਰਣ ° C ਡੇਟਾ ਦੇ ਦਸਵੰਧ ਵਿੱਚ ਤਬਦੀਲ ਕਰਨ ਲਈ ਜੋ ° F + 900 ਦੇ ਦਸਵੰਧ ਵਿੱਚ ਹੈ  \n"
+
+#. type: Plain text
+#: index.md:108
+#, no-wrap
+#, fuzzy
+msgid "\t \t TEMP: B17-28 + -4C4 * 5/9   (  SO: DATA _finale = (donnée_ BESTO -1220 )  *  5/9  )   \n"
+msgstr "\t  \t rec: b17-28 + -4c4  *  5/9  *   5/9   )      )      )      )   \n"
+
+#. type: Plain text
+#: index.md:109
+#, fuzzy, no-wrap
+msgid "En ricevo ĉiuj linioj kiuj kontentigas la kondiĉon generos linion, se vi volas eviti falsajn pozitivaĵojn, vi povas komenci aŭ forigi la liniojn, kiuj ne kongruas kun via ekipaĵo.  \n"
+msgstr "ਉਹ ਸਾਰੀਆਂ ਲਾਈਨਾਂ ਨੂੰ ਪ੍ਰਾਪਤ ਕਰਨ ਵਾਲੀਆਂ ਸਾਰੀਆਂ ਲਾਈਨਾਂ ਨੂੰ ਪ੍ਰਾਪਤ ਕਰਨਾ ਇੱਕ ਲਾਈਨ ਤਿਆਰ ਕਰੇਗਾ, ਜੇ ਤੁਸੀਂ ਗਲਤ ਸਕਾਰਾਤਮਕਾਂ ਤੋਂ ਬਚਣਾ ਚਾਹੁੰਦੇ ਹੋ, ਤਾਂ ਤੁਸੀਂ ਉਨ੍ਹਾਂ ਲਾਈਨਾਂ ਨੂੰ ਅਰੰਭ ਕਰ ਸਕਦੇ ਹੋ ਜਾਂ ਹਟਾ ਸਕਦੇ ਹੋ ਜੋ ਤੁਹਾਡੇ ਉਪਕਰਣ ਨਾਲ ਮੇਲ ਨਹੀਂ ਖਾਂਦੀਆਂ.  \n"
+
+#. type: Plain text
+#: index.md:110
+#, fuzzy, no-wrap
+msgid "Pri demando, nur la unua linio kun la ĝusta nomo de ekipaĵo estos uzata.  \n"
+msgstr "ਪ੍ਰਸ਼ਨ ਬਾਰੇ, ਉਪਕਰਣਾਂ ਦੇ ਸਹੀ ਨਾਮ ਦੇ ਨਾਲ ਸਿਰਫ ਪਹਿਲੀ ਲਾਈਨ ਵਰਤੀ ਜਾਏਗੀ.  \n"
+
+#. type: Plain text
+#: index.md:113
+#, fuzzy, no-wrap
+msgid "Se la protokolo ne estas rekonita, vi povas uzi Analizi por studi ĝin per pliigo de ĝia verboseco kun la opcio -v, -vv aŭ -vv. Sed RF_gpio ne pourra pas le reconnaitre sans développement supplémentaire.  \n"
+msgstr ""
+"ਜੇ ਪ੍ਰੋਟੋਕੋਲ ਨੂੰ ਮਾਨਤਾ ਪ੍ਰਾਪਤ ਨਹੀਂ ਹੈ, ਤਾਂ ਤੁਸੀਂ ਇਸ ਦੇ ਕਿਰਿਆ ਨੂੰ ਵਧਾ ਕੇ ਇਸ ਦੇ ਕਿਰਿਆ ਨੂੰ ਵਧਾ ਕੇ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਨ ਲਈ ਇਸਤੇਮਾਲ ਕਰ ਸਕਦੇ ਹੋ-ਵੀਵੀ, -vv ਜਾਂ -vv ਨਾਲ ਇਸ ਨੂੰ ਵਧਾ ਸਕਦੇ ਹੋ. ਪਰ ਆਰਐਫ_gpio ne pourra pas le reconnaitre sans développement supplémentaire.  \n"
+"  \n"
+
+#. type: Title ##
+#: index.md:117
+#, fuzzy, no-wrap
+msgid "Apogitaj protokoloj:"
+msgstr "ਸਹਿਯੋਗੀ ਪ੍ਰੋਟੋਕੋਲ:"
+
+#. type: Plain text
+#: index.md:119
+#, fuzzy, no-wrap
+msgid "Nur protokoloj kun almenaŭ la sekvaj karakterizaĵoj havas ŝancon esti rekonitaj:  \n"
+msgstr "ਸਿਰਫ ਘੱਟੋ ਘੱਟ ਪਰੋਟੋਕਾਲ ਸਿਰਫ ਹੇਠ ਲਿਖੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਨੂੰ ਪਛਾਣਨ ਦਾ ਮੌਕਾ ਮਿਲਿਆ:  \n"
+
+#. type: Bullet: '* '
+#: index.md:120
+#, fuzzy, no-wrap
+msgid "Tempo de pulsado ĉiam > 100 μs  \n"
+msgstr "ਲਗਾਏ ਹਮੇਸ਼ਾਂ > 100 μs  \n"
+
+#. type: Bullet: '* '
+#: index.md:122
+#, fuzzy, no-wrap
+msgid "Ne pli ol tri malsamaj daŭroj por reprezenti la datumojn.  \n"
+msgstr "ਡਾਟਾ ਨੂੰ ਦਰਸਾਉਣ ਲਈ ਤਿੰਨ ਤੋਂ ਵੱਧ ਵੱਖੋ ਵੱਖਰੇ ਅਵਧੀ ਨਹੀਂ.  \n"
+
+#. type: Bullet: '* '
+#: index.md:124
+#, fuzzy, no-wrap
+msgid "Ĉiu peco estas kodita kun du pulsbatoj, ĉiam sammaniere.  \n"
+msgstr "ਹਰ ਟੁਕੜਾ ਦੋ ਦਾਲਾਂ ਨਾਲ ਕੋਡ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਹਮੇਸ਼ਾ ਉਸੇ ਤਰ੍ਹਾਂ.  \n"
+
+#. type: Bullet: '* '
+#: index.md:126
+#, fuzzy, no-wrap
+msgid "Ĉiu kadro estas ĉirkaŭita de du sinkronigaj signaloj de tempo >2500 μs.  \n"
+msgstr "ਹਰ ਫਰੇਮ ਸਮੇਂ ਦੇ ਦੋ ਸਿੰਕ੍ਰੋਨਾਈਜ਼ੇਸ਼ਨਕਰਨ ਦੇ ਸੰਕੇਤ >2500 μs ਨਾਲ ਘਿਰਿਆ ਹੋਇਆ ਹੈ.  \n"
+
+#. type: Bullet: '* '
+#: index.md:128
+#, fuzzy, no-wrap
+msgid "Kadro ne enhavas pli ol 200 pulsojn.  \n"
+msgstr "ਫਰੇਮ ਵਿੱਚ 200 ਤੋਂ ਵੱਧ ਦਾਲਾਂ ਨਹੀਂ ਹਨ.  \n"
+
+#. type: Plain text
+#: index.md:131
+#, fuzzy, no-wrap
+msgid "En la spektaklo, la rotaciaj kodoj kaj la sumoj de konfirmo ne estas administritaj.  \n"
+msgstr "ਸ਼ੋਅ ਵਿੱਚ, ਰੋਟਰੀ ਕੋਡ ਅਤੇ ਪੁਸ਼ਟੀ ਦੀ ਮਾਤਰਾ ਪ੍ਰਬੰਧਤ ਨਹੀਂ ਕੀਤੇ ਜਾਂਦੇ.  \n"
+
+#, fuzzy
+#~ msgid "(° 1 ° Haveno: 10000  \n"
+#~ msgstr "(° 1 ° 1 ° Roman: 10000  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Se la aparataro estas agnoskita, la integriĝo kun Domomoticz estas "
+#~ "simpla: sufiĉas uzi la butonon \"Aŭtomata Detekto\" sur la langeton "
+#~ "\"Ŝaltilo\", aŭ aktivigi la opcion \"Permesi 5 Minutoj\" (° 1 ° 1 ° "
+#~ "\")  \n"
+#~ msgstr ""
+#~ "ਜੇ ਹਾਰਡਵੇਅਰ ਨੂੰ ਮਾਨਤਾ ਦਿੱਤੀ ਜਾਂਦੀ ਹੈ, ਤਾਂ domomoticz ਨਾਲ ਏਕੀਕਰਣ ਅਸਾਨ ਹੈ:\"ਸਵਿੱਚ\"ਤੇ "
+#~ "ਵਰਤਣ ਲਈ, ਜਾਂ ਵਿਕਲਪ ਨੂੰ ਸਰਗਰਮ ਕਰੋ (5 ਮਿੰਟ) 5 ਮਿੰਟ\"° 1 ° 1 °) ()  )  )  \n"
+
+#, fuzzy
+#~ msgid "(° 1 ° La ricevilo havas pli bonan sentemon ol la antaŭa.  \n"
+#~ msgstr "(° 1 ° 1 ° 1 ° 1 ਪ੍ਰਾਪਤਕਰਤਾ ਕੋਲ ਪਿਛਲੇ ਨਾਲੋਂ ਬਿਹਤਰ ਸੰਵੇਦਨਸ਼ੀਲਤਾ ਹੁੰਦੀ ਹੈ.  \n"
+
+#, fuzzy
+#~ msgid "(° 1 ° 00; = Unua kadro eldonita.  \n"
+#~ msgstr "(° 1 ° ° 00; = ਪਹਿਲਾਂ ਪ੍ਰਕਾਸ਼ਤ ਪਹਿਲਾ ਫਰੇਮਵਰਕ.  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "(° 1 ° P0102, bitoj = 36, d0 = 529, d1 = 949, d2 = 1926, ds = 3865 = "
+#~ "rf_gpio a identifié un protocole du type :  \n"
+#~ msgstr ""
+#~ "(° 1 ° 1 ° 1 ° P0102, ਬਿੱਟ = 36, ਡੀ 029, ਡੀ 1 = 949, ਡੀ 2 = 1926, ਡੀਐਸ = "
+#~ "3865 = ਆਰ.ਐੱਫ.ਆਈ._gpio a identifié un protocole du type :  \n"
+#~ "  \n"
+
+#, fuzzy
+#~ msgid "(° 1 ° Synchro Daŭro DS = 3881 μs  \n"
+#~ msgstr "(° 1 ° 1 1 ° 1 ° ਸਿੰਕ੍ਰੋ ਅਵਤਾਰ DS = 3881 μ = ° 2 °)  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "  Duuma = 0111001100000000100000, hex = 7300D8F20; : Datumoj ricevitaj en "
+#~ "duuma kaj hexa.  \n"
+#~ msgstr ". : ਬਾਈਨਰੀ ਅਤੇ ਹੇਕਸਾ ਵਿੱਚ ਪ੍ਰਾਪਤ ਕੀਤਾ ਡਾਟਾ.  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "(° 1 ° 73 Praktika Protokolo: \"xxx; P0001, bitoj = 36, D0 = 689, D1 = "
+#~ "1923, DS = 3890; ID: B1-B36\"  \n"
+#~ msgstr ""
+#~ "(° 1 ° 1 ° 13 ਅਮਲੀ ਪ੍ਰੋਟੋਕੋਲ: \"XXX; P0001, ਬਿੱਟਸ = 36, ਡੀ 0 = 689, ਡੀ 1 = "
+#~ "1923, ਡੀਐਸ = 3890; ID: B1-B36\"  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "(° 1 ° 1 ° Binary Datumoj: 011100110000000011011000111100100000 (° 2 °  \n"
+#~ msgstr ""
+#~ "(° 1 ° 1 ° 1 ° 1 ° 1 ° 1 ° ਬਾਈਨਰੀ ਡੇਟਾ: 0111001100000011001100100100000 (2 "
+#~ "° 2 ° 2  \n"
+
+#, fuzzy
+#~ msgid "(° 1 ° 1 ° Data hexa: 7300d8f20  \n"
+#~ msgstr "(° 1 ° 1 ° 1 ° 1 ° 1 ° ਡਾਟਾ ਹੇਕਸਾ: 7300D8F20  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "\t\tID: B1-20 signifas, ke la ID de la fora kontrolo estas en bitoj 1 ĝis "
+#~ "20 (bito 1 = unua bito transdonita\n"
+#~ "\t(° 2 ° CMD: B21-21 signifas, ke la komando transdonis (ON / OFF) situas "
+#~ "en Ilo 21.  \n"
+#~ msgstr ""
+#~ "\t\tID: B1-20 ਦਾ ਮਤਲਬ ਹੈ ਕਿ ਰਿਮੋਟ ਕੰਟਰੋਲ ਦੀ ਆਈਡੀ 1 ਤੋਂ 20 (\n"
+#~ "ਵਿੱਚ ਬਿੱਟ 1 (° 5 ° 50 5 ° 50 ° ਇਹ ਕਮਾਂਡ (ਤੇ ਸੰਸ਼ੋਧਿਤ ਕੀਤੀ ਗਈ ਹੈ / ਬੰਦ / ਬੰਦ ਹੈ) ILO "
+#~ "21 ਵਿੱਚ ਸਥਿਤ ਹੈ.  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "\t(° 2 ° Switch: B22-24 signifas, ke la nombro de la funkciigita Jack "
+#~ "situas ĉe la bitoj 22 ĝis 24.  \n"
+#~ msgstr ".  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "\tEsti agnoskita de Domomoticz, la nomo de la kampo devas esti en la "
+#~ "rekonita listo (vidu sentilos.txt). Ni tamen povas meti tion, kion ni "
+#~ "volas, simple la kampo estos ignorita de Domomoticz.  \n"
+#~ msgstr ""
+#~ "\tਨੂੰ domomoticz ਦੁਆਰਾ ਸਵੀਕਾਰ ਕਰਨ ਲਈ, ਖੇਤਰ ਦਾ ਨਾਮ ਮਸ਼ਹੂਰ ਸੂਚੀ ਵਿੱਚ ਹੋਣਾ ਚਾਹੀਦਾ "
+#~ "ਹੈSensilos.txt)ਵੇਖੋ. ਹਾਲਾਂਕਿ, ਅਸੀਂ ਉਹ ਪਾ ਸਕਦੇ ਹਾਂ ਜੋ ਅਸੀਂ ਚਾਹੁੰਦੇ ਹਾਂ, ਡੋਮੋਮੋਟਿਕਜ਼ ਦੁਆਰਾ "
+#~ "ਖੇਤਰ ਨੂੰ ਨਜ਼ਰ ਅੰਦਾਜ਼ ਕਰ ਦਿੱਤਾ ਜਾਵੇਗਾ.  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "(° 1 ° BCD koditaj kampoj (decimala duuma) : metita b anstataŭ b. "
+#~ "Ekzemplo: temp: B12-15: B16-19: B20-23 deklaras temperaturan kampon kies "
+#~ "unua cifero estas al bitoj 12-15, la dua al la bitoj 16 al 20 kaj la tria "
+#~ "al la bitoj 21 ĝis 23.  \n"
+#~ msgstr ""
+#~ "(° 1 ° 1 ° 1 ° BCD ਕੋਡਡ ਖੇਤਰ (ਦਸ਼ਮਲਵ ਬਾਈਨਰੀ) : ਬੀ ਦੀ ਬਜਾਏ ਬੀ. ਉਦਾਹਰਣ: bym: "
+#~ "b12-15: B16-19: B20-23 ਤਾਪਮਾਨ ਦਾ ਖੇਤਰ ਦਾ ਖੇਤਰ ਘੋਸ਼ਿਤ ਕਰਦਾ ਹੈ ਜਿਸਦੀ ਪਹਿਲੀ ਨੰਬਰ "
+#~ "12 ਤੋਂ 20 ਅਤੇ ਤੀਜੇ ਨੂੰ ਬਿੱਟ ਬਣਾ ਕੇ 23 ਤੋਂ 23 ਤੱਕ ਹੈ.° 4)  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "\tKampo finanta kun \"-inv\" estas speciala kampo kiu prenos la inversan "
+#~ "(komplemento al unu) de ĝia homonima kampo en la spektaklo.  \n"
+#~ msgstr ""
+#~ "\tਫੀਲਡ \"-inv\"ਦੇ ਨਾਲ ਇੱਕ ਵਿਸ਼ੇਸ਼ ਖੇਤਰ ਹੈ ਜੋ ਇਸ ਦੇ ਮਿਟਣ ਵਾਲੇ ਖੇਤਰ ਵਿੱਚ ਇੱਕ) ਦੇ ਪੂਰਕ ਨੂੰ "
+#~ "ਲਵੇਗਾ ਦਿਖਾਓ.  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "(° 1 ° simpla kalkuloj povas esti faritaj: aldono, multipliko kaj "
+#~ "subtraho eblas (en ĉi tiu ĝusta ordo), la konstantoj estas en "
+#~ "deksesuma.  \n"
+#~ msgstr ""
+#~ "(° 1 ° 1 ° 1 ° 1 ਸਧਾਰਣ ਗਣਨਾ ਕੀਤੀ ਜਾ ਸਕਦੀ ਹੈ: ਜੋੜ, ਗੁਣਾ, ਗੁਣਾ ਅਤੇ ਘਟਾਉਣਾ ਇਸ ਸਹੀ "
+#~ "ਕ੍ਰਮ ਵਿੱਚ (ਹੋ ਸਕਦਾ ਹੈ, ਸਥਿਰ ਹੈਕਸਾਡੈਸੀਮਲ ਵਿੱਚ ਹਨ.  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "\t\tEkzemplo por konverti en dekonojn de ° C datumo kiu estas en dekonoj "
+#~ "de ° F + 900:  \n"
+#~ msgstr "\t\tਘਣਤਾ ਨੂੰ ਘਟਾਉਣ ਲਈ ਇੱਕ ਉਦਾਹਰਣ ਜੋ ° F + 900 ਦੇ ਦਸਵੰਧ ਵਿੱਚ ਹੈ  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "\t\ttemp: B17-28 + -4C4*5/9  ( do: datumoj_finale = (donnée_kruda -1220) "
+#~ "(° 9 ° 11 ° 5/9 )  \n"
+#~ msgstr ". 9 °) ° 9 ° 11 ° 5/9 )   )  \n"
+
+#, no-wrap
+#~ msgid "fonto"
+#~ msgstr "auto"
+
+#, no-wrap
+#~ msgid "index"
+#~ msgstr "index"
+
+#, fuzzy
+#~ msgid "Plej novaj afiŝoj"
+#~ msgstr "ਤਾਜ਼ਾ ਪੋਸਟਾਂ"

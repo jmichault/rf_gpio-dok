@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-04-02 18:41+0200\n"
+"POT-Creation-Date: 2021-11-09 21:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,33 +17,651 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: YAML Front Matter: lang
-#: ./index.md:1
+#: index.md:1
 #, no-wrap
 msgid "eo"
 msgstr "ms"
 
 #. type: YAML Front Matter: lang-niv
-#: ./index.md:1
+#: index.md:1
 #, no-wrap
-msgid "fonto"
+msgid "auto"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
-#: ./index.md:1
+#: index.md:1
 #, no-wrap
 msgid "indekso"
 msgstr "indekso"
 
 #. type: YAML Front Matter: layout
-#: ./index.md:1
+#: index.md:1
 #, no-wrap
-msgid "index"
-msgstr "index"
+msgid "page"
+msgstr "page"
 
 #. type: YAML Front Matter: title
-#: ./index.md:1
+#: index.md:1
+#, fuzzy, no-wrap
+msgid "Rf_gpio"
+msgstr "Rf_gpio"
+
+#. type: Title #
+#: index.md:9
+#, fuzzy, no-wrap
+msgid "Prezento"
+msgstr "Persembahan"
+
+#. type: Plain text
+#: index.md:11
+#, fuzzy, no-wrap
+msgid " _rf_GPIO_ ebligas simuli rflink kun dissendilo kaj ricevilo konektita rekte al la havenoj _GPIO_ de a _raspberry pi_.\n"
+msgstr " _rf_GPO_ Membolehkan untuk mensimulasikan rflink dengan pemancar dan penerima yang disambungkan terus ke port _GPIO_ daripada _raspberry pi_.\n"
+
+#. type: Title ##
+#: index.md:13
+#, fuzzy, no-wrap
+msgid "Instalado:"
+msgstr "Pemasangan:"
+
+#. type: Fenced code block
+#: index.md:15
+#, no-wrap
+msgid ""
+"cd /home/pi\n"
+"git clone https://github.com/jmichault/rf_gpio.git\n"
+"cd rf_gpio  \n"
+"sudo cp -p rf_gpio.sh /etc/init.d  \n"
+"sudo update-rc.d rf_gpio.sh defaults  \n"
+"sudo service rf_gpio.sh start  \n"
+msgstr ""
+"cd /home/pi\n"
+"git clone https://github.com/jmichault/rf_gpio.git\n"
+"cd rf_gpio  \n"
+"sudo cp -p rf_gpio.sh /etc/init.d  \n"
+"sudo update-rc.d rf_gpio.sh defaults  \n"
+"sudo service rf_gpio.sh start  \n"
+
+#. type: Plain text
+#: index.md:24
 #, no-wrap
 #, fuzzy
-msgid "Plej novaj afiŝoj"
-msgstr "Catatan terkini"
+msgid "Konekti la ricevilon al GPIO2 BCM27 (PIN 13)  \n"
+msgstr "Sambungkan penerima ke GPO2 BCM27  ( PIN 13 )   \n"
 
+#. type: Plain text
+#: index.md:25
+#, no-wrap
+#, fuzzy
+msgid "Konekti la dissendilon al GPIO0 BCM17 (PIN 11)  \n"
+msgstr "Sambungkan pemancar ke GPO0 BCM17  ( PIN 11 )   \n"
+
+#. type: Title ##
+#: index.md:27
+#, fuzzy, no-wrap
+msgid "Uzo kun DOMOTICZ:"
+msgstr "Gunakan dengan Hosticz:"
+
+#. type: Plain text
+#: index.md:29
+#, no-wrap
+#, fuzzy
+msgid ""
+"Aldoni materialon de tipo _«RFLink Gateway with LAN interface»_\n"
+"\tRemota Adreso: 127.0.0.1  \n"
+msgstr "Tambah Bahan Jenis  _«RFLink Gateway with LAN interface»_ \n \t Alamat Jauh: 127.0.0.1   \n"
+
+#. type: Plain text
+#: index.md:32
+#, no-wrap
+#, fuzzy
+msgid ""
+"\t haveno: 10000   \n"
+"Se la aparataro estas agnoskita, la integriĝo kun Domomoticz estas simpla: sufiĉas uzi la butonon \"Aŭtomata Detekto\" sur la langeto \"Ŝaltiloj\", aŭ aktivigi la opcion \"Permesi 5 Minutoj\"   \n"
+msgstr "\t port: 10000    \n Jika perkakasan diiktiraf, integrasi dengan domomoticz adalah mudah: ia cukup untuk menggunakan butang pengesanan automatik  \" \" pada suis \" \", atau diaktifkan pilihan  \" membenarkan 5 minit \"    \n"
+
+#. type: Title ##
+#: index.md:33
+#, fuzzy, no-wrap
+msgid "Transceivers testis:"
+msgstr "Transciers diuji:"
+
+#. type: Bullet: '* '
+#: index.md:34
+#, no-wrap
+#, fuzzy
+msgid "Ĉina ilaro kun reaga ricevilo (asin = b00z9sznp0, MX-05V + MX-FS-03V), vidita en Amazono je 1 €.  \n"
+msgstr "Gear Cina dengan reaktor reaktor  ( asin = b00z9sznp0, mx-05v + mx-fs-03v ), dilihat di Amazon pada € 1.   \n"
+
+#. type: Plain text
+#: index.md:36
+#, fuzzy, no-wrap
+msgid "\tLa dissendilo estas bone, sed la ricevilo estas tre malalta (gamo de ĉirkaŭ 4m), por uzi nur por lernaj kodoj.  \n"
+msgstr "\tPemancar adalah baik, tetapi penerima sangat rendah (jarak kira-kira 4m), untuk digunakan hanya untuk kod pembelajaran.  \n"
+
+#. type: Bullet: '* '
+#: index.md:37
+#, fuzzy, no-wrap
+msgid "WL101-341 + WL102-341, Superheterodyne 433 MHz, vidita sur AliExpress je 1 €.  \n"
+msgstr "WL101-341 + WL102-341, Superherotyne 433 MHz, dilihat di AliExpress pada € 1.  \n"
+
+#. type: Plain text
+#: index.md:40
+#, no-wrap
+#, fuzzy
+msgid "\t La ricevilo havas pli bonan sentemon ol la antaŭa.   \n"
+msgstr "\t penerima mempunyai sensitiviti yang lebih baik daripada yang sebelumnya.    \n"
+
+#. type: Plain text
+#: index.md:42
+#, no-wrap
+#, fuzzy
+msgid "Noto: Por bonaj rezultoj, la ricevilo devas esti protektita kontraŭ pestoj elsenditaj de _raspberry-pi_. Por testado, vi povas uzi aluminan tavoleton en folio de papero faldita duone.\n"
+msgstr "Nota: Untuk hasil yang baik, penerima mesti dilindungi dari perosak yang dikeluarkan oleh  _raspberry-pi_. Untuk ujian, anda boleh menggunakan lapisan aluminium dalam sekeping kertas yang dilipat separuh. \n"
+
+#. type: Title ##
+#: index.md:43
+#, fuzzy, no-wrap
+msgid "Materialoj rekonitaj:"
+msgstr "Bahan yang diiktiraf:"
+
+#. type: Plain text
+#: index.md:44
+#, no-wrap
+#, fuzzy
+msgid "estis sukcese testita:  \n"
+msgstr "telah berjaya diuji:   \n"
+
+#. type: Bullet: '* '
+#: index.md:45
+#, fuzzy, no-wrap
+msgid "Kyg (ASIN: B07DPmpw1, markita Intertk, vidpunktoj de Amazon)(agnoskita kiel \"impulsoj\")  \n"
+msgstr "Kyg (Asin: B07dpmpw1, bertanda persetubuhan, mata pandangan Amazon)(Diiktiraf sebagai \"impuls\")  \n"
+
+#. type: Bullet: '* '
+#: index.md:47
+#, no-wrap
+#, fuzzy
+msgid "Ĉina ĉina aneng ( termometro kun ekrano LCD, vidita sur AliExpress.)  \n"
+msgstr "Cina Cina Anneng  (  Termometer dengan skrin LCD, dilihat pada AliExpress. )   \n"
+
+#. type: Bullet: '* '
+#: index.md:49
+#, fuzzy, no-wrap
+msgid "DigOOOO RG-8B higrometer-higrómetro ĉina-kosto, sen ekrano, vidita sur AliExpress.)  \n"
+msgstr "Digoooo RG-8B Higometer-Higometer Cost Cina, tanpa skrin, dilihat di AliExpress.)  \n"
+
+#. type: Plain text
+#: index.md:52
+#, fuzzy, no-wrap
+msgid "Aliaj sensiloj estas antaŭdifinitaj en sentiloj.ini, sed ne estis testitaj.  \n"
+msgstr "Sensor lain telah dipratentukan dalam sensors.ini, tetapi tidak diuji.  \n"
+
+#. type: Title ##
+#: index.md:54
+#, fuzzy, no-wrap
+msgid "Por aldoni novan sensor:"
+msgstr "Untuk menambah sensor baru:"
+
+#. type: Plain text
+#: index.md:55
+#, fuzzy, no-wrap
+msgid "La datuma transporto-protokolo kaj la datuma formato devas esti identigitaj.  \n"
+msgstr "Protokol pemindahan data dan format data mesti dikenalpasti.  \n"
+
+#. type: Title ###
+#: index.md:56
+#, fuzzy, no-wrap
+msgid "Opcio 1:"
+msgstr "Pilihan 1:"
+
+#. type: Plain text
+#: index.md:57
+#, fuzzy, no-wrap
+msgid "Sekvu la eliron de RF_gpio, soit en le lançant dans une fenêtre shell, soit en s'y connectant avec la commande «telnet 127.0.0.1 10000».  \n"
+msgstr ""
+"Ikuti keluar dari RF_gpio, soit en le lançant dans une fenêtre shell, soit en s'y connectant avec la commande «telnet 127.0.0.1 10000».  \n"
+"  \n"
+
+#. type: Plain text
+#: index.md:59
+#, no-wrap
+#, fuzzy
+msgid "Kiam la sensor sendas datumojn, kaj la transiga protokolo estas agnoskita, vi vidos ion, kio aspektas tiel:  \n"
+msgstr "Apabila sensor menghantar data, dan protokol pemindahan diiktiraf, anda akan melihat sesuatu yang kelihatan seperti ini:   \n"
+
+#. type: Plain text
+#: index.md:60
+#, fuzzy, no-wrap
+msgid "20; 00; p0102, bitoj = 36, d0 = 529, d1 = 949, d2 = 1926, ds = 3865; binara = 01110011000000100000, hex = 7300d8f20;  \n"
+msgstr "20; 00; P0102, bit = 36, d0 = 529, D1 = 949, D2 = 1926, DS = 3865; binari = 011100110000100000, hex = 7300d8f20;  \n"
+
+#. type: Plain text
+#: index.md:61
+#, fuzzy, no-wrap
+msgid "  20; = Ajna Framo pri RFLINK-Emisioj komenciĝas tiel.  \n"
+msgstr "  20; = Sebarang bingkai pelepasan RFLINK bermula seperti ini.  \n"
+
+#. type: Plain text
+#: index.md:63
+#, no-wrap
+#, fuzzy
+msgid ""
+"   00; = Unua kadro eldonita.   \n"
+"   p0102, bitoj = 36, d0 = 529, d1 = 949, d2 = 1926, ds = 3865 = rf _gpio a identifié un protocole du type :  \n"
+msgstr "    00; = Rangka pertama yang diterbitkan.    \n p0102, bit = 36, d0 = 529, d1 = 949, d2 = 1926, ds = 3865 = rf  _gpio a identifié un protocole du type :  \n  \n"
+
+#. type: Plain text
+#: index.md:65
+#, fuzzy, no-wrap
+msgid "\tBito 0 = D0 D1  \n"
+msgstr "\tbit 0 = d0 d1  \n"
+
+#. type: Plain text
+#: index.md:66
+#, fuzzy, no-wrap
+msgid "\tbito 1 = d0 d2  \n"
+msgstr "\tbit 1 = d0 d2  \n"
+
+#. type: Plain text
+#: index.md:67
+#, fuzzy, no-wrap
+msgid "\t36 datumoj bitoj  \n"
+msgstr "\t36 Bit Data  \n"
+
+#. type: Plain text
+#: index.md:68
+#, fuzzy, no-wrap
+msgid "\tDaŭro D0 = 520 μs  \n"
+msgstr "\tTempoh D0 = 520 μs  \n"
+
+#. type: Plain text
+#: index.md:69
+#, fuzzy, no-wrap
+msgid "\tDaŭro D1 = 957 μs  \n"
+msgstr "\tTempoh D1 = 957 μs  \n"
+
+#. type: Plain text
+#: index.md:70
+#, fuzzy, no-wrap
+msgid "\tDaŭro d2 = 1936 μs  \n"
+msgstr "\tTempoh D2 = 1936 μs  \n"
+
+#. type: Plain text
+#: index.md:72
+#, no-wrap
+#, fuzzy
+msgid ""
+"\t sinkrona daŭro DS = 3881 μs   \n"
+"  Duuma = 0111001100000000100000, hex = 7300D8F20; : Datumoj ricevitaj en duuma kaj hexa.  \n"
+msgstr "\t Tempoh segerak ds = 3881 μs    \n duuma = 0111001100000000100000, hex = 7300d8f20; : Data yang diterima dalam binari dan Hexa.   \n"
+
+#. type: Title ###
+#: index.md:74
+#, fuzzy, no-wrap
+msgid "Opcio 2:"
+msgstr "Pilihan 2:"
+
+#. type: Plain text
+#: index.md:75
+#, no-wrap
+#, fuzzy
+msgid "Kuru en ŝelo:  \n"
+msgstr "Jalankan dalam kulit:   \n"
+
+#. type: Plain text
+#: index.md:76
+#, fuzzy, no-wrap
+msgid "./analizi  \n"
+msgstr "./analyzi  \n"
+
+#. type: Plain text
+#: index.md:77
+#, no-wrap
+#, fuzzy
+msgid "kaj premu la butonon sur la fora kontrolo, aŭ atendu la sensilon por sendi datumojn. Se la protokolo estas agnoskita, ni vidas ion similan al tio:  \n"
+msgstr "dan tekan butang pada alat kawalan jauh, atau tunggu sensor untuk menghantar data. Jika protokol diiktiraf, kita melihat sesuatu yang serupa dengan itu:   \n"
+
+#. type: Plain text
+#: index.md:81
+#, no-wrap
+#, fuzzy
+msgid ""
+"  73 Praktika Protokolo:  \" XXX; P0001, Bits = 36, D0 = 689, D1 = 1923, DS = 3890; ID: B1-B36 \"   \n"
+"   Binary Datumoj: 0111001100000011011000111100100000   \n"
+"   hexa datumo: 7300d8f20   \n"
+msgstr "   73 protokol praktikal:   \" xxx; P0001, bit = 36, d0 = 689, D1 = 1923, DS = 3890; ID: B1-B36  \"    \n Data Perduaan: 01110011000000110110001100100000    \n Hexa Data: 7300D8F20    \n"
+
+#. type: Plain text
+#: index.md:83
+#, fuzzy, no-wrap
+msgid "Vi nun bezonas analizi binarajn datumojn por identigi la signifon de ĉiu peco.  \n"
+msgstr "Anda kini perlu menganalisis data binari untuk mengenal pasti makna setiap bahagian.  \n"
+
+#. type: Plain text
+#: index.md:84
+#, no-wrap
+#, fuzzy
+msgid "Vi povas tiam aldoni linion en la dosieron Dentilos.ini, ĉiu linio konsistas el tri elementoj apartigitaj per punktokomo:  \n"
+msgstr "Anda kemudiannya boleh menambah garis dalam fail dentilos.ini, setiap baris terdiri daripada tiga elemen yang dipisahkan oleh titik koma:   \n"
+
+#. type: Bullet: '* '
+#: index.md:85
+#, fuzzy, no-wrap
+msgid "Unua elemento: nomo de la teamo. Atento, se ĝi estas ŝaltilo, ĝi devas esti parto de la listo de elementoj agnoskitaj de DomotiCz.  \n"
+msgstr "Elemen pertama: nama peralatan. Perhatian, jika ia adalah suis, ia mestilah sebahagian daripada senarai unsur yang diiktiraf oleh penotikz.  \n"
+
+#. type: Bullet: '* '
+#: index.md:87
+#, fuzzy, no-wrap
+msgid "Dua elemento: Protokolo. Kopiu tion, kio estas montrita de RF_gpio ou analizo.  \n"
+msgstr ""
+"Elemen Kedua: Protokol. Salin apa yang ditunjukkan oleh RF_gpio ou analizo.  \n"
+"  \n"
+
+#. type: Plain text
+#: index.md:90
+#, fuzzy, no-wrap
+msgid "\tEkzemplo: p0102, bitoj = 36, d0 = 561, d1 = 1899, d2 = 3845, ds = 9158  \n"
+msgstr "\tContoh: P0102, bit = 36, D0 = 561, D1 = 1899, D2 = 3845, DS = 9158  \n"
+
+#. type: Plain text
+#: index.md:91
+#, fuzzy, no-wrap
+msgid "\t\tsignifas: Protokolo P0102 (Bito 0 = D0 D1, BIT 1 = D0 D2), 36 bitoj por kadro, daŭro d0 = 561 μs, daŭro d1 = 1899 μs, daŭro d2 = 3845 μs, daŭro Synchro DS = 9158 μs  \n"
+msgstr "\t\tbermakna: protokol P0102 (bit 0 = d0 d1, bit 1 = d0 d2), 36 bit dengan bingkai, tempoh d0 = 561 μS, tempoh D1 = 1899 μs, tempoh D2 = 3845 μs, tempoh Synchro DS = 9158 μs  \n"
+
+#. type: Plain text
+#: index.md:92
+#, no-wrap
+#, fuzzy
+msgid "\t\tLa protokolo, bitoj, D0 kaj D1-partoj estas uzataj por diferencigi aparatojn.  \n"
+msgstr "\t \t protokol, bit, bahagian D0 dan D1 digunakan untuk membezakan peranti.   \n"
+
+#. type: Bullet: '* '
+#: index.md:93
+#, fuzzy, no-wrap
+msgid "Tria Elemento: Data Priskribo, ĉiu kampo apartiĝas de aliaj per komo  \n"
+msgstr "Elemen Ketiga: Penerangan Data, Setiap medan memisahkan dari orang lain oleh koma  \n"
+
+#. type: Plain text
+#: index.md:95
+#, fuzzy, no-wrap
+msgid "\tEkzemplo por multi-kanalo Remote Kontrolo, ID: ID: B1-20, CMD: B21-21, SWILE: B22-24  \n"
+msgstr "\tContoh untuk kawalan jauh pelbagai saluran, ID: ID: B1-20, CMD: B21-21, SBLE: B22-24  \n"
+
+#. type: Plain text
+#: index.md:99
+#, no-wrap
+#, fuzzy
+msgid ""
+"\t\tID: B1-20 signifas, ke la ID de la fora kontrolo estas en bitoj 1 ĝis 20 (bito 1 = unua bito transdonita\n"
+"\t \t Cmd: B21-21 signifas, ke la komando transdonita  ( ON / OFF )  situas en Ilo 21.   \n"
+"\t \t ŝanĝi: B22-24 signifas, ke la nombro de la funkciigita Jack situas ĉe la bitoj 22 ĝis 24.   \n"
+"\tEsti agnoskita de Domomoticz, la nomo de la kampo devas esti en la rekonita listo (vidu sentilos.txt). Ni tamen povas meti tion, kion ni volas, simple la kampo estos ignorita de Domomoticz.  \n"
+msgstr "\t \t ID: B1-20 bermakna bahawa ID alat kawalan jauh berada dalam bit 1 hingga 20  ( bit 1 = bit pertama dihantar \n \t  \t cmd: B21-21 bermaksud Perintah yang dihantar   (  ON / OFF  )   terletak di Ilo 21.    \n \t  \t Perubahan: B22-24 bermaksud bahawa bilangan Jack yang dikendalikan terletak di Bits 22 hingga 24.    \n \t Diakui oleh Domomoticz, nama lapangan mestilah berada di dalam senarai yang terkenal  ( See Sensilos.txt ). Walau bagaimanapun, kita boleh meletakkan apa yang kita mahu, hanya bidang yang akan diabaikan oleh Domomoticz.   \n"
+
+#. type: Plain text
+#: index.md:100
+#, fuzzy, no-wrap
+msgid "\tEkzistas pluraj bita suitoj, ekzemple: CMD: B17-17: B15-15: B16-16 Concatenate la bitoj 17 kaj 16 en tiu ordo.  \n"
+msgstr "\tTerdapat beberapa suite kecil, sebagai contoh: CMD: B17-17: B15-15: B16-16 Concatenate bit 17 dan 16 dalam perintah itu.  \n"
+
+#. type: Plain text
+#: index.md:101
+#, fuzzy, no-wrap
+msgid "\tLa valoro de certaj bitoj povas esti testita, ekzemple: CST2: B43-48 = 1 konfirmos, ke la bitoj 43 48 enhavas la valoron 1 (deksesuma) en ricevo, kaj Influas ĉi tiujn pecojn en dissendo, CST2: B43-48! 1 konfirmos, ke la bitoj 43 48 ne enhavas la valoron 1 (deksesuma) en ricevo.  \n"
+msgstr "\tNilai bit tertentu boleh diuji, sebagai contoh: CST2: B43-48 = 1 akan mengesahkan bahawa bit 43 48 mengandungi nilai 1 (dalam penerimaan, dan mempengaruhi kepingan-kepingan ini dalam pengedaran , CST2: B43-48! 1 Sahkan bahawa bit 438 tidak mengandungi nilai 1 (heksadesimal) dalam penerimaan tetamu.  \n"
+
+#. type: Plain text
+#: index.md:103
+#, no-wrap
+#, fuzzy
+msgid ""
+"\t Ni povas deklari BCD-koditajn kampojn  ( Dekuma kodita duuma ) : metu b anstataŭ b. Ekzemplo: Temp: B12-15: B16-19: B20-23 deklaras temperaturan kampon kies unua cifero estas al la bitoj 12-15, la dua al la bitoj 16 ĝis 20 kaj la tria ĉe la bitoj 21 ĝis 23.   \n"
+"\tKampo finanta kun \"-inv\" estas speciala kampo kiu prenos la inversan (komplemento al unu) de ĝia homonima kampo en la spektaklo.  \n"
+msgstr "\t kita boleh mengisytiharkan medan berkod BCD   (  pengekodan perpuluhan binari  ) : letakkan B bukannya b. Contoh: Temp: B12-15: B16-19: B20-23 mengisytiharkan medan suhu yang nombor pertama adalah kepada bit 12-15, yang kedua kepada bit 16 hingga 20 dan yang ketiga di bit 21 hingga 23.    \n \t Finishing Finishing dengan  \" -Inv \" adalah medan khas yang akan mengambil songsang  ( melengkapkan kepada satu medan homemonya dalam persembahan.   \n"
+
+#. type: Plain text
+#: index.md:104
+#, fuzzy, no-wrap
+msgid "\tVi povas atribui valoron al kampo, kiu ne troviĝas en la datumoj per \"=\". Ekzemplo: cmd = sur  \n"
+msgstr "\tAnda boleh menetapkan nilai ke medan yang tidak dijumpai dalam data per \"=\". Contoh: CMD = pada  \n"
+
+#. type: Plain text
+#: index.md:106
+#, no-wrap
+#, fuzzy
+msgid ""
+"\t Simplaj kalkuloj povas esti faritaj: aldono, multipliko kaj subtraho estas eblaj  ( en ĉi tiu ĝusta ordo ), la konstantoj estas en deksesuma.   \n"
+"\t\tEkzemplo por konverti en dekonojn de ° C datumo kiu estas en dekonoj de ° F + 900:  \n"
+msgstr "\t Pengiraan mudah boleh dibuat: Penambahan, pendaraban dan penolakan adalah mungkin   (  Dalam urutan yang betul ini  ), pemalar berada dalam heksadesimal.    \n \t \t Contoh untuk menukar dalam sepuluh data ° C yang berada dalam kesepuluh ° F + 900:   \n"
+
+#. type: Plain text
+#: index.md:108
+#, no-wrap
+#, fuzzy
+msgid "\t \t TEMP: B17-28 + -4C4 * 5/9   (  SO: DATA _finale = (donnée_ BESTO -1220 )  *  5/9  )   \n"
+msgstr "\t  \t temp: b17-28 + -4C4  *  5/9    (   Jadi: data  _finale = (donnée_  haiwan -1220  )   *   5/9   )    \n"
+
+#. type: Plain text
+#: index.md:109
+#, fuzzy, no-wrap
+msgid "En ricevo ĉiuj linioj kiuj kontentigas la kondiĉon generos linion, se vi volas eviti falsajn pozitivaĵojn, vi povas komenci aŭ forigi la liniojn, kiuj ne kongruas kun via ekipaĵo.  \n"
+msgstr "Dalam resit semua baris yang memenuhi syarat akan menjana garis, jika anda ingin mengelakkan positif palsu, anda boleh memulakan atau mengeluarkan garisan yang tidak sepadan dengan peralatan anda.  \n"
+
+#. type: Plain text
+#: index.md:110
+#, fuzzy, no-wrap
+msgid "Pri demando, nur la unua linio kun la ĝusta nomo de ekipaĵo estos uzata.  \n"
+msgstr "Mengenai soalan, hanya baris pertama dengan nama peralatan yang betul akan digunakan.  \n"
+
+#. type: Plain text
+#: index.md:113
+#, fuzzy, no-wrap
+msgid "Se la protokolo ne estas rekonita, vi povas uzi Analizi por studi ĝin per pliigo de ĝia verboseco kun la opcio -v, -vv aŭ -vv. Sed RF_gpio ne pourra pas le reconnaitre sans développement supplémentaire.  \n"
+msgstr ""
+"Jika protokol tidak diiktiraf, anda boleh gunakan untuk menganalisis untuk mengkaji dengan meningkatkan kata kerja dengan pilihan -v, -vv atau -vv. Tetapi rf_gpio ne pourra pas le reconnaitre sans développement supplémentaire.  \n"
+"  \n"
+
+#. type: Title ##
+#: index.md:117
+#, fuzzy, no-wrap
+msgid "Apogitaj protokoloj:"
+msgstr "Protokol yang disokong:"
+
+#. type: Plain text
+#: index.md:119
+#, no-wrap
+#, fuzzy
+msgid "Nur protokoloj kun almenaŭ la sekvaj karakterizaĵoj havas ŝancon esti rekonitaj:  \n"
+msgstr "Hanya protokol dengan sekurang-kurangnya ciri-ciri berikut mempunyai peluang untuk diiktiraf:   \n"
+
+#. type: Bullet: '* '
+#: index.md:120
+#, fuzzy, no-wrap
+msgid "Tempo de pulsado ĉiam > 100 μs  \n"
+msgstr "Masa berdenyut sentiasa > 100 μs  \n"
+
+#. type: Bullet: '* '
+#: index.md:122
+#, fuzzy, no-wrap
+msgid "Ne pli ol tri malsamaj daŭroj por reprezenti la datumojn.  \n"
+msgstr "Tidak lebih daripada tiga tempoh yang berbeza untuk mewakili data.  \n"
+
+#. type: Bullet: '* '
+#: index.md:124
+#, fuzzy, no-wrap
+msgid "Ĉiu peco estas kodita kun du pulsbatoj, ĉiam sammaniere.  \n"
+msgstr "Setiap bahagian dikodkan dengan dua denyutan, selalu dengan cara yang sama.  \n"
+
+#. type: Bullet: '* '
+#: index.md:126
+#, fuzzy, no-wrap
+msgid "Ĉiu kadro estas ĉirkaŭita de du sinkronigaj signaloj de tempo >2500 μs.  \n"
+msgstr "Setiap bingkai dikelilingi oleh dua isyarat penyegerakan masa >2500 μs.  \n"
+
+#. type: Bullet: '* '
+#: index.md:128
+#, fuzzy, no-wrap
+msgid "Kadro ne enhavas pli ol 200 pulsojn.  \n"
+msgstr "Bingkai tidak mengandungi lebih daripada 200 denyutan.  \n"
+
+#. type: Plain text
+#: index.md:131
+#, fuzzy, no-wrap
+msgid "En la spektaklo, la rotaciaj kodoj kaj la sumoj de konfirmo ne estas administritaj.  \n"
+msgstr "Dalam pertunjukan, kod berputar dan jumlah pengesahan tidak diberikan.  \n"
+
+#, fuzzy
+#~ msgid "(° 1 ° Haveno: 10000  \n"
+#~ msgstr "(° 1 ° Port: 10000  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Se la aparataro estas agnoskita, la integriĝo kun Domomoticz estas "
+#~ "simpla: sufiĉas uzi la butonon \"Aŭtomata Detekto\" sur la langeton "
+#~ "\"Ŝaltilo\", aŭ aktivigi la opcion \"Permesi 5 Minutoj\" (° 1 ° 1 ° "
+#~ "\")  \n"
+#~ msgstr ""
+#~ "Jika perkakasan diiktiraf, integrasi dengan domomoticz adalah mudah: ia "
+#~ "cukup untuk menggunakan pengesanan automatik \"pada suis tab \"\", Atau "
+#~ "aktifkan pilihan \"Benarkan 5 minit\"(° 7 ° \")  \n"
+
+#, fuzzy
+#~ msgid "(° 1 ° La ricevilo havas pli bonan sentemon ol la antaŭa.  \n"
+#~ msgstr ""
+#~ "(° 1 ° 1 ° 1 ° 1 Penerima mempunyai sensitiviti yang lebih baik daripada "
+#~ "yang sebelumnya.  \n"
+
+#, fuzzy
+#~ msgid "(° 1 ° 00; = Unua kadro eldonita.  \n"
+#~ msgstr "(° 1 ° 00; = Rangka pertama yang diterbitkan.  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "(° 1 ° P0102, bitoj = 36, d0 = 529, d1 = 949, d2 = 1926, ds = 3865 = "
+#~ "rf_gpio a identifié un protocole du type :  \n"
+#~ msgstr ""
+#~ "(° 1 ° 1 ° 1 ° P0102, bit = 36, d0 = 529, D1 = 949, D2 = 1926, DS = 3865 "
+#~ "= RF_gpio a identifié un protocole du type :  \n"
+#~ "  \n"
+
+#, fuzzy
+#~ msgid "(° 1 ° Synchro Daŭro DS = 3881 μs  \n"
+#~ msgstr "(° 1 ° 1 ° 1 ° Synchro Duration DS = 3881 μs  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "  Duuma = 0111001100000000100000, hex = 7300D8F20; : Datumoj ricevitaj en "
+#~ "duuma kaj hexa.  \n"
+#~ msgstr ""
+#~ "  binari = 01110011000000100000, hex = 7300d8f20; : Data yang diterima "
+#~ "dalam binari dan Hexa.  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "(° 1 ° 73 Praktika Protokolo: \"xxx; P0001, bitoj = 36, D0 = 689, D1 = "
+#~ "1923, DS = 3890; ID: B1-B36\"  \n"
+#~ msgstr ""
+#~ "(° 1 ° 1 ° 1 ° 73 Praktikal Protokol: \"XXX; P0001, BITS = 36, D0 = 689, "
+#~ "D1 = 1923, DS = 3890; ID: B1-B36\"  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "(° 1 ° 1 ° Binary Datumoj: 011100110000000011011000111100100000 (° 2 °  \n"
+#~ msgstr ""
+#~ "(° 1 ° 1 ° 1 ° 1 ° 1 ° Perduaan Data: "
+#~ "011100110000000011011000111100100000 (2 ° 2 ° 2  \n"
+
+#, fuzzy
+#~ msgid "(° 1 ° 1 ° Data hexa: 7300d8f20  \n"
+#~ msgstr "(° 1 ° 1 ° 1 ° 1 ° 1 ° Hexa: 7300D8F20  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "\t\tID: B1-20 signifas, ke la ID de la fora kontrolo estas en bitoj 1 ĝis "
+#~ "20 (bito 1 = unua bito transdonita\n"
+#~ "\t(° 2 ° CMD: B21-21 signifas, ke la komando transdonis (ON / OFF) situas "
+#~ "en Ilo 21.  \n"
+#~ msgstr ""
+#~ "\t\tID: B1-20 bermakna bahawa ID kawalan jauh adalah dalam bit 1 hingga "
+#~ "20 (bit 1 = bit pertama dihantar\n"
+#~ "\t(° 6 ° 6 ° 2 ° CMD: B21-21 bermakna bahawa arahan telah dihantar (ON / "
+#~ "OFF) terletak di Ilo 21.  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "\t(° 2 ° Switch: B22-24 signifas, ke la nombro de la funkciigita Jack "
+#~ "situas ĉe la bitoj 22 ĝis 24.  \n"
+#~ msgstr ""
+#~ "\t(° 2 ° 2 ° Suis: B22-24 bermaksud bahawa bilangan Jack Powered terletak "
+#~ "di Bits 22 hingga 24. (° 3 ° 3  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "\tEsti agnoskita de Domomoticz, la nomo de la kampo devas esti en la "
+#~ "rekonita listo (vidu sentilos.txt). Ni tamen povas meti tion, kion ni "
+#~ "volas, simple la kampo estos ignorita de Domomoticz.  \n"
+#~ msgstr ""
+#~ "\tUntuk diakui oleh domomoticz, nama lapangan mestilah dalam senarai yang "
+#~ "terkenal (Lihat Sensilos.txt). Walau bagaimanapun, kita boleh meletakkan "
+#~ "apa yang kita mahu, hanya bidang yang akan diabaikan oleh Domomoticz.  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "(° 1 ° BCD koditaj kampoj (decimala duuma) : metita b anstataŭ b. "
+#~ "Ekzemplo: temp: B12-15: B16-19: B20-23 deklaras temperaturan kampon kies "
+#~ "unua cifero estas al bitoj 12-15, la dua al la bitoj 16 al 20 kaj la tria "
+#~ "al la bitoj 21 ĝis 23.  \n"
+#~ msgstr ""
+#~ "(° 1 ° 1 ° 1 ° BCD Coded Fields (Perduaan Decimal) : Duduk B bukannya b. "
+#~ "Contoh: Temp: B12-15: B16-19: B20-23 mengisytiharkan medan suhu yang "
+#~ "nombor pertama adalah untuk bit 12-15, yang kedua ke bit 16 hingga 20 dan "
+#~ "yang ketiga kepada bit 21 hingga 23.  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "\tKampo finanta kun \"-inv\" estas speciala kampo kiu prenos la inversan "
+#~ "(komplemento al unu) de ĝia homonima kampo en la spektaklo.  \n"
+#~ msgstr ""
+#~ "\tMedan Finishing dengan \"-Inv\"adalah medan khas yang akan mengambil "
+#~ "songsang (melengkapi satu) bidang homemonya di tunjukkan.  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "(° 1 ° simpla kalkuloj povas esti faritaj: aldono, multipliko kaj "
+#~ "subtraho eblas (en ĉi tiu ĝusta ordo), la konstantoj estas en "
+#~ "deksesuma.  \n"
+#~ msgstr ""
+#~ "(° 1 ° 1 ° 1 ° 1 Pengiraan mudah boleh dibuat: penambahan, pendaraban dan "
+#~ "penolakan boleh (dalam urutan yang betul ini), pemalar berada dalam "
+#~ "heksadesimal.  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "\t\tEkzemplo por konverti en dekonojn de ° C datumo kiu estas en dekonoj "
+#~ "de ° F + 900:  \n"
+#~ msgstr ""
+#~ "\t\tContoh untuk menukar ketumpatan data ° C yang dalam kesepuluh ° F + "
+#~ "900: (° 3 ° 3  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "\t\ttemp: B17-28 + -4C4*5/9  ( do: datumoj_finale = (donnée_kruda -1220) "
+#~ "(° 9 ° 11 ° 5/9 )  \n"
+#~ msgstr ""
+#~ "\t\tTemp: B17-28 + -4C4*5/9  ( Do: Data_finale = (donnée_Cerminal "
+#~ "-1220*(° 9 ° 11 ° 5/9 )  \n"
+
+#, no-wrap
+#~ msgid "fonto"
+#~ msgstr "auto"
+
+#, no-wrap
+#~ msgid "index"
+#~ msgstr "index"
+
+#, fuzzy
+#~ msgid "Plej novaj afiŝoj"
+#~ msgstr "Catatan terkini"

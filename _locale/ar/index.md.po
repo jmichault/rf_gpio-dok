@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-04-02 18:41+0200\n"
+"POT-Creation-Date: 2021-11-09 21:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,33 +17,641 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: YAML Front Matter: lang
-#: ./index.md:1
+#: index.md:1
 #, no-wrap
 msgid "eo"
 msgstr "ar"
 
 #. type: YAML Front Matter: lang-niv
-#: ./index.md:1
+#: index.md:1
 #, no-wrap
-msgid "fonto"
+msgid "auto"
 msgstr "auto"
 
 #. type: YAML Front Matter: lang-ref
-#: ./index.md:1
+#: index.md:1
 #, no-wrap
 msgid "indekso"
 msgstr "indekso"
 
 #. type: YAML Front Matter: layout
-#: ./index.md:1
+#: index.md:1
 #, no-wrap
-msgid "index"
-msgstr "index"
+msgid "page"
+msgstr "page"
 
 #. type: YAML Front Matter: title
-#: ./index.md:1
+#: index.md:1
+#, fuzzy, no-wrap
+msgid "Rf_gpio"
+msgstr "RF_gpio"
+
+#. type: Title #
+#: index.md:9
+#, fuzzy, no-wrap
+msgid "Prezento"
+msgstr "عرض"
+
+#. type: Plain text
+#: index.md:11
+#, fuzzy, no-wrap
+msgid " _rf_GPIO_ ebligas simuli rflink kun dissendilo kaj ricevilo konektita rekte al la havenoj _GPIO_ de a _raspberry pi_.\n"
+msgstr " _rf_يتيح GPO_ من محاكاة Rflink مع جهاز إرسال واستقبال متصل مباشرة بالمنافذ _GPIO_ من _raspberry pi_.\n"
+
+#. type: Title ##
+#: index.md:13
+#, fuzzy, no-wrap
+msgid "Instalado:"
+msgstr "التركيب:"
+
+#. type: Fenced code block
+#: index.md:15
+#, no-wrap
+msgid ""
+"cd /home/pi\n"
+"git clone https://github.com/jmichault/rf_gpio.git\n"
+"cd rf_gpio  \n"
+"sudo cp -p rf_gpio.sh /etc/init.d  \n"
+"sudo update-rc.d rf_gpio.sh defaults  \n"
+"sudo service rf_gpio.sh start  \n"
+msgstr ""
+"cd /home/pi\n"
+"git clone https://github.com/jmichault/rf_gpio.git\n"
+"cd rf_gpio  \n"
+"sudo cp -p rf_gpio.sh /etc/init.d  \n"
+"sudo update-rc.d rf_gpio.sh defaults  \n"
+"sudo service rf_gpio.sh start  \n"
+
+#. type: Plain text
+#: index.md:24
 #, no-wrap
 #, fuzzy
-msgid "Plej novaj afiŝoj"
-msgstr "آخر المشاركات"
+msgid "Konekti la ricevilon al GPIO2 BCM27 (PIN 13)  \n"
+msgstr "قم بتوصيل جهاز الاستقبال إلى GPO2 BCM27  ( PIN 13 )   \n"
 
+#. type: Plain text
+#: index.md:25
+#, no-wrap
+#, fuzzy
+msgid "Konekti la dissendilon al GPIO0 BCM17 (PIN 11)  \n"
+msgstr "قم بتوصيل جهاز الإرسال إلى GPO0 BCM17  ( PIN 11 )   \n"
+
+#. type: Title ##
+#: index.md:27
+#, fuzzy, no-wrap
+msgid "Uzo kun DOMOTICZ:"
+msgstr "استخدام مع hosticz:"
+
+#. type: Plain text
+#: index.md:29
+#, no-wrap
+#, fuzzy
+msgid ""
+"Aldoni materialon de tipo _«RFLink Gateway with LAN interface»_\n"
+"\tRemota Adreso: 127.0.0.1  \n"
+msgstr "إضافة مادة من النوع  _«RFLink Gateway with LAN interface»_ \n \t العنوان عن بعد: 127.0.0.1   \n"
+
+#. type: Plain text
+#: index.md:32
+#, no-wrap
+#, fuzzy
+msgid ""
+"\t haveno: 10000   \n"
+"Se la aparataro estas agnoskita, la integriĝo kun Domomoticz estas simpla: sufiĉas uzi la butonon \"Aŭtomata Detekto\" sur la langeto \"Ŝaltiloj\", aŭ aktivigi la opcion \"Permesi 5 Minutoj\"   \n"
+msgstr "\t المنفذ: 10000    \n إذا تم التعرف على الأجهزة، فإن التكامل مع Domomoticz بسيط: يكفي استخدام زر الكشف التلقائي  \" على \" على علامة التبويب \"، أو تنشيط الخيار  \" السماح ب 5 دقائق \"    \n"
+
+#. type: Title ##
+#: index.md:33
+#, fuzzy, no-wrap
+msgid "Transceivers testis:"
+msgstr "اختبار الإرسال والاستقبال:"
+
+#. type: Bullet: '* '
+#: index.md:34
+#, no-wrap
+#, fuzzy
+msgid "Ĉina ilaro kun reaga ricevilo (asin = b00z9sznp0, MX-05V + MX-FS-03V), vidita en Amazono je 1 €.  \n"
+msgstr "العتاد الصيني مع مفاعل المفاعل  ( ASIN = B00Z9SZNP0، MX-05V + MX-FS-03V )، ينظر إليه في الأمازون عند 1 يورو.   \n"
+
+#. type: Plain text
+#: index.md:36
+#, fuzzy, no-wrap
+msgid "\tLa dissendilo estas bone, sed la ricevilo estas tre malalta (gamo de ĉirkaŭ 4m), por uzi nur por lernaj kodoj.  \n"
+msgstr "\tعلى ما يرام الارسال، ولكن المتلقي منخفض جدا (من حوالي 4M)، لاستخدام رموز التعلم فقط.  \n"
+
+#. type: Bullet: '* '
+#: index.md:37
+#, fuzzy, no-wrap
+msgid "WL101-341 + WL102-341, Superheterodyne 433 MHz, vidita sur AliExpress je 1 €.  \n"
+msgstr "WL101-341 + WL102-341، Superherotedyne 433 ميغاهيرتز، شوهد على Aliexpress في 1 يورو.  \n"
+
+#. type: Plain text
+#: index.md:40
+#, no-wrap
+#, fuzzy
+msgid "\t La ricevilo havas pli bonan sentemon ol la antaŭa.   \n"
+msgstr "\t جهاز الاستقبال لديه حساسية أفضل من السابق.    \n"
+
+#. type: Plain text
+#: index.md:42
+#, no-wrap
+#, fuzzy
+msgid "Noto: Por bonaj rezultoj, la ricevilo devas esti protektita kontraŭ pestoj elsenditaj de _raspberry-pi_. Por testado, vi povas uzi aluminan tavoleton en folio de papero faldita duone.\n"
+msgstr "ملاحظة: للحصول على نتائج جيدة، يجب حماية المتلقي من الآفات الصادرة عن  _raspberry-pi_. لاختبار، يمكنك استخدام معطف من الألمنيوم في ورقة مطوية في النصف. \n"
+
+#. type: Title ##
+#: index.md:43
+#, fuzzy, no-wrap
+msgid "Materialoj rekonitaj:"
+msgstr "المواد المعترف بها:"
+
+#. type: Plain text
+#: index.md:44
+#, no-wrap
+#, fuzzy
+msgid "estis sukcese testita:  \n"
+msgstr "تم اختباره بنجاح:   \n"
+
+#. type: Bullet: '* '
+#: index.md:45
+#, no-wrap
+#, fuzzy
+msgid "Kyg (ASIN: B07DPmpw1, markita Intertk, vidpunktoj de Amazon)(agnoskita kiel \"impulsoj\")  \n"
+msgstr "KYG  ( ASIN: B07DPMPW1، علامات الجماع، وجهات نظر Amazon )( المعترف بها ك  \" نبضات \" )    \n"
+
+#. type: Bullet: '* '
+#: index.md:47
+#, no-wrap
+#, fuzzy
+msgid "Ĉina ĉina aneng ( termometro kun ekrano LCD, vidita sur AliExpress.)  \n"
+msgstr "الصينية الصينية Anneng  (  ميزان الحرارة مع شاشة LCD، ينظر إليها على Aliexpress. )   \n"
+
+#. type: Bullet: '* '
+#: index.md:49
+#, fuzzy, no-wrap
+msgid "DigOOOO RG-8B higrometer-higrómetro ĉina-kosto, sen ekrano, vidita sur AliExpress.)  \n"
+msgstr "Digoooo RG-8B Higrometer-Higrometer التكلفة الصينية، دون شاشة، ينظر على Aliexpress.)  \n"
+
+#. type: Plain text
+#: index.md:52
+#, fuzzy, no-wrap
+msgid "Aliaj sensiloj estas antaŭdifinitaj en sentiloj.ini, sed ne estis testitaj.  \n"
+msgstr "محلات المستشعرات الأخرى محددة مسبقا في أجهزة الاستشعار.يني، لكن لم يتم اختبارها.  \n"
+
+#. type: Title ##
+#: index.md:54
+#, fuzzy, no-wrap
+msgid "Por aldoni novan sensor:"
+msgstr "لإضافة مستشعر جديد:"
+
+#. type: Plain text
+#: index.md:55
+#, fuzzy, no-wrap
+msgid "La datuma transporto-protokolo kaj la datuma formato devas esti identigitaj.  \n"
+msgstr "يجب تحديد بروتوكول نقل البيانات وتنسيق البيانات.  \n"
+
+#. type: Title ###
+#: index.md:56
+#, fuzzy, no-wrap
+msgid "Opcio 1:"
+msgstr "الخيار 1:"
+
+#. type: Plain text
+#: index.md:57
+#, fuzzy, no-wrap
+msgid "Sekvu la eliron de RF_gpio, soit en le lançant dans une fenêtre shell, soit en s'y connectant avec la commande «telnet 127.0.0.1 10000».  \n"
+msgstr ""
+"اتبع مخرج RF_gpio, soit en le lançant dans une fenêtre shell, soit en s'y connectant avec la commande «telnet 127.0.0.1 10000».  \n"
+"  \n"
+
+#. type: Plain text
+#: index.md:59
+#, no-wrap
+#, fuzzy
+msgid "Kiam la sensor sendas datumojn, kaj la transiga protokolo estas agnoskita, vi vidos ion, kio aspektas tiel:  \n"
+msgstr "عندما يرسل المستشعر البيانات، ومعترف به بروتوكول النقل، سترى شيئا يشبه هذا:   \n"
+
+#. type: Plain text
+#: index.md:60
+#, fuzzy, no-wrap
+msgid "20; 00; p0102, bitoj = 36, d0 = 529, d1 = 949, d2 = 1926, ds = 3865; binara = 01110011000000100000, hex = 7300d8f20;  \n"
+msgstr "20؛ 00 P0102، بت = 36، D0 = 529، D1 = 949، D2 = 1926، DS = 3865؛ ثنائي = 011100110000100000، عرافة = 7300D8F20؛  \n"
+
+#. type: Plain text
+#: index.md:61
+#, fuzzy, no-wrap
+msgid "  20; = Ajna Framo pri RFLINK-Emisioj komenciĝas tiel.  \n"
+msgstr "  20؛ = يبدأ أي إطار انبعاثات rflink مثل هذا.  \n"
+
+#. type: Plain text
+#: index.md:63
+#, no-wrap
+#, fuzzy
+msgid ""
+"   00; = Unua kadro eldonita.   \n"
+"   p0102, bitoj = 36, d0 = 529, d1 = 949, d2 = 1926, ds = 3865 = rf _gpio a identifié un protocole du type :  \n"
+msgstr "    00؛ = الإطار الأول المنشور.    \n p0102، bits = 36، d0 = 529، d1 = 949، d2 = 1926، ds = 3865 = rf  _gpio a identifié un protocole du type :  \n  \n"
+
+#. type: Plain text
+#: index.md:65
+#, fuzzy, no-wrap
+msgid "\tBito 0 = D0 D1  \n"
+msgstr "\tبت 0 = D0 D1  \n"
+
+#. type: Plain text
+#: index.md:66
+#, fuzzy, no-wrap
+msgid "\tbito 1 = d0 d2  \n"
+msgstr "\tبت 1 = d0 d2  \n"
+
+#. type: Plain text
+#: index.md:67
+#, fuzzy, no-wrap
+msgid "\t36 datumoj bitoj  \n"
+msgstr "\t36 بت بيانات  \n"
+
+#. type: Plain text
+#: index.md:68
+#, fuzzy, no-wrap
+msgid "\tDaŭro D0 = 520 μs  \n"
+msgstr "\tمدة d0 = 520 μs  \n"
+
+#. type: Plain text
+#: index.md:69
+#, fuzzy, no-wrap
+msgid "\tDaŭro D1 = 957 μs  \n"
+msgstr "\tمدة d1 = 957 μs  \n"
+
+#. type: Plain text
+#: index.md:70
+#, fuzzy, no-wrap
+msgid "\tDaŭro d2 = 1936 μs  \n"
+msgstr "\tمدة D2 = 1936 μs  \n"
+
+#. type: Plain text
+#: index.md:72
+#, no-wrap
+#, fuzzy
+msgid ""
+"\t sinkrona daŭro DS = 3881 μs   \n"
+"  Duuma = 0111001100000000100000, hex = 7300D8F20; : Datumoj ricevitaj en duuma kaj hexa.  \n"
+msgstr "\t مدة متزامنة DS = 3881 μs    \n Duuma = 0111001100000000100000، Hex = 7300D8F20؛ : البيانات الواردة في ثنائي و HEXA.   \n"
+
+#. type: Title ###
+#: index.md:74
+#, fuzzy, no-wrap
+msgid "Opcio 2:"
+msgstr "الخيار 2:"
+
+#. type: Plain text
+#: index.md:75
+#, no-wrap
+#, fuzzy
+msgid "Kuru en ŝelo:  \n"
+msgstr "تشغيل في اللحاء:   \n"
+
+#. type: Plain text
+#: index.md:76
+#, fuzzy, no-wrap
+msgid "./analizi  \n"
+msgstr "./analyzi  \n"
+
+#. type: Plain text
+#: index.md:77
+#, no-wrap
+#, fuzzy
+msgid "kaj premu la butonon sur la fora kontrolo, aŭ atendu la sensilon por sendi datumojn. Se la protokolo estas agnoskita, ni vidas ion similan al tio:  \n"
+msgstr "واضغط على الزر الموجود على جهاز التحكم عن بعد، أو انتظر المستشعر لإرسال البيانات. إذا تم التعرف على البروتوكول، نرى شيئا مشابها لذلك:   \n"
+
+#. type: Plain text
+#: index.md:81
+#, no-wrap
+#, fuzzy
+msgid ""
+"  73 Praktika Protokolo:  \" XXX; P0001, Bits = 36, D0 = 689, D1 = 1923, DS = 3890; ID: B1-B36 \"   \n"
+"   Binary Datumoj: 0111001100000011011000111100100000   \n"
+"   hexa datumo: 7300d8f20   \n"
+msgstr "   73 بروتوكول عملي:   \" xxx؛ P00001، بت = 36، D0 = 689، D1 = 1923، DS = 3890؛ الرقم: B1-B36  \"    \n البيانات الثنائية: 01110011000000110110001100100000    \n بيانات HEXA: 7300D8F20    \n"
+
+#. type: Plain text
+#: index.md:83
+#, fuzzy, no-wrap
+msgid "Vi nun bezonas analizi binarajn datumojn por identigi la signifon de ĉiu peco.  \n"
+msgstr "تحتاج الآن إلى تحليل البيانات الثنائية لتحديد معنى كل قطعة.  \n"
+
+#. type: Plain text
+#: index.md:84
+#, no-wrap
+#, fuzzy
+msgid "Vi povas tiam aldoni linion en la dosieron Dentilos.ini, ĉiu linio konsistas el tri elementoj apartigitaj per punktokomo:  \n"
+msgstr "يمكنك بعد ذلك إضافة خط في ملف Dentilos.ini، يتكون كل سطر من ثلاثة عناصر مفصولة بفاصلة منقوطة:   \n"
+
+#. type: Bullet: '* '
+#: index.md:85
+#, fuzzy, no-wrap
+msgid "Unua elemento: nomo de la teamo. Atento, se ĝi estas ŝaltilo, ĝi devas esti parto de la listo de elementoj agnoskitaj de DomotiCz.  \n"
+msgstr "العنصر الأول: اسم المعدات. انتباه، إذا كان مفتاح التبديل، يجب أن يكون جزءا من قائمة العناصر المعترف بها من قبل Penoticz.  \n"
+
+#. type: Bullet: '* '
+#: index.md:87
+#, fuzzy, no-wrap
+msgid "Dua elemento: Protokolo. Kopiu tion, kio estas montrita de RF_gpio ou analizo.  \n"
+msgstr ""
+"العنصر الثاني: البروتوكول. نسخ ما يظهر من قبل RF_gpio ou analizo.  \n"
+"  \n"
+
+#. type: Plain text
+#: index.md:90
+#, fuzzy, no-wrap
+msgid "\tEkzemplo: p0102, bitoj = 36, d0 = 561, d1 = 1899, d2 = 3845, ds = 9158  \n"
+msgstr "\tمثال: P0102، بت = 36، D0 = 561، D1 = 1899، D2 = 3845، DS = 9158  \n"
+
+#. type: Plain text
+#: index.md:91
+#, fuzzy, no-wrap
+msgid "\t\tsignifas: Protokolo P0102 (Bito 0 = D0 D1, BIT 1 = D0 D2), 36 bitoj por kadro, daŭro d0 = 561 μs, daŭro d1 = 1899 μs, daŭro d2 = 3845 μs, daŭro Synchro DS = 9158 μs  \n"
+msgstr "\t\tيعني: بروتوكول P0102 (بت 0 = D0 D1، بت 1 = D0 D2)، 36 بت حسب الإطار، مدة D0 = 561 μs، مدة d1 = 1899 μs، مدة d2 = 3845 μs، مدة التزامن DS = 9158 μs  \n"
+
+#. type: Plain text
+#: index.md:92
+#, no-wrap
+#, fuzzy
+msgid "\t\tLa protokolo, bitoj, D0 kaj D1-partoj estas uzataj por diferencigi aparatojn.  \n"
+msgstr "يتم استخدام \t \t البروتوكول، البتات، أجزاء D0 و D1 لتمييز الأجهزة.   \n"
+
+#. type: Bullet: '* '
+#: index.md:93
+#, fuzzy, no-wrap
+msgid "Tria Elemento: Data Priskribo, ĉiu kampo apartiĝas de aliaj per komo  \n"
+msgstr "العنصر الثالث: وصف البيانات، ينفصل كل حقل عن الآخرين عن طريق غيبوبة  \n"
+
+#. type: Plain text
+#: index.md:95
+#, fuzzy, no-wrap
+msgid "\tEkzemplo por multi-kanalo Remote Kontrolo, ID: ID: B1-20, CMD: B21-21, SWILE: B22-24  \n"
+msgstr "\tمثال للتحكم عن بعد متعدد القنوات ومعرف: ID: B1-20، CMD: B21-21، SILES: B22-24  \n"
+
+#. type: Plain text
+#: index.md:99
+#, no-wrap
+#, fuzzy
+msgid ""
+"\t\tID: B1-20 signifas, ke la ID de la fora kontrolo estas en bitoj 1 ĝis 20 (bito 1 = unua bito transdonita\n"
+"\t \t Cmd: B21-21 signifas, ke la komando transdonita  ( ON / OFF )  situas en Ilo 21.   \n"
+"\t \t ŝanĝi: B22-24 signifas, ke la nombro de la funkciigita Jack situas ĉe la bitoj 22 ĝis 24.   \n"
+"\tEsti agnoskita de Domomoticz, la nomo de la kampo devas esti en la rekonita listo (vidu sentilos.txt). Ni tamen povas meti tion, kion ni volas, simple la kampo estos ignorita de Domomoticz.  \n"
+msgstr "\t \t معرف: B1-20 يعني أن معرف جهاز التحكم عن بعد في BITS 1 إلى 20  ( بت 1 = أول بت تسليم \n \t  \t cmd: b21-21 يعني يقود الأمر Constrated   (  ON / OFF  )   في منظمة العمل الدولية 21.    \n \t  \t change: b22-24 يعني أن عدد المقبس المدنوع يقع في البتات 22 إلى 24.    \n \t يتم الاعتراف بها بواسطة Domomoticz، يجب أن يكون اسم الحقل في القائمة الشهيرة  ( انظر sensilos.txt ). ومع ذلك، يمكننا وضع ما نريده، ببساطة سيتم تجاهل الحقل بواسطة Domomoticz.   \n"
+
+#. type: Plain text
+#: index.md:100
+#, fuzzy, no-wrap
+msgid "\tEkzistas pluraj bita suitoj, ekzemple: CMD: B17-17: B15-15: B16-16 Concatenate la bitoj 17 kaj 16 en tiu ordo.  \n"
+msgstr "\tهناك العديد من أجنحة BIT، على سبيل المثال: CMD: B17-17: B15-15: B16-16 Bressenate بت 17 و 16 في هذا النظام.  \n"
+
+#. type: Plain text
+#: index.md:101
+#, fuzzy, no-wrap
+msgid "\tLa valoro de certaj bitoj povas esti testita, ekzemple: CST2: B43-48 = 1 konfirmos, ke la bitoj 43 48 enhavas la valoron 1 (deksesuma) en ricevo, kaj Influas ĉi tiujn pecojn en dissendo, CST2: B43-48! 1 konfirmos, ke la bitoj 43 48 ne enhavas la valoron 1 (deksesuma) en ricevo.  \n"
+msgstr "\tيمكن اختبار قيمة بعض البتات، على سبيل المثال: CST2: B43-48 = 1 سيؤكد أن البتات 43 48 تحتوي على القيمة 1 (في مكتب الاستقبال، والتأثير على هذه القطع في التوزيع ، CST2: B43-48! 1 تأكد من أن BITS 438 لا تحتوي على القيمة 1 (سداسي عشري) في مكتب الاستقبال.  \n"
+
+#. type: Plain text
+#: index.md:103
+#, no-wrap
+#, fuzzy
+msgid ""
+"\t Ni povas deklari BCD-koditajn kampojn  ( Dekuma kodita duuma ) : metu b anstataŭ b. Ekzemplo: Temp: B12-15: B16-19: B20-23 deklaras temperaturan kampon kies unua cifero estas al la bitoj 12-15, la dua al la bitoj 16 ĝis 20 kaj la tria ĉe la bitoj 21 ĝis 23.   \n"
+"\tKampo finanta kun \"-inv\" estas speciala kampo kiu prenos la inversan (komplemento al unu) de ĝia homonima kampo en la spektaklo.  \n"
+msgstr "\t يمكننا إعلان الحقول المشفرة BCD   (  الترميز العشري ثنائي  ) : ضع B بدلا من B. مثال: TEMP: B12-15: B16-19: B20-23 يعلن حقل درجة الحرارة هو الرقم الأول له البتات 12-15، والثاني إلى البتات من 16 إلى 20 والثالث في البتات 21 إلى 23.    \n \t الانتهاء من الحقل مع  \" -inv \" هو مجال خاص سوف يستغرق معك حقل  ( إلى واحد )  من حقله الهاهن في العرض.   \n"
+
+#. type: Plain text
+#: index.md:104
+#, fuzzy, no-wrap
+msgid "\tVi povas atribui valoron al kampo, kiu ne troviĝas en la datumoj per \"=\". Ekzemplo: cmd = sur  \n"
+msgstr "\tيمكنك تعيين قيمة إلى حقل غير موجود في البيانات لكل \"=\". مثال: CMD = ON  \n"
+
+#. type: Plain text
+#: index.md:106
+#, no-wrap
+#, fuzzy
+msgid ""
+"\t Simplaj kalkuloj povas esti faritaj: aldono, multipliko kaj subtraho estas eblaj  ( en ĉi tiu ĝusta ordo ), la konstantoj estas en deksesuma.   \n"
+"\t\tEkzemplo por konverti en dekonojn de ° C datumo kiu estas en dekonoj de ° F + 900:  \n"
+msgstr "\t يمكن إجراء الحسابات البسيطة: إضافة، الضرب والطرح ممكنة   (  في هذا الترتيب الصحيح  )، الثوابت في السداسي عشري.    \n \t \t مثال لتحويله في أعشار البيانات درجة مئوية في أعشار من ° F + 900:   \n"
+
+#. type: Plain text
+#: index.md:108
+#, no-wrap
+#, fuzzy
+msgid "\t \t TEMP: B17-28 + -4C4 * 5/9   (  SO: DATA _finale = (donnée_ BESTO -1220 )  *  5/9  )   \n"
+msgstr "\t  \t temp: b17-28 + -4c4  *  5/9    (   so: البيانات  _finale = (donnée_  الحيوان -1220  )   *   5/9   )    \n"
+
+#. type: Plain text
+#: index.md:109
+#, fuzzy, no-wrap
+msgid "En ricevo ĉiuj linioj kiuj kontentigas la kondiĉon generos linion, se vi volas eviti falsajn pozitivaĵojn, vi povas komenci aŭ forigi la liniojn, kiuj ne kongruas kun via ekipaĵo.  \n"
+msgstr "في إيصال جميع الخطوط التي تلبي الحالة ستولد خطا، إذا كنت ترغب في تجنب الإيجابيات الخاطئة، فيمكنك البدء أو إزالة الأسطر التي لا تتطابق مع معداتك.  \n"
+
+#. type: Plain text
+#: index.md:110
+#, fuzzy, no-wrap
+msgid "Pri demando, nur la unua linio kun la ĝusta nomo de ekipaĵo estos uzata.  \n"
+msgstr "حول السؤال، سيتم استخدام السطر الأول فقط مع الاسم الصحيح للمعدات.  \n"
+
+#. type: Plain text
+#: index.md:113
+#, fuzzy, no-wrap
+msgid "Se la protokolo ne estas rekonita, vi povas uzi Analizi por studi ĝin per pliigo de ĝia verboseco kun la opcio -v, -vv aŭ -vv. Sed RF_gpio ne pourra pas le reconnaitre sans développement supplémentaire.  \n"
+msgstr ""
+"إذا لم يتم التعرف على البروتوكول، فيمكنك استخدامه لتحليله لدراسة ذلك عن طريق زيادة فعله مع الخيار، -VV أو -VV. لكن RF_gpio ne pourra pas le reconnaitre sans développement supplémentaire.  \n"
+"  \n"
+
+#. type: Title ##
+#: index.md:117
+#, fuzzy, no-wrap
+msgid "Apogitaj protokoloj:"
+msgstr "البروتوكولات المدعومة:"
+
+#. type: Plain text
+#: index.md:119
+#, no-wrap
+#, fuzzy
+msgid "Nur protokoloj kun almenaŭ la sekvaj karakterizaĵoj havas ŝancon esti rekonitaj:  \n"
+msgstr "فقط البروتوكولات ذات الميزات التالية على الأقل لديها فرصة للتعرف عليها:   \n"
+
+#. type: Bullet: '* '
+#: index.md:120
+#, fuzzy, no-wrap
+msgid "Tempo de pulsado ĉiam > 100 μs  \n"
+msgstr "وقت النبض دائما > 100 μs  \n"
+
+#. type: Bullet: '* '
+#: index.md:122
+#, fuzzy, no-wrap
+msgid "Ne pli ol tri malsamaj daŭroj por reprezenti la datumojn.  \n"
+msgstr "لا يزيد عن ثلاث فترات مختلفة لتمثيل البيانات.  \n"
+
+#. type: Bullet: '* '
+#: index.md:124
+#, fuzzy, no-wrap
+msgid "Ĉiu peco estas kodita kun du pulsbatoj, ĉiam sammaniere.  \n"
+msgstr "يتم ترميز كل قطعة بنبضتين دائما بنفس الطريقة.  \n"
+
+#. type: Bullet: '* '
+#: index.md:126
+#, fuzzy, no-wrap
+msgid "Ĉiu kadro estas ĉirkaŭita de du sinkronigaj signaloj de tempo >2500 μs.  \n"
+msgstr "يحيط كل إطار إشارات متزامنة من الوقت >2500 μs.  \n"
+
+#. type: Bullet: '* '
+#: index.md:128
+#, fuzzy, no-wrap
+msgid "Kadro ne enhavas pli ol 200 pulsojn.  \n"
+msgstr "لا يحتوي الإطار على أكثر من 200 نبضات.  \n"
+
+#. type: Plain text
+#: index.md:131
+#, fuzzy, no-wrap
+msgid "En la spektaklo, la rotaciaj kodoj kaj la sumoj de konfirmo ne estas administritaj.  \n"
+msgstr "في العرض، لا يتم إدارة الرموز الدوارة ومبالغ التأكيد.  \n"
+
+#, fuzzy
+#~ msgid "(° 1 ° Haveno: 10000  \n"
+#~ msgstr "(° 1 ميناء ميناء: 10000  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Se la aparataro estas agnoskita, la integriĝo kun Domomoticz estas "
+#~ "simpla: sufiĉas uzi la butonon \"Aŭtomata Detekto\" sur la langeton "
+#~ "\"Ŝaltilo\", aŭ aktivigi la opcion \"Permesi 5 Minutoj\" (° 1 ° 1 ° "
+#~ "\")  \n"
+#~ msgstr ""
+#~ "إذا تم التعرف على الأجهزة، فإن التكامل مع Domomoticz بسيط: يكفي استخدام "
+#~ "الكشف التلقائي \"\"في علامة التبويب (° 3 ° 3 درجة)\"، أو تفعيل الخيار (° "
+#~ "5 درجة) السماح ب 5 دقائق (° 6 درجة) (° 1 ° 1 ° \")  \n"
+
+#, fuzzy
+#~ msgid "(° 1 ° La ricevilo havas pli bonan sentemon ol la antaŭa.  \n"
+#~ msgstr ""
+#~ "(° 1 ° 1 ° 1 ° 1 يحتوي جهاز الاستقبال على حساسية أفضل من السابق.  \n"
+
+#, fuzzy
+#~ msgid "(° 1 ° 00; = Unua kadro eldonita.  \n"
+#~ msgstr "(° 00؛ = الإطار الأول المنشور.  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "(° 1 ° P0102, bitoj = 36, d0 = 529, d1 = 949, d2 = 1926, ds = 3865 = "
+#~ "rf_gpio a identifié un protocole du type :  \n"
+#~ msgstr ""
+#~ "(° 1 ° 1 ° 1 ° 1 ° P0102، بت = 36، D0 = 529، D1 = 949، D2 = 1926، DS = "
+#~ "3865 = RF_gpio a identifié un protocole du type :  \n"
+#~ "  \n"
+
+#, fuzzy
+#~ msgid "(° 1 ° Synchro Daŭro DS = 3881 μs  \n"
+#~ msgstr "(° 1 ° 1 ° 1 ° مدفعي مدة ds = 3881 μs  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "  Duuma = 0111001100000000100000, hex = 7300D8F20; : Datumoj ricevitaj en "
+#~ "duuma kaj hexa.  \n"
+#~ msgstr ""
+#~ "  ثنائي = 0111001100000000100000، Hex = 7300D8F20؛ : البيانات الواردة في "
+#~ "ثنائي و HEXA.  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "(° 1 ° 73 Praktika Protokolo: \"xxx; P0001, bitoj = 36, D0 = 689, D1 = "
+#~ "1923, DS = 3890; ID: B1-B36\"  \n"
+#~ msgstr ""
+#~ "(° 1 ° 1 ° 1 ° 73 البروتوكول العملي: \"XXX؛ P00001، بت = 36، D0 = 689، D1 "
+#~ "= 1923، DS = 3890؛ الرقم: B1-B36\"  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "(° 1 ° 1 ° Binary Datumoj: 011100110000000011011000111100100000 (° 2 °  \n"
+#~ msgstr ""
+#~ "(° 1 ° 1 ° 1 ° 1 ° 1 ° 1 ° بيانات ثنائية: "
+#~ "011100110000000011011000111100100000 (2 ° 2 ° 2  \n"
+
+#, fuzzy
+#~ msgid "(° 1 ° 1 ° Data hexa: 7300d8f20  \n"
+#~ msgstr "(° 1 ° 1 ° 1 ° 1 ° 1 ° 1 ° بيانات hexa: 7300d8f20  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "\t\tID: B1-20 signifas, ke la ID de la fora kontrolo estas en bitoj 1 ĝis "
+#~ "20 (bito 1 = unua bito transdonita\n"
+#~ "\t(° 2 ° CMD: B21-21 signifas, ke la komando transdonis (ON / OFF) situas "
+#~ "en Ilo 21.  \n"
+#~ msgstr ""
+#~ "\t(معرف ° (° 2 درجة) معرف: B1-20 يعني أن معرف جهاز التحكم عن بعد في "
+#~ "البتات 1 إلى 20 (بت 1 = تسليم بت الأول\n"
+#~ "5 ° 5 ° 5 ° 5 ° 5 ° 5 ° 5 ° 5 ° 5 ° 5 ° 5 ° 5 ° 5 ° 5 ° 5 ° 5 ° بطول 5 ° "
+#~ "5 ° 5 ° 5 ° 5 ° 5 ° 5 ° 5 ° 5 ° 5 ° 5 ° 5 ° 5 ° 5 ° 5 ° 5 ° 5 ° 5 ° 5 ° 5 "
+#~ "° 5 ° 5 ° 5 ° 5 ° 5 ° 25 ° CMD: أن الأمر الذي تم نقله (° 7 ° 7 درجة) على) "
+#~ "موجود في منظمة العمل الدولية 21.  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "\t(° 2 ° Switch: B22-24 signifas, ke la nombro de la funkciigita Jack "
+#~ "situas ĉe la bitoj 22 ĝis 24.  \n"
+#~ msgstr ""
+#~ "\t(° 2 ° 2 ° 2 ° Switch: B22-24 يعني أن عدد المقبس المدعوم يقع في البتات "
+#~ "22 إلى 24. (° 3 ° 3  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "(° 1 ° BCD koditaj kampoj (decimala duuma) : metita b anstataŭ b. "
+#~ "Ekzemplo: temp: B12-15: B16-19: B20-23 deklaras temperaturan kampon kies "
+#~ "unua cifero estas al bitoj 12-15, la dua al la bitoj 16 al 20 kaj la tria "
+#~ "al la bitoj 21 ĝis 23.  \n"
+#~ msgstr ""
+#~ "(الثنائي العشري) : وضعت B بدلا من B. مثال: TEMP: B12-15: B16-19: B20-23 "
+#~ "يعلن حقل درجة الحرارة الذي هو رقم أول رقم 12-15، والثاني إلى البتات من 16 "
+#~ "إلى 20 والثالث إلى البتات 21 إلى 23. (° 4 ° 4  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "\tKampo finanta kun \"-inv\" estas speciala kampo kiu prenos la inversan "
+#~ "(komplemento al unu) de ĝia homonima kampo en la spektaklo.  \n"
+#~ msgstr ""
+#~ "\tالانتهاء من الحقل مع \"-inv\"هو مجال خاص سيستغرق معك حقل (إلى واحد) من "
+#~ "حقله المجانس في تبين.  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "(° 1 ° simpla kalkuloj povas esti faritaj: aldono, multipliko kaj "
+#~ "subtraho eblas (en ĉi tiu ĝusta ordo), la konstantoj estas en "
+#~ "deksesuma.  \n"
+#~ msgstr ""
+#~ "(° 1 ° 1 ° 1 ° 1 يمكن إجراء حسابات بسيطة: إضافة، الضرب والطرح يمكن أن "
+#~ "يكون (في هذا الترتيب الصحيح)، الثوابت في السداسي عشري.  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "\t\tEkzemplo por konverti en dekonojn de ° C datumo kiu estas en dekonoj "
+#~ "de ° F + 900:  \n"
+#~ msgstr ""
+#~ "\t\tمثال لتحويل الكثافة من البيانات درجة مئوية في أعشار درجة فهرنهايت + "
+#~ "900: (° 3 ° 3  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "\t\ttemp: B17-28 + -4C4*5/9  ( do: datumoj_finale = (donnée_kruda -1220) "
+#~ "(° 9 ° 11 ° 5/9 )  \n"
+#~ msgstr ""
+#~ "\t\tTEMP: B17-28 + -4C4*5/9  ( افعل: البيانات_finale = (donnée_Croude "
+#~ "-1220) ) ) ) (° 9 ° 11 ° 5/9 )  \n"
+
+#, no-wrap
+#~ msgid "fonto"
+#~ msgstr "auto"
+
+#, no-wrap
+#~ msgid "index"
+#~ msgstr "index"
+
+#, fuzzy
+#~ msgid "Plej novaj afiŝoj"
+#~ msgstr "آخر المشاركات"

@@ -1,10 +1,10 @@
 # Setup
-baseurl:          "rf_gpio-dok"
+baseurl:          "/rf_gpio-dok"
 auxtoro: Jean Michault
 # ŝanĝu eo al via lingvo se vi ne laboras rekte en esperanto
 laborlingvo: fr
 # malkomentigu la sekvan linion por forigi la menuon "ĉiuj afiŝoj"
-#ne_afisxoj: "true"
+ne_afisxoj: "true"
 # malkomentigu la sekvan linion por forigi la menuon "serĉu per google"
 #ne_googlesearch: "true"
 # github uzanto por komentoj
