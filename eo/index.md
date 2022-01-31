@@ -3,11 +3,11 @@ lang: eo
 lang-niv: auto
 lang-ref: indekso
 layout: page
-title: Rf_gpio
+title: "_rf\\_gpio_"
 ---
 
 # Prezento
- _rf_GPIO_ ebligas simuli rflink kun dissendilo kaj ricevilo konektita rekte al la havenoj _GPIO_ de a _raspberry pi_.
+ _rf\_gpio_  simuli  _RFLink_  kun dissendilo kaj ricevilo konektita rekte al la  _GPIO_  havenoj de  _raspberry pi_. 
 
 
 ## Instalado:
@@ -21,14 +21,14 @@ sudo update-rc.d rf_gpio.sh defaults
 sudo service rf_gpio.sh start  
 ```
 
-Konekti la ricevilon al GPIO2 BCM27 (PIN 13)  
-Konekti la dissendilon al GPIO0 BCM17 (PIN 11)  
+konekti la ricevilon al  _gpio2 bcm27_  ( pinglo 13 )   
+konektu la dissendilon al  _gpio0 bcm17_  ( pinglo 11 )   
 
-## Uzo kun DOMOTICZ:
+## Uzu kun  _domoticz_ :
 Aldoni materialon de tipo _«RFLink Gateway with LAN interface»_
 	Remota Adreso: 127.0.0.1  
 	 haveno: 10000   
-Se la aparataro estas agnoskita, la integriĝo kun Domomoticz estas simpla: sufiĉas uzi la butonon "Aŭtomata Detekto" sur la langeto "Ŝaltiloj", aŭ aktivigi la opcion "Permesi 5 Minutoj"   
+Se la aparataro estas agnoskita, la integriĝo kun  _domoticz_  estas simpla: sufiĉas uzi la butonon "aŭtomata detekto" sur la langeto "ŝaltiloj", aŭ aktivigi la opcion "Permesi 5 Minutoj"   
 
 ## Transceivers testis:
 * Ĉina ilaro kun reaga ricevilo (asin = b00z9sznp0, MX-05V + MX-FS-03V), vidita en Amazono je 1 €.  
@@ -42,11 +42,11 @@ Noto: Por bonaj rezultoj, la ricevilo devas esti protektita kontraŭ pestoj else
 
 ## Materialoj rekonitaj:
 estis sukcese testita:  
-* Kyg (ASIN: B07DPmpw1, markita Intertk, vidpunktoj de Amazon)(agnoskita kiel "impulsoj")  
+* Prenas  _KYG_  (_ ASIN: B07DPmpvw1 _ , markita  _Intertek_, vidpunktoj pri  _amazon_)( agnoskita kiel  _«Impuls»_)   
 
-* Ĉina ĉina aneng ( termometro kun ekrano LCD, vidita sur AliExpress.)  
+* Thermometer-higrometer  _Aneng_  (  ĉina malalta kosto, kun LCD-ekrano, vidita sur  _aliexpress_. )   
 
-* DigOOOO RG-8B higrometer-higrómetro ĉina-kosto, sen ekrano, vidita sur AliExpress.)  
+* Termometro-higrometer  _Digoo RG-8B_  (  ĉina malalta kosto, sen ekrano, vidita sur  _aliexpress_. )   
 
 
 Aliaj sensiloj estas antaŭdifinitaj en sentiloj.ini, sed ne estis testitaj.  
@@ -82,7 +82,7 @@ kaj premu la butonon sur la fora kontrolo, aŭ atendu la sensilon por sendi datu
 
 Vi nun bezonas analizi binarajn datumojn por identigi la signifon de ĉiu peco.  
 Vi povas tiam aldoni linion en la dosieron Dentilos.ini, ĉiu linio konsistas el tri elementoj apartigitaj per punktokomo:  
-* Unua elemento: nomo de la teamo. Atento, se ĝi estas ŝaltilo, ĝi devas esti parto de la listo de elementoj agnoskitaj de DomotiCz.  
+* Unua elemento: nomo de la teamo. Atento, se ĝi estas ŝaltilo, ĝi devas esti parto de la listo de elementoj agnoskitaj de  _domoticz_.   
 
 * Dua elemento: Protokolo. Kopiu tion, kio estas montrita de RF_gpio ou analizo.  
     
@@ -96,7 +96,7 @@ Vi povas tiam aldoni linion en la dosieron Dentilos.ini, ĉiu linio konsistas el
 		ID: B1-20 signifas, ke la ID de la fora kontrolo estas en bitoj 1 ĝis 20 (bito 1 = unua bito transdonita
 	 	 Cmd: B21-21 signifas, ke la komando transdonita  ( ON / OFF )  situas en Ilo 21.   
 	 	 ŝanĝi: B22-24 signifas, ke la nombro de la funkciigita Jack situas ĉe la bitoj 22 ĝis 24.   
-	Esti agnoskita de Domomoticz, la nomo de la kampo devas esti en la rekonita listo (vidu sentilos.txt). Ni tamen povas meti tion, kion ni volas, simple la kampo estos ignorita de Domomoticz.  
+	 Esti agnoskita de  _domoticz_, la kampa nomo devas esti en la rekonita listo  ( vidu sentilos.txt ). Tamen, ni povas meti tion, kion ni volas, simple la kampo estos ignorata de  _domoticz_.   
 	Ekzistas pluraj bita suitoj, ekzemple: CMD: B17-17: B15-15: B16-16 Concatenate la bitoj 17 kaj 16 en tiu ordo.  
 	La valoro de certaj bitoj povas esti testita, ekzemple: CST2: B43-48 = 1 konfirmos, ke la bitoj 43 48 enhavas la valoron 1 (deksesuma) en ricevo, kaj Influas ĉi tiujn pecojn en dissendo, CST2: B43-48! 1 konfirmos, ke la bitoj 43 48 ne enhavas la valoron 1 (deksesuma) en ricevo.  
 	 Ni povas deklari BCD-koditajn kampojn  ( Dekuma kodita duuma ) : metu b anstataŭ b. Ekzemplo: Temp: B12-15: B16-19: B20-23 deklaras temperaturan kampon kies unua cifero estas al la bitoj 12-15, la dua al la bitoj 16 ĝis 20 kaj la tria ĉe la bitoj 21 ĝis 23.   

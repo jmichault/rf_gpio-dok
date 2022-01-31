@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-09 21:37+0100\n"
+"POT-Creation-Date: 2022-01-31 22:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,7 +43,7 @@ msgstr ""
 #. type: YAML Front Matter: title
 #: index.md:1
 #, no-wrap
-msgid "Rf_gpio"
+msgid "_rf\\_gpio_"
 msgstr ""
 
 #. type: Title #
@@ -55,7 +55,7 @@ msgstr ""
 #. type: Plain text
 #: index.md:11
 #, no-wrap
-msgid " _rf_GPIO_ ebligas simuli rflink kun dissendilo kaj ricevilo konektita rekte al la havenoj _GPIO_ de a _raspberry pi_.\n"
+msgid " _rf\\_gpio_  simuli  _RFLink_  kun dissendilo kaj ricevilo konektita rekte al la  _GPIO_  havenoj de  _raspberry pi_. \n"
 msgstr ""
 
 #. type: Title ##
@@ -77,21 +77,17 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: index.md:24
+#: index.md:26
 #, no-wrap
-msgid "Konekti la ricevilon al GPIO2 BCM27 (PIN 13)  \n"
-msgstr ""
-
-#. type: Plain text
-#: index.md:25
-#, no-wrap
-msgid "Konekti la dissendilon al GPIO0 BCM17 (PIN 11)  \n"
+msgid ""
+"konekti la ricevilon al  _gpio2 bcm27_  ( pinglo 13 )   \n"
+"konektu la dissendilon al  _gpio0 bcm17_  ( pinglo 11 )   \n"
 msgstr ""
 
 #. type: Title ##
 #: index.md:27
 #, no-wrap
-msgid "Uzo kun DOMOTICZ:"
+msgid "Uzu kun  _domoticz_ :"
 msgstr ""
 
 #. type: Plain text
@@ -107,7 +103,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "\t haveno: 10000   \n"
-"Se la aparataro estas agnoskita, la integriĝo kun Domomoticz estas simpla: sufiĉas uzi la butonon \"Aŭtomata Detekto\" sur la langeto \"Ŝaltiloj\", aŭ aktivigi la opcion \"Permesi 5 Minutoj\"   \n"
+"Se la aparataro estas agnoskita, la integriĝo kun  _domoticz_  estas simpla: sufiĉas uzi la butonon \"aŭtomata detekto\" sur la langeto \"ŝaltiloj\", aŭ aktivigi la opcion \"Permesi 5 Minutoj\"   \n"
 msgstr ""
 
 #. type: Title ##
@@ -159,21 +155,21 @@ msgid "estis sukcese testita:  \n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: index.md:45
+#: index.md:46
 #, no-wrap
-msgid "Kyg (ASIN: B07DPmpw1, markita Intertk, vidpunktoj de Amazon)(agnoskita kiel \"impulsoj\")  \n"
+msgid "Prenas  _KYG_  (_ ASIN: B07DPmpvw1 _ , markita  _Intertek_, vidpunktoj pri  _amazon_)( agnoskita kiel  _«Impuls»_)   \n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: index.md:47
+#: index.md:48
 #, no-wrap
-msgid "Ĉina ĉina aneng ( termometro kun ekrano LCD, vidita sur AliExpress.)  \n"
+msgid "Thermometer-higrometer  _Aneng_  (  ĉina malalta kosto, kun LCD-ekrano, vidita sur  _aliexpress_. )   \n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: index.md:49
+#: index.md:50
 #, no-wrap
-msgid "DigOOOO RG-8B higrometer-higrómetro ĉina-kosto, sen ekrano, vidita sur AliExpress.)  \n"
+msgid "Termometro-higrometer  _Digoo RG-8B_  (  ĉina malalta kosto, sen ekrano, vidita sur  _aliexpress_. )   \n"
 msgstr ""
 
 #. type: Plain text
@@ -322,9 +318,9 @@ msgid "Vi povas tiam aldoni linion en la dosieron Dentilos.ini, ĉiu linio konsi
 msgstr ""
 
 #. type: Bullet: '* '
-#: index.md:85
+#: index.md:86
 #, no-wrap
-msgid "Unua elemento: nomo de la teamo. Atento, se ĝi estas ŝaltilo, ĝi devas esti parto de la listo de elementoj agnoskitaj de DomotiCz.  \n"
+msgid "Unua elemento: nomo de la teamo. Atento, se ĝi estas ŝaltilo, ĝi devas esti parto de la listo de elementoj agnoskitaj de  _domoticz_.   \n"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -364,19 +360,14 @@ msgid "\tEkzemplo por multi-kanalo Remote Kontrolo, ID: ID: B1-20, CMD: B21-21, 
 msgstr ""
 
 #. type: Plain text
-#: index.md:99
+#: index.md:100
 #, no-wrap
 msgid ""
 "\t\tID: B1-20 signifas, ke la ID de la fora kontrolo estas en bitoj 1 ĝis 20 (bito 1 = unua bito transdonita\n"
 "\t \t Cmd: B21-21 signifas, ke la komando transdonita  ( ON / OFF )  situas en Ilo 21.   \n"
 "\t \t ŝanĝi: B22-24 signifas, ke la nombro de la funkciigita Jack situas ĉe la bitoj 22 ĝis 24.   \n"
-"\tEsti agnoskita de Domomoticz, la nomo de la kampo devas esti en la rekonita listo (vidu sentilos.txt). Ni tamen povas meti tion, kion ni volas, simple la kampo estos ignorita de Domomoticz.  \n"
-msgstr ""
-
-#. type: Plain text
-#: index.md:100
-#, no-wrap
-msgid "\tEkzistas pluraj bita suitoj, ekzemple: CMD: B17-17: B15-15: B16-16 Concatenate la bitoj 17 kaj 16 en tiu ordo.  \n"
+"\t Esti agnoskita de  _domoticz_, la kampa nomo devas esti en la rekonita listo  ( vidu sentilos.txt ). Tamen, ni povas meti tion, kion ni volas, simple la kampo estos ignorata de  _domoticz_.   \n"
+"\tEkzistas pluraj bita suitoj, ekzemple: CMD: B17-17: B15-15: B16-16 Concatenate la bitoj 17 kaj 16 en tiu ordo.  \n"
 msgstr ""
 
 #. type: Plain text

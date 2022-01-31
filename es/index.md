@@ -3,11 +3,11 @@ lang: es
 lang-niv: auto
 lang-ref: indekso
 layout: page
-title: RF_gpio
+title: "_rf\\_gpio_"
 ---
 
 # Presentación
- _rf_GPO_ permite simular RFLINK con un transmisor y un receptor conectado directamente a los puertos _GPIO_ de A _raspberry pi_.
+ _rf\_gpio_   Simular   _RFLink_   con transmisor y receptor conectado directamente a los puertos   _GPIO_   de   _raspberry pi_.  
 
 
 ## Instalación:
@@ -21,14 +21,14 @@ sudo update-rc.d rf_gpio.sh defaults
 sudo service rf_gpio.sh start  
 ```
 
-Conecte el receptor a GPO2 BCM27  ( PIN 13 )   
-Conecte el transmisor a GPO0 BCM17  ( PIN 11 )   
+Conecte el receptor a   _gpio2 bcm27_   (  PIN 13  )    
+ Conecte el transmisor a   _gpio0 bcm17_   (  PIN 11  )    
 
-## Uso con Hosticz:
+## Use con   _domoticz_ :
 Agregar material de tipo  _«RFLink Gateway with LAN interface»_ 
  	 Dirección remota: 127.0.0.1   
 	 Puerto: 10000    
- Si se reconoce el hardware, la integración con Domototicz es simple: es suficiente para usar el botón de detección automática  " en la pestaña " conmutadores ", o activar La opción  " Permita 5 minutos "    
+ Si se reconoce el hardware, la integración con   _domoticz_   es simple: es suficiente para usar la detección automática  " en la pestaña  " interruptores ", o active La opción  " Permita 5 minutos "    
 
 ## Transceptores probados:
 * Engranaje chino con reactor de reactor  ( Asin = B00Z9SZNP0, MX-05V + MX-FS-03V ), visto en Amazon a € 1.   
@@ -44,13 +44,13 @@ NOTA: Para obtener buenos resultados, el receptor debe estar protegido de las pl
 
 ## Materiales reconocidos:
 ha sido probado con éxito:   
-* KYG (Asin: B07DPMPW1, MARCADO COLOCURSO, PUNTOS DE VISTA DE LA AMAZÓN)(Reconocidos como "impulsos")  
+* TOMAR   _KYG_   (_  ASIN: B07DPVWW1  _ , Marcado   _Intertek_, Vistas de   _amazon_)(  Reconocido como   _«Impuls»_)    
 
 
-* Termómetro chino chino de Anneng  (  con pantalla LCD, vista en AliExpress. )   
+* Termómetro-higiómetro   _Aneng_   (   Costo de bajo costo chino, con pantalla LCD, vista en   _aliexpress_.  )    
 
 
-* DIGOOOO RG-8B HIGRÓMETRO-HIGRÓMETRO Costo chino, sin pantalla, visto en AliExpress.)  
+* Termómetro-higómetro   _Digoo RG-8B_   (   Costo de bajo costo chino, sin pantalla, vista en   _aliexpress_.  )    
 
 
 
@@ -89,7 +89,7 @@ y presione el botón en el control remoto, o espere a que el sensor envíe datos
 
 Ahora necesita analizar datos binarios para identificar el significado de cada pieza.  
 A continuación, puede agregar una línea en el archivo Dentilos.ini, cada línea consta de tres elementos separados por un punto y coma:   
-* Primer elemento: el nombre del equipo. Atención, si es un interruptor, debe ser parte de la lista de elementos reconocidos por Penoticz.  
+* Primer elemento: el nombre del equipo. Atención, si es un interruptor, debe ser parte de la lista de elementos reconocidos por   _domoticz_.    
 
 
 * Segundo elemento: Protocolo. Copie lo que se muestra en RF_gpio ou analizo.  
@@ -107,8 +107,8 @@ A continuación, puede agregar una línea en el archivo Dentilos.ini, cada líne
 	 	 ID: B1-20 significa que el ID del control remoto está en bits 1 a 20  ( bit 1 = Primer bits entregado 
  	  	 CMD: B21-21 significa el El comando transmitido   (  ON / OFF  )   está ubicado en la OIT 21.    
  	  	 CAMBIO: B22-24 significa que el número del conector operado se encuentra en los bits 22 a 24.    
- 	 Sé confirmado por Domomoticz, el nombre del campo debe estar en la lista de renombre  ( ver Sensilos.TXT ). Sin embargo, podemos poner lo que queremos, simplemente el campo será ignorado por Domomoticz.   
-	Hay varias suites de bits, por ejemplo: CMD: B17-17: B15-15: B16-16 Concatenar bits 17 y 16 en ese orden.  
+ 	 Sé confirmado por   _domoticz_, el nombre del campo debe estar en la lista reconocida   (  ver Sensulos.txt  ). Sin embargo, podemos poner lo que queremos, simplemente el campo será ignorado por   _domoticz_.    
+ 	 Hay varias suites de bits, por ejemplo: CMD: B17-17: B15-15: B16-16 Concatena las bits 17 y 16 en ese orden.   
 	El valor de ciertos bits se puede probar, por ejemplo: CST2: B43-48 = 1 confirmará que los bits 43 48 contienen el valor 1 (en la recepción, e influya en estas piezas en la distribución. , CST2: B43-48! 1 Confirme que los bits 438 no contienen el valor 1 (hexadecimal) en la recepción.  
 	 Podemos declarar los campos codificados por BCD   (  Binario de codificación decimal  ) : PUT B en lugar de b. Ejemplo: TEMP: B12-15: B16-19: B20-23 declara un campo de temperatura cuyo primer número es para los bits 12-15, el segundo a los bits de 16 a 20 y el tercero en los bits 21 a 23.    
  	 El acabado de campo con  " -inv " es un campo especial que tomará el complemento inverso  ( a uno )  de su campo de homología en el show.   

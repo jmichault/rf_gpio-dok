@@ -3,14 +3,14 @@ lang: fr
 lang-niv: auto
 lang-ref: indekso
 layout: page
-title: 'rf_gpio'
+title: '_rf\_gpio_'
 ---
 
-# PRÉSENTATION
- _rf_gpio_ permet de simuler un RFLink avec un émetteur et un récepteur branchés directement sur les ports _GPIO_ d'un _raspberry pi_.
+# Présentation
+ _rf\_gpio_ permet de simuler un _RFLink_ avec un émetteur et un récepteur branchés directement sur les ports _GPIO_ d'un _raspberry pi_.
 
 
-## INSTALLATION :
+## Installation :
 
 ```
 cd /home/pi
@@ -21,14 +21,14 @@ sudo update-rc.d rf_gpio.sh defaults
 sudo service rf_gpio.sh start  
 ```
 
-connecter le récepteur sur gpio2 bcm27 (broche 13)  
-connecter l'émetteur sur gpio0 bcm17 (broche 11)  
+connecter le récepteur sur _gpio2 bcm27_ (broche 13)  
+connecter l'émetteur sur _gpio0 bcm17_ (broche 11)  
 
-## utilisation avec domoticz :
+## utilisation avec _domoticz_ :
 ajouter un matériel de type _«RFLink Gateway with LAN interface»_
 	adresse distante : 127.0.0.1  
 	Port : 10000  
-Si le matériel est reconnu, l'intégration avec domoticz est simple : il suffit d'utiliser le bouton «détection auto» de l'onglet «Interrupteurs», ou d'activer l'option «Autoriser pendant 5 minutes»  
+Si le matériel est reconnu, l'intégration avec _domoticz_ est simple : il suffit d'utiliser le bouton «détection auto» de l'onglet «Interrupteurs», ou d'activer l'option «Autoriser pendant 5 minutes»  
 
 ## Émetteurs-récepteurs testés :
 * kit chinois avec un récepteur à réaction (ASIN=B00Z9SZNP0, MX-05V + MX-FS-03V), vu sur amazon à 1€.  
@@ -40,9 +40,9 @@ Remarque: Pour de bons résultats, le récepteur doit être protégé contre les
 
 ## MATÉRIELS RECONNUS :
 ont été testés avec succès :  
-* prises KYG (ASIN : B07DPMPVW1 , marquées Intertek, vues  sur amazon)(reconnues comme «Impuls»)  
-* thermomètre-hygromètre Aneng ( chinois à bas coût, avec affichage LCD, vu sur aliexpress.)  
-* thermomètre-hygromètre Digoo RG-8B ( chinois à bas coût, sans affichage, vu sur aliexpress.)  
+* prises _KYG_ (_ASIN : B07DPMPVW1_ , marquées _Intertek_, vues  sur _amazon_)(reconnues comme _«Impuls»_)  
+* thermomètre-hygromètre _Aneng_ ( chinois à bas coût, avec affichage LCD, vu sur _aliexpress_.)  
+* thermomètre-hygromètre _Digoo RG-8B_ ( chinois à bas coût, sans affichage, vu sur _aliexpress_.)  
 
 D'autres capteurs sont prédéfinis dans sentiloj.ini, mais n'ont pas été testés.  
 
@@ -75,7 +75,7 @@ et appuyer sur le bouton de la télécommande, ou attendre que le capteur envoie
 
 Il vous faut maintenant analyser les données binaires pour identifier la signification de chaque bit.  
 Vous pouvez ensuite ajouter une ligne dans le fichier sentiloj.ini, chaque ligne est composée de trois éléments séparés par un point-virgule :  
-* premier élément : nom du matériel. Attention, si c'est un interrupteur, il doit obligatoirement faire partie de la liste des éléments reconnus par domoticz.  
+* premier élément : nom du matériel. Attention, si c'est un interrupteur, il doit obligatoirement faire partie de la liste des éléments reconnus par _domoticz_.  
 * deuxième élément : protocole. Recopier ce qui est affiché par rf_gpio ou analizo.  
 	exemple : p0102,bits=36,D0=561,D1=1899,D2=3845,DS=9158  
 		signifie : protocole p0102 (bit 0 = D0 D1 , bit 1 = D0 D2), 36 bits par trame, durée D0 = 561 µs, durée D1 = 1899 µs, durée D2 = 3845 µs, durée synchro DS=9158 µs  
@@ -85,7 +85,7 @@ Vous pouvez ensuite ajouter une ligne dans le fichier sentiloj.ini, chaque ligne
 		ID:b1-20 signifie que l'ID de la télécommande se trouve dans les bits 1 à 20 (bit 1 = premier bit transmis)  
 		CMD:b21-21 signifie que la commande transmise (ON/OFF) se situe au bit 21.  
 		SWITCH:b22-24 signifie que le numéro de la prise actionnée se trouve aux bits 22 à 24.  
-	Pour être reconnu par domoticz, le nom du champ doit être dans la liste reconnue (voir sentiloj.txt). On peut toutefois mettre ce qu'on veut, simplement le champ sera ignoré par domoticz.  
+	Pour être reconnu par _domoticz_, le nom du champ doit être dans la liste reconnue (voir sentiloj.txt). On peut toutefois mettre ce qu'on veut, simplement le champ sera ignoré par _domoticz_.  
 	On peut concaténer plusieurs suites de bits, exemple : CMD:b17-17:b15-15:b16-16 va concaténer les bits 17 15 et 16 dans cet ordre.  
 	On peut tester la valeur de certains bits, exemple : CST2:b43-48=1 va vérifier que les bits 43 a 48 contiennent la valeur 1 (hexadécimale) en réception, et va affecter ces bits en émission, CST2:b43-48!1 va vérifier que les bits 43 a 48 ne contiennent pas la valeur 1 (hexadécimale) en réception.  
 	On peut déclarer des champs codés BCD (binaire codé décimal) : mettre B au lieu de b. exemple : TEMP:B12-15:B16-19:B20-23 déclare un champ température dont le premier chiffre se trouve aux bits 12-15, le deuxième aux bits 16 à 20 et le troisième aux bits 21 à 23.  

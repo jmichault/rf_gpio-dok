@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-09 21:41+0100\n"
+"POT-Creation-Date: 2022-01-31 22:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,9 +42,10 @@ msgstr "page"
 
 #. type: YAML Front Matter: title
 #: index.md:1
-#, fuzzy, no-wrap
-msgid "Rf_gpio"
-msgstr "RF_gpio"
+#, no-wrap
+#, fuzzy
+msgid "_rf\\_gpio_"
+msgstr "_rf\\_gpio_"
 
 #. type: Title #
 #: index.md:9
@@ -54,9 +55,10 @@ msgstr "プレゼンテーション"
 
 #. type: Plain text
 #: index.md:11
-#, fuzzy, no-wrap
-msgid " _rf_GPIO_ ebligas simuli rflink kun dissendilo kaj ricevilo konektita rekte al la havenoj _GPIO_ de a _raspberry pi_.\n"
-msgstr " _rf_GPO_ を使用すると、 _raspberry pi_のポート _GPIO_ に直接接続されている送信機と受信機でRFlinkをシミュレートすることができます。\n"
+#, no-wrap
+#, fuzzy
+msgid " _rf\\_gpio_  simuli  _RFLink_  kun dissendilo kaj ricevilo konektita rekte al la  _GPIO_  havenoj de  _raspberry pi_. \n"
+msgstr " _rf\\_gpio_  送信機と受信機を  _raspberry pi_の  _GPIO_  のポートに直接接続された  _RFLink_  をシミュレートします。  \n"
 
 #. type: Title ##
 #: index.md:13
@@ -83,32 +85,30 @@ msgstr ""
 "sudo service rf_gpio.sh start  \n"
 
 #. type: Plain text
-#: index.md:24
-#, fuzzy, no-wrap
-msgid "Konekti la ricevilon al GPIO2 BCM27 (PIN 13)  \n"
-msgstr "受信機をGPO2 BCM27 (ピン13)  に接続します)  \n"
-
-#. type: Plain text
-#: index.md:25
-#, no-wrap
-#, fuzzy
-msgid "Konekti la dissendilon al GPIO0 BCM17 (PIN 11)  \n"
-msgstr "送信機をGPO0 BCM17  (ピン11 )   に接続します。\n"
-
-#. type: Title ##
-#: index.md:27
-#, fuzzy, no-wrap
-msgid "Uzo kun DOMOTICZ:"
-msgstr "Hosticzで使用する："
-
-#. type: Plain text
-#: index.md:29
+#: index.md:26
 #, no-wrap
 #, fuzzy
 msgid ""
+"konekti la ricevilon al  _gpio2 bcm27_  ( pinglo 13 )   \n"
+"konektu la dissendilon al  _gpio0 bcm17_  ( pinglo 11 )   \n"
+msgstr "受信機を  _gpio2 bcm27_   ( ピン13  )    \nを接続する送信機を  _gpio0 bcm17_   ( ピン11  )    \n"
+
+#. type: Title ##
+#: index.md:27
+#, no-wrap
+#, fuzzy
+msgid "Uzu kun  _domoticz_ :"
+msgstr "  _domoticz_ で使用します。"
+
+#. type: Plain text
+#: index.md:29
+#, fuzzy, no-wrap
+msgid ""
 "Aldoni materialon de tipo _«RFLink Gateway with LAN interface»_\n"
 "\tRemota Adreso: 127.0.0.1  \n"
-msgstr "型 _«RFLink Gateway with LAN interface»_ \n \tリモートアドレスの素材を追加：127.0.0.1   \n"
+msgstr ""
+"型 _«RFLink Gateway with LAN interface»_ \n"
+" \tリモートアドレスの素材を追加：127.0.0.1   \n"
 
 #. type: Plain text
 #: index.md:32
@@ -116,8 +116,8 @@ msgstr "型 _«RFLink Gateway with LAN interface»_ \n \tリモートアドレ�
 #, fuzzy
 msgid ""
 "\t haveno: 10000   \n"
-"Se la aparataro estas agnoskita, la integriĝo kun Domomoticz estas simpla: sufiĉas uzi la butonon \"Aŭtomata Detekto\" sur la langeto \"Ŝaltiloj\", aŭ aktivigi la opcion \"Permesi 5 Minutoj\"   \n"
-msgstr "\tポート：10000    \nハードウェアが認識されている場合、Domomoticzとの統合は簡単です。\"スイッチ\"タブで \"自動検出ボタン\"を使用するのに十分です。オプション \"は5分\" を許可します。   \n"
+"Se la aparataro estas agnoskita, la integriĝo kun  _domoticz_  estas simpla: sufiĉas uzi la butonon \"aŭtomata detekto\" sur la langeto \"ŝaltiloj\", aŭ aktivigi la opcion \"Permesi 5 Minutoj\"   \n"
+msgstr "\tポート：10000    \nハードウェアが認識されている場合は、  _domoticz_  との統合が簡単です。 \"スイッチ\"タブで \"自動検出\"を使用するのに十分です。オプション \"は5分\" を可能にします。   \n"
 
 #. type: Title ##
 #: index.md:33
@@ -127,8 +127,7 @@ msgstr "トランシーバがテストされました。"
 
 #. type: Bullet: '* '
 #: index.md:34
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Ĉina ilaro kun reaga ricevilo (asin = b00z9sznp0, MX-05V + MX-FS-03V), vidita en Amazono je 1 €.  \n"
 msgstr "原子炉反応器 ( ASIN = B00Z9SZNP0、MX-05V + MX-FS-03V )の中国の歯車。€1でAmazonで表示されます。   \n"
 
@@ -146,15 +145,13 @@ msgstr "WL101-341 + WL102-341、SuperEROTEDYN 433 MHzは、AliExpressで€1で�
 
 #. type: Plain text
 #: index.md:40
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "\t La ricevilo havas pli bonan sentemon ol la antaŭa.   \n"
 msgstr "\t受信機は前のものよりも優れた感度を持ちます。    \n"
 
 #. type: Plain text
 #: index.md:42
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Noto: Por bonaj rezultoj, la ricevilo devas esti protektita kontraŭ pestoj elsenditaj de _raspberry-pi_. Por testado, vi povas uzi aluminan tavoleton en folio de papero faldita duone.\n"
 msgstr "注意：良い結果については、受信機は _raspberry-pi_によって発行された害虫から保護されなければなりません。テストのためには、半分に折りたたまれた紙のシートの中にアルミコートを使用することができます。 \n"
 
@@ -166,28 +163,30 @@ msgstr "認識された材料："
 
 #. type: Plain text
 #: index.md:44
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "estis sukcese testita:  \n"
 msgstr "正常にテストされました：  \n"
 
 #. type: Bullet: '* '
-#: index.md:45
-#, fuzzy, no-wrap
-msgid "Kyg (ASIN: B07DPmpw1, markita Intertk, vidpunktoj de Amazon)(agnoskita kiel \"impulsoj\")  \n"
-msgstr "KYG (ASIN：B07DPMPW1、マークインターコース、Amazon)(の視点)(衝動\"\")  \n"
+#: index.md:46
+#, no-wrap
+#, fuzzy
+msgid "Prenas  _KYG_  (_ ASIN: B07DPmpvw1 _ , markita  _Intertek_, vidpunktoj pri  _amazon_)( agnoskita kiel  _«Impuls»_)   \n"
+msgstr "  _KYG_   (_  ASIN：B07DPVWW1  _ 、マークされた  _Intertek_、  _amazon_)( のビューは  _«Impuls»_)    として認められます。\n"
 
 #. type: Bullet: '* '
-#: index.md:47
-#, fuzzy, no-wrap
-msgid "Ĉina ĉina aneng ( termometro kun ekrano LCD, vidita sur AliExpress.)  \n"
-msgstr "中国の中国のaneng ( 体温計を含む中国のスクリーンは、AliExpressで見られました。)  \n"
+#: index.md:48
+#, no-wrap
+#, fuzzy
+msgid "Thermometer-higrometer  _Aneng_  (  ĉina malalta kosto, kun LCD-ekrano, vidita sur  _aliexpress_. )   \n"
+msgstr "温度計 - Higometer   _Aneng_   (  中国の低コストで、LCDスクリーンは  _aliexpress_で見た。  )    \n"
 
 #. type: Bullet: '* '
-#: index.md:49
-#, fuzzy, no-wrap
-msgid "DigOOOO RG-8B higrometer-higrómetro ĉina-kosto, sen ekrano, vidita sur AliExpress.)  \n"
-msgstr "Digoooo RG-8B Higrometer-Higrometerの中国のコスト、画面なしで、AliExpressで表示されます。)  \n"
+#: index.md:50
+#, no-wrap
+#, fuzzy
+msgid "Termometro-higrometer  _Digoo RG-8B_  (  ĉina malalta kosto, sen ekrano, vidita sur  _aliexpress_. )   \n"
+msgstr "温度計 - Higometer   _Digoo RG-8B_   (  中国の低コスト、画面なしで、  _aliexpress_で見た。  )    \n"
 
 #. type: Plain text
 #: index.md:52
@@ -223,8 +222,7 @@ msgstr ""
 
 #. type: Plain text
 #: index.md:59
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kiam la sensor sendas datumojn, kaj la transiga protokolo estas agnoskita, vi vidos ion, kio aspektas tiel:  \n"
 msgstr "センサーがデータを送信し、転送プロトコルが認識されると、次のようなものが表示されます。  \n"
 
@@ -242,12 +240,14 @@ msgstr "  20。 =任意のRFlink排出量フレームはこのように始まり
 
 #. type: Plain text
 #: index.md:63
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "   00; = Unua kadro eldonita.   \n"
 "   p0102, bitoj = 36, d0 = 529, d1 = 949, d2 = 1926, ds = 3865 = rf _gpio a identifié un protocole du type :  \n"
-msgstr "    00。 =最初のフレームワークが公開されました。    \n P0102、ビット= 36、D0 = 529、D1 = 949、D2 = 1926、DS = 3865 = RF  _gpio a identifié un protocole du type :  \n  \n"
+msgstr ""
+"    00。 =最初のフレームワークが公開されました。    \n"
+" P0102、ビット= 36、D0 = 529、D1 = 949、D2 = 1926、DS = 3865 = RF  _gpio a identifié un protocole du type :  \n"
+"  \n"
 
 #. type: Plain text
 #: index.md:65
@@ -287,12 +287,13 @@ msgstr "\t持続時間D2 =1936μs  \n"
 
 #. type: Plain text
 #: index.md:72
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "\t sinkrona daŭro DS = 3881 μs   \n"
 "  Duuma = 0111001100000000100000, hex = 7300D8F20; : Datumoj ricevitaj en duuma kaj hexa.  \n"
-msgstr "\t同期期間DS = 3881μs   \n Duuma = 01110011000000000000000、Hex = 7300D8F20; ：バイナリとhexaで受信されたデータ。   \n"
+msgstr ""
+"\t同期期間DS = 3881μs   \n"
+" Duuma = 01110011000000000000000、Hex = 7300D8F20; ：バイナリとhexaで受信されたデータ。   \n"
 
 #. type: Title ###
 #: index.md:74
@@ -302,8 +303,7 @@ msgstr "オプション2："
 
 #. type: Plain text
 #: index.md:75
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kuru en ŝelo:  \n"
 msgstr "樹皮：  \n"
 
@@ -315,20 +315,21 @@ msgstr "./analyzi  \n"
 
 #. type: Plain text
 #: index.md:77
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "kaj premu la butonon sur la fora kontrolo, aŭ atendu la sensilon por sendi datumojn. Se la protokolo estas agnoskita, ni vidas ion similan al tio:  \n"
 msgstr "そして、リモコンのボタンを押すか、センサーがデータを送信するのを待ちます。プロトコルが認識されている場合は、そのようなものが表示されます。  \n"
 
 #. type: Plain text
 #: index.md:81
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "  73 Praktika Protokolo:  \" XXX; P0001, Bits = 36, D0 = 689, D1 = 1923, DS = 3890; ID: B1-B36 \"   \n"
 "   Binary Datumoj: 0111001100000011011000111100100000   \n"
 "   hexa datumo: 7300d8f20   \n"
-msgstr "   73実用的なプロトコル：  \" xxx。 P0001、ビット= 36、D0 = 689、D1 = 1923、DS = 3890。 ID：B1~B36  \"    \n    \n BINARYデータ：7300D8F20    \n"
+msgstr ""
+"   73実用的なプロトコル：  \" xxx。 P0001、ビット= 36、D0 = 689、D1 = 1923、DS = 3890。 ID：B1~B36  \"    \n"
+"    \n"
+" BINARYデータ：7300D8F20    \n"
 
 #. type: Plain text
 #: index.md:83
@@ -338,16 +339,16 @@ msgstr "あなたは今各作品の意味を識別するためにバイナリデ
 
 #. type: Plain text
 #: index.md:84
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Vi povas tiam aldoni linion en la dosieron Dentilos.ini, ĉiu linio konsistas el tri elementoj apartigitaj per punktokomo:  \n"
 msgstr "その後、dentilos.iniファイルに1行を追加できます。各行は、セミコロンで区切られた3つの要素で構成されています。  \n"
 
 #. type: Bullet: '* '
-#: index.md:85
-#, fuzzy, no-wrap
-msgid "Unua elemento: nomo de la teamo. Atento, se ĝi estas ŝaltilo, ĝi devas esti parto de la listo de elementoj agnoskitaj de DomotiCz.  \n"
-msgstr "最初の要素：機器の名前。注意、それがスイッチであるならば、それはPenoticzによって認識された要素のリストの一部でなければなりません。  \n"
+#: index.md:86
+#, no-wrap
+#, fuzzy
+msgid "Unua elemento: nomo de la teamo. Atento, se ĝi estas ŝaltilo, ĝi devas esti parto de la listo de elementoj agnoskitaj de  _domoticz_.   \n"
+msgstr "最初の要素：機器の名前。注意、スイッチの場合は、  _domoticz_で認識された要素のリストの一部でなければなりません。    \n"
 
 #. type: Bullet: '* '
 #: index.md:87
@@ -371,8 +372,7 @@ msgstr "\t\tを意味します：プロトコルP0102 (ビット0 = D0 D1、ビ�
 
 #. type: Plain text
 #: index.md:92
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "\t\tLa protokolo, bitoj, D0 kaj D1-partoj estas uzataj por diferencigi aparatojn.  \n"
 msgstr "\t \tプロトコル、ビット、D0、D1部品はデバイスを区別するために使用されます。   \n"
 
@@ -389,21 +389,16 @@ msgid "\tEkzemplo por multi-kanalo Remote Kontrolo, ID: ID: B1-20, CMD: B21-21, 
 msgstr "\tマルチチャンネルリモコン、ID：ID：B1-20、CMD：B21-21、幅：B22-24  \n"
 
 #. type: Plain text
-#: index.md:99
+#: index.md:100
 #, no-wrap
 #, fuzzy
 msgid ""
 "\t\tID: B1-20 signifas, ke la ID de la fora kontrolo estas en bitoj 1 ĝis 20 (bito 1 = unua bito transdonita\n"
 "\t \t Cmd: B21-21 signifas, ke la komando transdonita  ( ON / OFF )  situas en Ilo 21.   \n"
 "\t \t ŝanĝi: B22-24 signifas, ke la nombro de la funkciigita Jack situas ĉe la bitoj 22 ĝis 24.   \n"
-"\tEsti agnoskita de Domomoticz, la nomo de la kampo devas esti en la rekonita listo (vidu sentilos.txt). Ni tamen povas meti tion, kion ni volas, simple la kampo estos ignorita de Domomoticz.  \n"
-msgstr "\t \t ID：B1-20は、リモコンのIDがビット1~20  (ビット1 = Firstビット\n \t  \t CMD：B21-21を意味する。送信されたコマンド  (  ON / OFF  )  はILO 21にあります。   \n \t  \tの変更：B22-24は、操作されたジャックの数がビット22から24に位置することを意味します。   \n \tはDomomoticzによって確認され、フィールドの名前は有名なリスト (を参照してくださいSensilos.txt )を参照してください。しかし、私たちが望むものを入れることができます、単にフィールドはDomomoticzによって無視されます。   \n"
-
-#. type: Plain text
-#: index.md:100
-#, fuzzy, no-wrap
-msgid "\tEkzistas pluraj bita suitoj, ekzemple: CMD: B17-17: B15-15: B16-16 Concatenate la bitoj 17 kaj 16 en tiu ordo.  \n"
-msgstr "\tいくつかのビットスイートがあります。例えば、CMD：B17-17：B15-15：B16-16：その順にビット17と16を連結します。  \n"
+"\t Esti agnoskita de  _domoticz_, la kampa nomo devas esti en la rekonita listo  ( vidu sentilos.txt ). Tamen, ni povas meti tion, kion ni volas, simple la kampo estos ignorata de  _domoticz_.   \n"
+"\tEkzistas pluraj bita suitoj, ekzemple: CMD: B17-17: B15-15: B16-16 Concatenate la bitoj 17 kaj 16 en tiu ordo.  \n"
+msgstr "\t \t ID：B1-20は、リモコンのIDがビット1~20  (ビット1 = Firstビット\n \t  \t CMD：B21-21を意味する。送信されたコマンド  (  ON / OFF  )  はILO 21にあります。   \n \t  \tの変更：B22-24は、操作されたジャックの数がビット22から24に位置することを意味します。   \n \tは  _domoticz_で確認され、フィールド名は認識されているリスト  ( を参照してください.sensulos.txt  )を参照してください。ただし、必要なものを入れることができます。単にフィールドは  _domoticz_で無視されます。    \n \tは、例えば、いくつかのビットスイートがあります.CMD：B17-17：B15-15：B16-16ビット17と16をその順に連結します。   \n"
 
 #. type: Plain text
 #: index.md:101
@@ -413,12 +408,13 @@ msgstr "\t特定のビットの値をテストできます。例えば、CST2：
 
 #. type: Plain text
 #: index.md:103
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "\t Ni povas deklari BCD-koditajn kampojn  ( Dekuma kodita duuma ) : metu b anstataŭ b. Ekzemplo: Temp: B12-15: B16-19: B20-23 deklaras temperaturan kampon kies unua cifero estas al la bitoj 12-15, la dua al la bitoj 16 ĝis 20 kaj la tria ĉe la bitoj 21 ĝis 23.   \n"
 "\tKampo finanta kun \"-inv\" estas speciala kampo kiu prenos la inversan (komplemento al unu) de ĝia homonima kampo en la spektaklo.  \n"
-msgstr "\t BCDコード化フィールドを宣言することができます  (  10進符号化バイナリ ) ：bの代わりにb。例：TEMP：B12-15：B16-19：B20-23は、ビット12~15、2番目のビット16~20、ビット21~23の3番目の数字がある温度フィールドを宣言する。   \n  \" -INV \"を用いたフィールド仕上げは、ショー内のそのホモニーストフィールドの1つの) に逆 (を補完する特別な分野です。   \n"
+msgstr ""
+"\t BCDコード化フィールドを宣言することができます  (  10進符号化バイナリ ) ：bの代わりにb。例：TEMP：B12-15：B16-19：B20-23は、ビット12~15、2番目のビット16~20、ビット21~23の3番目の数字がある温度フィールドを宣言する。   \n"
+"  \" -INV \"を用いたフィールド仕上げは、ショー内のそのホモニーストフィールドの1つの) に逆 (を補完する特別な分野です。   \n"
 
 #. type: Plain text
 #: index.md:104
@@ -428,17 +424,17 @@ msgstr "\t \"=\"のデータに含まれていないフィールドに値を割�
 
 #. type: Plain text
 #: index.md:106
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "\t Simplaj kalkuloj povas esti faritaj: aldono, multipliko kaj subtraho estas eblaj  ( en ĉi tiu ĝusta ordo ), la konstantoj estas en deksesuma.   \n"
 "\t\tEkzemplo por konverti en dekonojn de ° C datumo kiu estas en dekonoj de ° F + 900:  \n"
-msgstr "\t簡単な計算を行うことができます：加算、乗算および減算が可能です  ( この正しい順序 )では、定数は16進数です。    \n \t \t°C + 900の10分の10分のデータを変換する例：  \n"
+msgstr ""
+"\t簡単な計算を行うことができます：加算、乗算および減算が可能です  ( この正しい順序 )では、定数は16進数です。    \n"
+" \t \t°C + 900の10分の10分のデータを変換する例：  \n"
 
 #. type: Plain text
 #: index.md:108
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "\t \t TEMP: B17-28 + -4C4 * 5/9   (  SO: DATA _finale = (donnée_ BESTO -1220 )  *  5/9  )   \n"
 msgstr "\t  \t TEMP：B17-28 + -4C4  *  5/9    (   SO：データ _finale = (donnée_ 動物-1220  )   *   5/9   )    \n"
 
@@ -470,8 +466,7 @@ msgstr "サポートされているプロトコル："
 
 #. type: Plain text
 #: index.md:119
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Nur protokoloj kun almenaŭ la sekvaj karakterizaĵoj havas ŝancon esti rekonitaj:  \n"
 msgstr "少なくとも以下の機能を持つプロトコルのみが認識される機会があります。  \n"
 
@@ -510,6 +505,79 @@ msgstr "フレームには200個以上のパルスが含まれていません。
 #, fuzzy, no-wrap
 msgid "En la spektaklo, la rotaciaj kodoj kaj la sumoj de konfirmo ne estas administritaj.  \n"
 msgstr "ショーでは、回転符号と確認量は投与されません。  \n"
+
+#, fuzzy, no-wrap
+#~ msgid "Rf_gpio"
+#~ msgstr "RF_gpio"
+
+#, fuzzy, no-wrap
+#~ msgid " _rf_GPIO_ ebligas simuli rflink kun dissendilo kaj ricevilo konektita rekte al la havenoj _GPIO_ de a _raspberry pi_.\n"
+#~ msgstr " _rf_GPO_ を使用すると、 _raspberry pi_のポート _GPIO_ に直接接続されている送信機と受信機でRFlinkをシミュレートすることができます。\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Konekti la ricevilon al GPIO2 BCM27 (PIN 13)  \n"
+#~ msgstr "受信機をGPO2 BCM27 (ピン13)  に接続します)  \n"
+
+#, fuzzy
+#~ msgid "Konekti la dissendilon al GPIO0 BCM17 (PIN 11)  \n"
+#~ msgstr "送信機をGPO0 BCM17  (ピン11 )   に接続します。\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Uzo kun DOMOTICZ:"
+#~ msgstr "Hosticzで使用する："
+
+#, fuzzy
+#~ msgid ""
+#~ "\t haveno: 10000   \n"
+#~ "Se la aparataro estas agnoskita, la integriĝo kun Domomoticz estas "
+#~ "simpla: sufiĉas uzi la butonon \"Aŭtomata Detekto\" sur la langeto "
+#~ "\"Ŝaltiloj\", aŭ aktivigi la opcion \"Permesi 5 Minutoj\"   \n"
+#~ msgstr ""
+#~ "\tポート：10000    \n"
+#~ "ハードウェアが認識されている場合、Domomoticzとの統合は簡単です。\"スイッチ"
+#~ "\"タブで \"自動検出ボタン\"を使用するのに十分です。オプション \"は5分\" を"
+#~ "許可します。   \n"
+
+#, fuzzy, no-wrap
+#~ msgid "Kyg (ASIN: B07DPmpw1, markita Intertk, vidpunktoj de Amazon)(agnoskita kiel \"impulsoj\")  \n"
+#~ msgstr "KYG (ASIN：B07DPMPW1、マークインターコース、Amazon)(の視点)(衝動\"\")  \n"
+
+#, fuzzy, no-wrap
+#~ msgid "Ĉina ĉina aneng ( termometro kun ekrano LCD, vidita sur AliExpress.)  \n"
+#~ msgstr "中国の中国のaneng ( 体温計を含む中国のスクリーンは、AliExpressで見られました。)  \n"
+
+#, fuzzy, no-wrap
+#~ msgid "DigOOOO RG-8B higrometer-higrómetro ĉina-kosto, sen ekrano, vidita sur AliExpress.)  \n"
+#~ msgstr "Digoooo RG-8B Higrometer-Higrometerの中国のコスト、画面なしで、AliExpressで表示されます。)  \n"
+
+#, fuzzy, no-wrap
+#~ msgid "Unua elemento: nomo de la teamo. Atento, se ĝi estas ŝaltilo, ĝi devas esti parto de la listo de elementoj agnoskitaj de DomotiCz.  \n"
+#~ msgstr "最初の要素：機器の名前。注意、それがスイッチであるならば、それはPenoticzによって認識された要素のリストの一部でなければなりません。  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "\t\tID: B1-20 signifas, ke la ID de la fora kontrolo estas en bitoj 1 ĝis "
+#~ "20 (bito 1 = unua bito transdonita\n"
+#~ "\t \t Cmd: B21-21 signifas, ke la komando transdonita  ( ON / OFF )  "
+#~ "situas en Ilo 21.   \n"
+#~ "\t \t ŝanĝi: B22-24 signifas, ke la nombro de la funkciigita Jack situas "
+#~ "ĉe la bitoj 22 ĝis 24.   \n"
+#~ "\tEsti agnoskita de Domomoticz, la nomo de la kampo devas esti en la "
+#~ "rekonita listo (vidu sentilos.txt). Ni tamen povas meti tion, kion ni "
+#~ "volas, simple la kampo estos ignorita de Domomoticz.  \n"
+#~ msgstr ""
+#~ "\t \t ID：B1-20は、リモコンのIDがビット1~20  (ビット1 = Firstビット\n"
+#~ " \t  \t CMD：B21-21を意味する。送信されたコマンド  (  ON / OFF  )  はILO "
+#~ "21にあります。   \n"
+#~ " \t  \tの変更：B22-24は、操作されたジャックの数がビット22から24に位置する"
+#~ "ことを意味します。   \n"
+#~ " \tはDomomoticzによって確認され、フィールドの名前は有名なリスト (を参照し"
+#~ "てくださいSensilos.txt )を参照してください。しかし、私たちが望むものを入れ"
+#~ "ることができます、単にフィールドはDomomoticzによって無視されます。   \n"
+
+#, fuzzy, no-wrap
+#~ msgid "\tEkzistas pluraj bita suitoj, ekzemple: CMD: B17-17: B15-15: B16-16 Concatenate la bitoj 17 kaj 16 en tiu ordo.  \n"
+#~ msgstr "\tいくつかのビットスイートがあります。例えば、CMD：B17-17：B15-15：B16-16：その順にビット17と16を連結します。  \n"
 
 #, fuzzy
 #~ msgid "(° 1 ° Haveno: 10000  \n"

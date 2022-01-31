@@ -3,18 +3,18 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-04-02 20:46+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-01-31 22:48+0100\n"
+"PO-Revision-Date: 2022-01-31 22:47+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #. type: YAML Front Matter: lang
 #: index.md:1
@@ -42,30 +42,26 @@ msgstr "page"
 
 #. type: YAML Front Matter: title
 #: index.md:1
-#, fuzzy
-msgid "rf_gpio"
-msgstr "Rf_gpio"
+#, no-wrap
+msgid "_rf\\_gpio_"
+msgstr "_rf\\_gpio_"
 
 #. type: Title #
 #: index.md:9
-#, fuzzy
-msgid "PRÉSENTATION"
+#, no-wrap
+msgid "Présentation"
 msgstr "Prezento"
 
 #. type: Plain text
 #: index.md:11
-#, fuzzy
-msgid ""
-" _rf_gpio_ permet de simuler un RFLink avec un émetteur et un récepteur "
-"branchés directement sur les ports _GPIO_ d'un _raspberry pi_.\n"
-msgstr ""
-" _rf_GPIO_ ebligas simuli rflink kun dissendilo kaj ricevilo konektita rekte "
-"al la havenoj _GPIO_ de a _raspberry pi_.\n"
+#, no-wrap
+msgid " _rf\\_gpio_ permet de simuler un _RFLink_ avec un émetteur et un récepteur branchés directement sur les ports _GPIO_ d'un _raspberry pi_.\n"
+msgstr " _rf\\_gpio_  simuli  _RFLink_  kun dissendilo kaj ricevilo konektita rekte al la  _GPIO_  havenoj de  _raspberry pi_. \n"
 
 #. type: Title ##
 #: index.md:13
-#, fuzzy
-msgid "INSTALLATION :"
+#, no-wrap
+msgid "Installation :"
 msgstr "Instalado:"
 
 #. type: Fenced code block
@@ -88,25 +84,25 @@ msgstr ""
 
 #. type: Plain text
 #: index.md:24
-#, fuzzy
-msgid "connecter le récepteur sur gpio2 bcm27 (broche 13)  \n"
-msgstr "Konekti la ricevilon al GPIO2 BCM27 (PIN 13)  \n"
+#, no-wrap
+msgid "connecter le récepteur sur _gpio2 bcm27_ (broche 13)  \n"
+msgstr "konekti la ricevilon al  _gpio2 bcm27_  ( pinglo 13 )   \n"
 
 #. type: Plain text
 #: index.md:25
-#, fuzzy
-msgid "connecter l'émetteur sur gpio0 bcm17 (broche 11)  \n"
-msgstr "Konekti la dissendilon al GPIO0 BCM17 (PIN 11)  \n"
+#, no-wrap
+msgid "connecter l'émetteur sur _gpio0 bcm17_ (broche 11)  \n"
+msgstr "konektu la dissendilon al  _gpio0 bcm17_  ( pinglo 11 )   \n"
 
 #. type: Title ##
 #: index.md:27
 #, fuzzy
-msgid "utilisation avec domoticz :"
-msgstr "Uzo kun DOMOTICZ:"
+msgid "utilisation avec _domoticz_ :"
+msgstr "Uzu kun  _domoticz_ :"
 
 #. type: Plain text
 #: index.md:29
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "ajouter un matériel de type _«RFLink Gateway with LAN interface»_\n"
 "\tadresse distante : 127.0.0.1  \n"
@@ -116,7 +112,7 @@ msgstr ""
 
 #. type: Plain text
 #: index.md:30
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "\tPort : 10000  \n"
 msgstr "\t haveno: 10000   \n"
 
@@ -124,316 +120,245 @@ msgstr "\t haveno: 10000   \n"
 #: index.md:31
 #, fuzzy
 msgid ""
-"Si le matériel est reconnu, l'intégration avec domoticz est simple : il "
+"Si le matériel est reconnu, l'intégration avec _domoticz_ est simple : il "
 "suffit d'utiliser le bouton «détection auto» de l'onglet «Interrupteurs», ou "
 "d'activer l'option «Autoriser pendant 5 minutes»  \n"
 msgstr ""
-"Se la aparataro estas agnoskita, la integriĝo kun Domomoticz estas simpla: "
-"sufiĉas uzi la butonon \"Aŭtomata Detekto\" sur la langeto \"Ŝaltiloj\", aŭ "
+"Se la aparataro estas agnoskita, la integriĝo kun  _domoticz_  estas simpla: "
+"sufiĉas uzi la butonon \"aŭtomata detekto\" sur la langeto \"ŝaltiloj\", aŭ "
 "aktivigi la opcion \"Permesi 5 Minutoj\"   \n"
 
 #. type: Title ##
 #: index.md:33
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Émetteurs-récepteurs testés :"
 msgstr "Transceivers testis:"
 
 #. type: Bullet: '* '
 #: index.md:34
-#, fuzzy
-msgid ""
-"kit chinois avec un récepteur à réaction (ASIN=B00Z9SZNP0, MX-05V + MX-"
-"FS-03V), vu sur amazon à 1€.  \n"
-msgstr ""
-"Ĉina ilaro kun reaga ricevilo (asin = b00z9sznp0, MX-05V + MX-FS-03V), "
-"vidita en Amazono je 1 €.  \n"
+#, fuzzy, no-wrap
+msgid "kit chinois avec un récepteur à réaction (ASIN=B00Z9SZNP0, MX-05V + MX-FS-03V), vu sur amazon à 1€.  \n"
+msgstr "Ĉina ilaro kun reaga ricevilo (asin = b00z9sznp0, MX-05V + MX-FS-03V), vidita en Amazono je 1 €.  \n"
 
 #. type: Plain text
 #: index.md:35
-#, fuzzy
-msgid ""
-"\tl'émetteur est OK, mais le récepteur est très peu sensible (portée "
-"d'environ 4m), à n'utiliser que pour l'apprentissage des codes.  \n"
-msgstr ""
-"\tLa dissendilo estas bone, sed la ricevilo estas tre malalta (gamo de "
-"ĉirkaŭ 4m), por uzi nur por lernaj kodoj.  \n"
+#, fuzzy, no-wrap
+msgid "\tl'émetteur est OK, mais le récepteur est très peu sensible (portée d'environ 4m), à n'utiliser que pour l'apprentissage des codes.  \n"
+msgstr "\tLa dissendilo estas bone, sed la ricevilo estas tre malalta (gamo de ĉirkaŭ 4m), por uzi nur por lernaj kodoj.  \n"
 
 #. type: Bullet: '* '
 #: index.md:36
-#, fuzzy
-msgid ""
-"WL101-341 + WL102-341 , superhétérodyne 433 Mhz, vu sur aliexpress à 1€.  \n"
-msgstr ""
-"WL101-341 + WL102-341, Superheterodyne 433 MHz, vidita sur AliExpress je 1 "
-"€.  \n"
+#, fuzzy, no-wrap
+msgid "WL101-341 + WL102-341 , superhétérodyne 433 Mhz, vu sur aliexpress à 1€.  \n"
+msgstr "WL101-341 + WL102-341, Superheterodyne 433 MHz, vidita sur AliExpress je 1 €.  \n"
 
 #. type: Plain text
 #: index.md:37
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "\tle récepteur a une meilleure sensibilité que le précédent.  \n"
 msgstr "\t La ricevilo havas pli bonan sentemon ol la antaŭa.   \n"
 
 #. type: Plain text
 #: index.md:40
-#, fuzzy
-msgid ""
-"Remarque: Pour de bons résultats, le récepteur doit être protégé contre les "
-"parasites émis par le _raspberry-pi_. Pour les tests, vous pouvez utiliser "
-"une feuille d'aluminium placée dans une feuille de papier pliée en deux.\n"
-msgstr ""
-"Noto: Por bonaj rezultoj, la ricevilo devas esti protektita kontraŭ pestoj "
-"elsenditaj de _raspberry-pi_. Por testado, vi povas uzi aluminan tavoleton "
-"en folio de papero faldita duone.\n"
+#, fuzzy, no-wrap
+msgid "Remarque: Pour de bons résultats, le récepteur doit être protégé contre les parasites émis par le _raspberry-pi_. Pour les tests, vous pouvez utiliser une feuille d'aluminium placée dans une feuille de papier pliée en deux.\n"
+msgstr "Noto: Por bonaj rezultoj, la ricevilo devas esti protektita kontraŭ pestoj elsenditaj de _raspberry-pi_. Por testado, vi povas uzi aluminan tavoleton en folio de papero faldita duone.\n"
 
 #. type: Title ##
 #: index.md:41
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "MATÉRIELS RECONNUS :"
 msgstr "Materialoj rekonitaj:"
 
 #. type: Plain text
 #: index.md:42
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "ont été testés avec succès :  \n"
 msgstr "estis sukcese testita:  \n"
 
 #. type: Bullet: '* '
 #: index.md:43
-#, fuzzy
-msgid ""
-"prises KYG (ASIN : B07DPMPVW1 , marquées Intertek, vues  sur amazon)"
-"(reconnues comme «Impuls»)  \n"
-msgstr ""
-"Kyg (ASIN: B07DPmpw1, markita Intertk, vidpunktoj de Amazon)(agnoskita kiel "
-"\"impulsoj\")  \n"
+#, fuzzy, no-wrap
+msgid "prises _KYG_ (_ASIN : B07DPMPVW1_ , marquées _Intertek_, vues  sur _amazon_)(reconnues comme _«Impuls»_)  \n"
+msgstr "Prenas  _KYG_  (_ ASIN: B07DPmpvw1 _ , markita  _Intertek_, vidpunktoj pri  _amazon_)( agnoskita kiel  _«Impuls»_)   \n"
 
 #. type: Bullet: '* '
 #: index.md:44
-#, fuzzy
-msgid ""
-"thermomètre-hygromètre Aneng ( chinois à bas coût, avec affichage LCD, vu "
-"sur aliexpress.)  \n"
-msgstr ""
-"Ĉina ĉina aneng ( termometro kun ekrano LCD, vidita sur AliExpress.)  \n"
+#, fuzzy, no-wrap
+msgid "thermomètre-hygromètre _Aneng_ ( chinois à bas coût, avec affichage LCD, vu sur _aliexpress_.)  \n"
+msgstr "Thermometer-higrometer  _Aneng_  (  ĉina malalta kosto, kun LCD-ekrano, vidita sur  _aliexpress_. )   \n"
 
 #. type: Bullet: '* '
 #: index.md:45
-#, fuzzy
-msgid ""
-"thermomètre-hygromètre Digoo RG-8B ( chinois à bas coût, sans affichage, vu "
-"sur aliexpress.)  \n"
-msgstr ""
-"DigOOOO RG-8B higrometer-higrómetro ĉina-kosto, sen ekrano, vidita sur "
-"AliExpress.)  \n"
+#, fuzzy, no-wrap
+msgid "thermomètre-hygromètre _Digoo RG-8B_ ( chinois à bas coût, sans affichage, vu sur _aliexpress_.)  \n"
+msgstr "Termometro-higrometer  _Digoo RG-8B_  (  ĉina malalta kosto, sen ekrano, vidita sur  _aliexpress_. )   \n"
 
 #. type: Plain text
 #: index.md:47
-#, fuzzy
-msgid ""
-"D'autres capteurs sont prédéfinis dans sentiloj.ini, mais n'ont pas été "
-"testés.  \n"
-msgstr ""
-"Aliaj sensiloj estas antaŭdifinitaj en sentiloj.ini, sed ne estis "
-"testitaj.  \n"
+#, fuzzy, no-wrap
+msgid "D'autres capteurs sont prédéfinis dans sentiloj.ini, mais n'ont pas été testés.  \n"
+msgstr "Aliaj sensiloj estas antaŭdifinitaj en sentiloj.ini, sed ne estis testitaj.  \n"
 
 #. type: Title ##
 #: index.md:49
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "pour ajouter un nouveau capteur :"
 msgstr "Por aldoni novan sensor:"
 
 #. type: Plain text
 #: index.md:50
-#, fuzzy
-msgid ""
-"Il faut identifier le protocole de transfert des données et le format des "
-"données.  \n"
-msgstr ""
-"La datuma transporto-protokolo kaj la datuma formato devas esti "
-"identigitaj.  \n"
+#, fuzzy, no-wrap
+msgid "Il faut identifier le protocole de transfert des données et le format des données.  \n"
+msgstr "La datuma transporto-protokolo kaj la datuma formato devas esti identigitaj.  \n"
 
 #. type: Title ###
 #: index.md:51
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "option 1 :"
 msgstr "Opcio 1:"
 
 #. type: Plain text
 #: index.md:52
-#, fuzzy
-msgid ""
-"suivre la sortie de rf_gpio, soit en le lançant dans une fenêtre shell, soit "
-"en s'y connectant avec la commande «telnet 127.0.0.1 10000».  \n"
+#, fuzzy, no-wrap
+msgid "suivre la sortie de rf_gpio, soit en le lançant dans une fenêtre shell, soit en s'y connectant avec la commande «telnet 127.0.0.1 10000».  \n"
 msgstr ""
-"Sekvu la eliron de RF_gpio, soit en le lançant dans une fenêtre shell, soit "
-"en s'y connectant avec la commande «telnet 127.0.0.1 10000».  \n"
+"Sekvu la eliron de RF_gpio, soit en le lançant dans une fenêtre shell, soit en s'y connectant avec la commande «telnet 127.0.0.1 10000».  \n"
 "  \n"
 
 #. type: Plain text
 #: index.md:53
-#, fuzzy
-msgid ""
-"Quand le capteur envoie des données, et que le protocole de transfert est "
-"reconnu, vous verrez quelque chose qui ressemble à ça :  \n"
-msgstr ""
-"Kiam la sensor sendas datumojn, kaj la transiga protokolo estas agnoskita, "
-"vi vidos ion, kio aspektas tiel:  \n"
+#, fuzzy, no-wrap
+msgid "Quand le capteur envoie des données, et que le protocole de transfert est reconnu, vous verrez quelque chose qui ressemble à ça :  \n"
+msgstr "Kiam la sensor sendas datumojn, kaj la transiga protokolo estas agnoskita, vi vidos ion, kio aspektas tiel:  \n"
 
 #. type: Plain text
 #: index.md:54
-#, fuzzy
-msgid ""
-"20;00;p0102,bits=36,D0=529,D1=949,D2=1926,DS=3865;"
-"binary=011100110000000011011000111100100000,hex=7300d8f20;  \n"
-msgstr ""
-"20; 00; p0102, bitoj = 36, d0 = 529, d1 = 949, d2 = 1926, ds = 3865; binara "
-"= 01110011000000100000, hex = 7300d8f20;  \n"
+#, fuzzy, no-wrap
+msgid "20;00;p0102,bits=36,D0=529,D1=949,D2=1926,DS=3865;binary=011100110000000011011000111100100000,hex=7300d8f20;  \n"
+msgstr "20; 00; p0102, bitoj = 36, d0 = 529, d1 = 949, d2 = 1926, ds = 3865; binara = 01110011000000100000, hex = 7300d8f20;  \n"
 
 #. type: Plain text
 #: index.md:55
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "  20; = toute trame d'émission RFLink commence comme ça.  \n"
 msgstr "  20; = Ajna Framo pri RFLINK-Emisioj komenciĝas tiel.  \n"
 
 #. type: Plain text
 #: index.md:56
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "  00; = première trame émise.  \n"
 msgstr "   00; = Unua kadro eldonita.   \n"
 
 #. type: Plain text
 #: index.md:57
-#, fuzzy
-msgid ""
-"  p0102,bits=36,D0=529,D1=949,D2=1926,DS=3865 = rf_gpio a identifié un "
-"protocole du type :  \n"
+#, fuzzy, no-wrap
+msgid "  p0102,bits=36,D0=529,D1=949,D2=1926,DS=3865 = rf_gpio a identifié un protocole du type :  \n"
 msgstr ""
-"   p0102, bitoj = 36, d0 = 529, d1 = 949, d2 = 1926, ds = 3865 = rf _gpio a "
-"identifié un protocole du type :  \n"
+"   p0102, bitoj = 36, d0 = 529, d1 = 949, d2 = 1926, ds = 3865 = rf _gpio a identifié un protocole du type :  \n"
 "  \n"
 
 #. type: Plain text
 #: index.md:58
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "\tbit 0 = D0 D1  \n"
 msgstr "\tBito 0 = D0 D1  \n"
 
 #. type: Plain text
 #: index.md:59
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "\tbit 1 = D0 D2  \n"
 msgstr "\tbito 1 = d0 d2  \n"
 
 #. type: Plain text
 #: index.md:60
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "\t36 bits de données  \n"
 msgstr "\t36 datumoj bitoj  \n"
 
 #. type: Plain text
 #: index.md:61
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "\tdurée D0 = 520 µs  \n"
 msgstr "\tDaŭro D0 = 520 μs  \n"
 
 #. type: Plain text
 #: index.md:62
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "\tdurée D1 = 957 µs  \n"
 msgstr "\tDaŭro D1 = 957 μs  \n"
 
 #. type: Plain text
 #: index.md:63
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "\tdurée D2 = 1936 µs  \n"
 msgstr "\tDaŭro d2 = 1936 μs  \n"
 
 #. type: Plain text
 #: index.md:64
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "\tdurée de synchro DS = 3881 µs  \n"
 msgstr "\t sinkrona daŭro DS = 3881 μs   \n"
 
 #. type: Plain text
 #: index.md:65
-#, fuzzy
-msgid ""
-"  binary=011100110000000011011000111100100000,hex=7300d8f20; : données "
-"reçues en binaire et en hexa.  \n"
-msgstr ""
-"  Duuma = 0111001100000000100000, hex = 7300D8F20; : Datumoj ricevitaj en "
-"duuma kaj hexa.  \n"
+#, fuzzy, no-wrap
+msgid "  binary=011100110000000011011000111100100000,hex=7300d8f20; : données reçues en binaire et en hexa.  \n"
+msgstr "  Duuma = 0111001100000000100000, hex = 7300D8F20; : Datumoj ricevitaj en duuma kaj hexa.  \n"
 
 #. type: Title ###
 #: index.md:67
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "option 2 :"
 msgstr "Opcio 2:"
 
 #. type: Plain text
 #: index.md:68
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "exécuter dans un shell :  \n"
 msgstr "Kuru en ŝelo:  \n"
 
 #. type: Plain text
 #: index.md:69
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "./analizi  \n"
 msgstr "./analizi  \n"
 
 #. type: Plain text
 #: index.md:70
-#, fuzzy
-msgid ""
-"et appuyer sur le bouton de la télécommande, ou attendre que le capteur "
-"envoie des données. Si le protocole est reconnu, on voit quelque chose qui "
-"ressemble à ça :  \n"
-msgstr ""
-"kaj premu la butonon sur la fora kontrolo, aŭ atendu la sensilon por sendi "
-"datumojn. Se la protokolo estas agnoskita, ni vidas ion similan al tio:  \n"
+#, fuzzy, no-wrap
+msgid "et appuyer sur le bouton de la télécommande, ou attendre que le capteur envoie des données. Si le protocole est reconnu, on voit quelque chose qui ressemble à ça :  \n"
+msgstr "kaj premu la butonon sur la fora kontrolo, aŭ atendu la sensilon por sendi datumojn. Se la protokolo estas agnoskita, ni vidas ion similan al tio:  \n"
 
 #. type: Plain text
 #: index.md:71
-#, fuzzy
-msgid ""
-" 73 pulsations protocole : \"xxx;p0001,bits=36,D0=689,D1=1923,DS=3890;ID:b1-"
-"b36\"  \n"
-msgstr ""
-"  73 Praktika Protokolo:  \" XXX; P0001, Bits = 36, D0 = 689, D1 = 1923, DS "
-"= 3890; ID: B1-B36 \"   \n"
+#, fuzzy, no-wrap
+msgid " 73 pulsations protocole : \"xxx;p0001,bits=36,D0=689,D1=1923,DS=3890;ID:b1-b36\"  \n"
+msgstr "  73 Praktika Protokolo:  \" XXX; P0001, Bits = 36, D0 = 689, D1 = 1923, DS = 3890; ID: B1-B36 \"   \n"
 
 #. type: Plain text
 #: index.md:72
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "  données binaires : 011100110000000011011000111100100000  \n"
 msgstr "   Binary Datumoj: 0111001100000011011000111100100000   \n"
 
 #. type: Plain text
 #: index.md:73
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "  données hexa : 7300d8f20  \n"
 msgstr "   hexa datumo: 7300d8f20   \n"
 
 #. type: Plain text
 #: index.md:76
-#, fuzzy
-msgid ""
-"Il vous faut maintenant analyser les données binaires pour identifier la "
-"signification de chaque bit.  \n"
-msgstr ""
-"Vi nun bezonas analizi binarajn datumojn por identigi la signifon de ĉiu "
-"peco.  \n"
+#, fuzzy, no-wrap
+msgid "Il vous faut maintenant analyser les données binaires pour identifier la signification de chaque bit.  \n"
+msgstr "Vi nun bezonas analizi binarajn datumojn por identigi la signifon de ĉiu peco.  \n"
 
 #. type: Plain text
 #: index.md:77
-#, fuzzy
-msgid ""
-"Vous pouvez ensuite ajouter une ligne dans le fichier sentiloj.ini, chaque "
-"ligne est composée de trois éléments séparés par un point-virgule :  \n"
-msgstr ""
-"Vi povas tiam aldoni linion en la dosieron Dentilos.ini, ĉiu linio konsistas "
-"el tri elementoj apartigitaj per punktokomo:  \n"
+#, fuzzy, no-wrap
+msgid "Vous pouvez ensuite ajouter une ligne dans le fichier sentiloj.ini, chaque ligne est composée de trois éléments séparés par un point-virgule :  \n"
+msgstr "Vi povas tiam aldoni linion en la dosieron Dentilos.ini, ĉiu linio konsistas el tri elementoj apartigitaj per punktokomo:  \n"
 
 #. type: Bullet: '* '
 #: index.md:78
@@ -441,293 +366,191 @@ msgstr ""
 msgid ""
 "premier élément : nom du matériel. Attention, si c'est un interrupteur, il "
 "doit obligatoirement faire partie de la liste des éléments reconnus par "
-"domoticz.  \n"
+"_domoticz_.  \n"
 msgstr ""
 "Unua elemento: nomo de la teamo. Atento, se ĝi estas ŝaltilo, ĝi devas esti "
-"parto de la listo de elementoj agnoskitaj de DomotiCz.  \n"
+"parto de la listo de elementoj agnoskitaj de  _domoticz_.   \n"
 
 #. type: Bullet: '* '
 #: index.md:79
-#, fuzzy
-msgid ""
-"deuxième élément : protocole. Recopier ce qui est affiché par rf_gpio ou "
-"analizo.  \n"
+#, fuzzy, no-wrap
+msgid "deuxième élément : protocole. Recopier ce qui est affiché par rf_gpio ou analizo.  \n"
 msgstr ""
-"Dua elemento: Protokolo. Kopiu tion, kio estas montrita de RF_gpio ou "
-"analizo.  \n"
+"Dua elemento: Protokolo. Kopiu tion, kio estas montrita de RF_gpio ou analizo.  \n"
 "  \n"
 
 #. type: Plain text
 #: index.md:80
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "\texemple : p0102,bits=36,D0=561,D1=1899,D2=3845,DS=9158  \n"
-msgstr ""
-"\tEkzemplo: p0102, bitoj = 36, d0 = 561, d1 = 1899, d2 = 3845, ds = 9158  \n"
+msgstr "\tEkzemplo: p0102, bitoj = 36, d0 = 561, d1 = 1899, d2 = 3845, ds = 9158  \n"
 
 #. type: Plain text
 #: index.md:81
-#, fuzzy
-msgid ""
-"\t\tsignifie : protocole p0102 (bit 0 = D0 D1 , bit 1 = D0 D2), 36 bits par "
-"trame, durée D0 = 561 µs, durée D1 = 1899 µs, durée D2 = 3845 µs, durée "
-"synchro DS=9158 µs  \n"
-msgstr ""
-"\t\tsignifas: Protokolo P0102 (Bito 0 = D0 D1, BIT 1 = D0 D2), 36 bitoj por "
-"kadro, daŭro d0 = 561 μs, daŭro d1 = 1899 μs, daŭro d2 = 3845 μs, daŭro "
-"Synchro DS = 9158 μs  \n"
+#, fuzzy, no-wrap
+msgid "\t\tsignifie : protocole p0102 (bit 0 = D0 D1 , bit 1 = D0 D2), 36 bits par trame, durée D0 = 561 µs, durée D1 = 1899 µs, durée D2 = 3845 µs, durée synchro DS=9158 µs  \n"
+msgstr "\t\tsignifas: Protokolo P0102 (Bito 0 = D0 D1, BIT 1 = D0 D2), 36 bitoj por kadro, daŭro d0 = 561 μs, daŭro d1 = 1899 μs, daŭro d2 = 3845 μs, daŭro Synchro DS = 9158 μs  \n"
 
 #. type: Plain text
 #: index.md:82
-#, fuzzy
-msgid ""
-"\t\tles parties protocoles, bits, D0 et D1 sont utilisés pour différencier "
-"les dispositifs.  \n"
-msgstr ""
-"\t\tLa protokolo, bitoj, D0 kaj D1-partoj estas uzataj por diferencigi "
-"aparatojn.  \n"
+#, fuzzy, no-wrap
+msgid "\t\tles parties protocoles, bits, D0 et D1 sont utilisés pour différencier les dispositifs.  \n"
+msgstr "\t\tLa protokolo, bitoj, D0 kaj D1-partoj estas uzataj por diferencigi aparatojn.  \n"
 
 #. type: Bullet: '* '
 #: index.md:83
-#, fuzzy
-msgid ""
-"troisième élément : description des données, chaque champ séparé des autres "
-"par une virgule  \n"
-msgstr ""
-"Tria Elemento: Data Priskribo, ĉiu kampo apartiĝas de aliaj per komo  \n"
+#, fuzzy, no-wrap
+msgid "troisième élément : description des données, chaque champ séparé des autres par une virgule  \n"
+msgstr "Tria Elemento: Data Priskribo, ĉiu kampo apartiĝas de aliaj per komo  \n"
 
 #. type: Plain text
 #: index.md:84
-#, fuzzy
-msgid ""
-"\texemple pour une télécommande multi-canaux, on peut avoir : ID:b1-20,CMD:"
-"b21-21,SWITCH:b22-24  \n"
-msgstr ""
-"\tEkzemplo por multi-kanalo Remote Kontrolo, ID: ID: B1-20, CMD: B21-21, "
-"SWILE: B22-24  \n"
+#, fuzzy, no-wrap
+msgid "\texemple pour une télécommande multi-canaux, on peut avoir : ID:b1-20,CMD:b21-21,SWITCH:b22-24  \n"
+msgstr "\tEkzemplo por multi-kanalo Remote Kontrolo, ID: ID: B1-20, CMD: B21-21, SWILE: B22-24  \n"
 
 #. type: Plain text
 #: index.md:85
-#, fuzzy
-msgid ""
-"\t\tID:b1-20 signifie que l'ID de la télécommande se trouve dans les bits 1 "
-"à 20 (bit 1 = premier bit transmis)  \n"
-msgstr ""
-"\t\tID: B1-20 signifas, ke la ID de la fora kontrolo estas en bitoj 1 ĝis 20 "
-"(bito 1 = unua bito transdonita\n"
+#, fuzzy, no-wrap
+msgid "\t\tID:b1-20 signifie que l'ID de la télécommande se trouve dans les bits 1 à 20 (bit 1 = premier bit transmis)  \n"
+msgstr "\t\tID: B1-20 signifas, ke la ID de la fora kontrolo estas en bitoj 1 ĝis 20 (bito 1 = unua bito transdonita\n"
 
 #. type: Plain text
 #: index.md:86
-#, fuzzy
-msgid ""
-"\t\tCMD:b21-21 signifie que la commande transmise (ON/OFF) se situe au bit "
-"21.  \n"
-msgstr ""
-"\t \t Cmd: B21-21 signifas, ke la komando transdonita  ( ON / OFF )  situas "
-"en Ilo 21.   \n"
+#, fuzzy, no-wrap
+msgid "\t\tCMD:b21-21 signifie que la commande transmise (ON/OFF) se situe au bit 21.  \n"
+msgstr "\t \t Cmd: B21-21 signifas, ke la komando transdonita  ( ON / OFF )  situas en Ilo 21.   \n"
 
 #. type: Plain text
 #: index.md:87
-#, fuzzy
-msgid ""
-"\t\tSWITCH:b22-24 signifie que le numéro de la prise actionnée se trouve aux "
-"bits 22 à 24.  \n"
-msgstr ""
-"\t \t ŝanĝi: B22-24 signifas, ke la nombro de la funkciigita Jack situas ĉe "
-"la bitoj 22 ĝis 24.   \n"
+#, fuzzy, no-wrap
+msgid "\t\tSWITCH:b22-24 signifie que le numéro de la prise actionnée se trouve aux bits 22 à 24.  \n"
+msgstr "\t \t ŝanĝi: B22-24 signifas, ke la nombro de la funkciigita Jack situas ĉe la bitoj 22 ĝis 24.   \n"
 
 #. type: Plain text
 #: index.md:88
 #, fuzzy
 msgid ""
-"\tPour être reconnu par domoticz, le nom du champ doit être dans la liste "
+"\tPour être reconnu par _domoticz_, le nom du champ doit être dans la liste "
 "reconnue (voir sentiloj.txt). On peut toutefois mettre ce qu'on veut, "
-"simplement le champ sera ignoré par domoticz.  \n"
+"simplement le champ sera ignoré par _domoticz_.  \n"
 msgstr ""
-"\tEsti agnoskita de Domomoticz, la nomo de la kampo devas esti en la "
-"rekonita listo (vidu sentilos.txt). Ni tamen povas meti tion, kion ni volas, "
-"simple la kampo estos ignorita de Domomoticz.  \n"
+"\t Esti agnoskita de  _domoticz_, la kampa nomo devas esti en la rekonita "
+"listo  ( vidu sentilos.txt ). Tamen, ni povas meti tion, kion ni volas, "
+"simple la kampo estos ignorata de  _domoticz_.   \n"
 
 #. type: Plain text
 #: index.md:89
-#, fuzzy
-msgid ""
-"\tOn peut concaténer plusieurs suites de bits, exemple : CMD:b17-17:b15-15:"
-"b16-16 va concaténer les bits 17 15 et 16 dans cet ordre.  \n"
-msgstr ""
-"\tEkzistas pluraj bita suitoj, ekzemple: CMD: B17-17: B15-15: B16-16 "
-"Concatenate la bitoj 17 kaj 16 en tiu ordo.  \n"
+#, fuzzy, no-wrap
+msgid "\tOn peut concaténer plusieurs suites de bits, exemple : CMD:b17-17:b15-15:b16-16 va concaténer les bits 17 15 et 16 dans cet ordre.  \n"
+msgstr "\tEkzistas pluraj bita suitoj, ekzemple: CMD: B17-17: B15-15: B16-16 Concatenate la bitoj 17 kaj 16 en tiu ordo.  \n"
 
 #. type: Plain text
 #: index.md:90
-#, fuzzy
-msgid ""
-"\tOn peut tester la valeur de certains bits, exemple : CST2:b43-48=1 va "
-"vérifier que les bits 43 a 48 contiennent la valeur 1 (hexadécimale) en "
-"réception, et va affecter ces bits en émission, CST2:b43-48!1 va vérifier "
-"que les bits 43 a 48 ne contiennent pas la valeur 1 (hexadécimale) en "
-"réception.  \n"
-msgstr ""
-"\tLa valoro de certaj bitoj povas esti testita, ekzemple: CST2: B43-48 = 1 "
-"konfirmos, ke la bitoj 43 48 enhavas la valoron 1 (deksesuma) en ricevo, kaj "
-"Influas ĉi tiujn pecojn en dissendo, CST2: B43-48! 1 konfirmos, ke la bitoj "
-"43 48 ne enhavas la valoron 1 (deksesuma) en ricevo.  \n"
+#, fuzzy, no-wrap
+msgid "\tOn peut tester la valeur de certains bits, exemple : CST2:b43-48=1 va vérifier que les bits 43 a 48 contiennent la valeur 1 (hexadécimale) en réception, et va affecter ces bits en émission, CST2:b43-48!1 va vérifier que les bits 43 a 48 ne contiennent pas la valeur 1 (hexadécimale) en réception.  \n"
+msgstr "\tLa valoro de certaj bitoj povas esti testita, ekzemple: CST2: B43-48 = 1 konfirmos, ke la bitoj 43 48 enhavas la valoron 1 (deksesuma) en ricevo, kaj Influas ĉi tiujn pecojn en dissendo, CST2: B43-48! 1 konfirmos, ke la bitoj 43 48 ne enhavas la valoron 1 (deksesuma) en ricevo.  \n"
 
 #. type: Plain text
 #: index.md:91
-#, fuzzy
-msgid ""
-"\tOn peut déclarer des champs codés BCD (binaire codé décimal) : mettre B au "
-"lieu de b. exemple : TEMP:B12-15:B16-19:B20-23 déclare un champ température "
-"dont le premier chiffre se trouve aux bits 12-15, le deuxième aux bits 16 à "
-"20 et le troisième aux bits 21 à 23.  \n"
-msgstr ""
-"\t Ni povas deklari BCD-koditajn kampojn  ( Dekuma kodita duuma ) : metu b "
-"anstataŭ b. Ekzemplo: Temp: B12-15: B16-19: B20-23 deklaras temperaturan "
-"kampon kies unua cifero estas al la bitoj 12-15, la dua al la bitoj 16 ĝis "
-"20 kaj la tria ĉe la bitoj 21 ĝis 23.   \n"
+#, fuzzy, no-wrap
+msgid "\tOn peut déclarer des champs codés BCD (binaire codé décimal) : mettre B au lieu de b. exemple : TEMP:B12-15:B16-19:B20-23 déclare un champ température dont le premier chiffre se trouve aux bits 12-15, le deuxième aux bits 16 à 20 et le troisième aux bits 21 à 23.  \n"
+msgstr "\t Ni povas deklari BCD-koditajn kampojn  ( Dekuma kodita duuma ) : metu b anstataŭ b. Ekzemplo: Temp: B12-15: B16-19: B20-23 deklaras temperaturan kampon kies unua cifero estas al la bitoj 12-15, la dua al la bitoj 16 ĝis 20 kaj la tria ĉe la bitoj 21 ĝis 23.   \n"
 
 #. type: Plain text
 #: index.md:92
-#, fuzzy
-msgid ""
-"\tUn champ finissant par «-inv» est un champ spécial qui prendra la valeur "
-"inverse (complément à un) de son champ homonyme à l'émission.  \n"
-msgstr ""
-"\tKampo finanta kun \"-inv\" estas speciala kampo kiu prenos la inversan "
-"(komplemento al unu) de ĝia homonima kampo en la spektaklo.  \n"
+#, fuzzy, no-wrap
+msgid "\tUn champ finissant par «-inv» est un champ spécial qui prendra la valeur inverse (complément à un) de son champ homonyme à l'émission.  \n"
+msgstr "\tKampo finanta kun \"-inv\" estas speciala kampo kiu prenos la inversan (komplemento al unu) de ĝia homonima kampo en la spektaklo.  \n"
 
 #. type: Plain text
 #: index.md:93
-#, fuzzy
-msgid ""
-"\tOn peut affecter une valeur à un champ qui ne se trouve pas dans les "
-"données en utilisant «=». exemple : CMD=ON  \n"
-msgstr ""
-"\tVi povas atribui valoron al kampo, kiu ne troviĝas en la datumoj per \"="
-"\". Ekzemplo: cmd = sur  \n"
+#, fuzzy, no-wrap
+msgid "\tOn peut affecter une valeur à un champ qui ne se trouve pas dans les données en utilisant «=». exemple : CMD=ON  \n"
+msgstr "\tVi povas atribui valoron al kampo, kiu ne troviĝas en la datumoj per \"=\". Ekzemplo: cmd = sur  \n"
 
 #. type: Plain text
 #: index.md:94
-#, fuzzy
-msgid ""
-"\tOn peut faire des calculs simples : une addition, une multiplication et "
-"une soustraction sont possibles (dans cet ordre exact), les constantes sont "
-"en hexadécimal.  \n"
-msgstr ""
-"\t Simplaj kalkuloj povas esti faritaj: aldono, multipliko kaj subtraho "
-"estas eblaj  ( en ĉi tiu ĝusta ordo ), la konstantoj estas en deksesuma.   \n"
+#, fuzzy, no-wrap
+msgid "\tOn peut faire des calculs simples : une addition, une multiplication et une soustraction sont possibles (dans cet ordre exact), les constantes sont en hexadécimal.  \n"
+msgstr "\t Simplaj kalkuloj povas esti faritaj: aldono, multipliko kaj subtraho estas eblaj  ( en ĉi tiu ĝusta ordo ), la konstantoj estas en deksesuma.   \n"
 
 #. type: Plain text
 #: index.md:95
-#, fuzzy
-msgid ""
-"\t\tExemple pour convertir en dixièmes de °C une donnée qui est en dixièmes "
-"de °F+900:  \n"
-msgstr ""
-"\t\tEkzemplo por konverti en dekonojn de ° C datumo kiu estas en dekonoj de "
-"° F + 900:  \n"
+#, fuzzy, no-wrap
+msgid "\t\tExemple pour convertir en dixièmes de °C une donnée qui est en dixièmes de °F+900:  \n"
+msgstr "\t\tEkzemplo por konverti en dekonojn de ° C datumo kiu estas en dekonoj de ° F + 900:  \n"
 
 #. type: Plain text
 #: index.md:96
-#, fuzzy
-msgid ""
-"\t\tTEMP:b17-28+-4c4*5/9  ( donc : donnée_finale = (donnée_brute -1220) * "
-"5 / 9 )  \n"
-msgstr ""
-"\t \t TEMP: B17-28 + -4C4 * 5/9   (  SO: DATA _finale = (donnée_ BESTO "
-"-1220 )  *  5/9  )   \n"
+#, fuzzy, no-wrap
+msgid "\t\tTEMP:b17-28+-4c4*5/9  ( donc : donnée_finale = (donnée_brute -1220) * 5 / 9 )  \n"
+msgstr "\t \t TEMP: B17-28 + -4C4 * 5/9   (  SO: DATA _finale = (donnée_ BESTO -1220 )  *  5/9  )   \n"
 
 #. type: Plain text
 #: index.md:98
-#, fuzzy
-msgid ""
-"En réception toutes les lignes qui satisfont la condition vont générer une "
-"ligne, si vous voulez éviter les faux positifs, vous pouvez mettre en "
-"commentaire ou supprimer les lignes qui ne correspondent pas à vos "
-"matériels.  \n"
-msgstr ""
-"En ricevo ĉiuj linioj kiuj kontentigas la kondiĉon generos linion, se vi "
-"volas eviti falsajn pozitivaĵojn, vi povas komenci aŭ forigi la liniojn, "
-"kiuj ne kongruas kun via ekipaĵo.  \n"
+#, fuzzy, no-wrap
+msgid "En réception toutes les lignes qui satisfont la condition vont générer une ligne, si vous voulez éviter les faux positifs, vous pouvez mettre en commentaire ou supprimer les lignes qui ne correspondent pas à vos matériels.  \n"
+msgstr "En ricevo ĉiuj linioj kiuj kontentigas la kondiĉon generos linion, se vi volas eviti falsajn pozitivaĵojn, vi povas komenci aŭ forigi la liniojn, kiuj ne kongruas kun via ekipaĵo.  \n"
 
 #. type: Plain text
 #: index.md:99
-#, fuzzy
-msgid ""
-"En émission, seule la première ligne ayant le bon nom de matériel sera "
-"utilisée.  \n"
-msgstr ""
-"Pri demando, nur la unua linio kun la ĝusta nomo de ekipaĵo estos uzata.  \n"
+#, fuzzy, no-wrap
+msgid "En émission, seule la première ligne ayant le bon nom de matériel sera utilisée.  \n"
+msgstr "Pri demando, nur la unua linio kun la ĝusta nomo de ekipaĵo estos uzata.  \n"
 
 #. type: Plain text
 #: index.md:102
-#, fuzzy
-msgid ""
-"Si le protocole n'est pas reconnu, vous pouvez utiliser analizi pour "
-"l'étudier en augmentant sa verbosité avec l'option -v, -vv ou -vvv. Mais "
-"rf_gpio ne pourra pas le reconnaitre sans développement supplémentaire.  \n"
+#, fuzzy, no-wrap
+msgid "Si le protocole n'est pas reconnu, vous pouvez utiliser analizi pour l'étudier en augmentant sa verbosité avec l'option -v, -vv ou -vvv. Mais rf_gpio ne pourra pas le reconnaitre sans développement supplémentaire.  \n"
 msgstr ""
-"Se la protokolo ne estas rekonita, vi povas uzi Analizi por studi ĝin per "
-"pliigo de ĝia verboseco kun la opcio -v, -vv aŭ -vv. Sed RF_gpio ne pourra "
-"pas le reconnaitre sans développement supplémentaire.  \n"
+"Se la protokolo ne estas rekonita, vi povas uzi Analizi por studi ĝin per pliigo de ĝia verboseco kun la opcio -v, -vv aŭ -vv. Sed RF_gpio ne pourra pas le reconnaitre sans développement supplémentaire.  \n"
 "  \n"
 
 #. type: Title ##
 #: index.md:105
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "PROTOCOLES SUPPORTÉS :"
 msgstr "Apogitaj protokoloj:"
 
 #. type: Plain text
 #: index.md:107
-#, fuzzy
-msgid ""
-"Seuls les protocoles ayant au moins les caractéristiques suivantes ont une "
-"chance d'être reconnus :  \n"
-msgstr ""
-"Nur protokoloj kun almenaŭ la sekvaj karakterizaĵoj havas ŝancon esti "
-"rekonitaj:  \n"
+#, fuzzy, no-wrap
+msgid "Seuls les protocoles ayant au moins les caractéristiques suivantes ont une chance d'être reconnus :  \n"
+msgstr "Nur protokoloj kun almenaŭ la sekvaj karakterizaĵoj havas ŝancon esti rekonitaj:  \n"
 
 #. type: Bullet: '* '
 #: index.md:108
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "temps d'une pulsation toujours > 100 µs  \n"
 msgstr "Tempo de pulsado ĉiam > 100 μs  \n"
 
 #. type: Bullet: '* '
 #: index.md:109
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "pas plus de trois durées différentes pour représenter les données.  \n"
 msgstr "Ne pli ol tri malsamaj daŭroj por reprezenti la datumojn.  \n"
 
 #. type: Bullet: '* '
 #: index.md:110
-#, fuzzy
-msgid ""
-"chaque bit est codé avec deux pulsations, toujours de la même façon.  \n"
+#, fuzzy, no-wrap
+msgid "chaque bit est codé avec deux pulsations, toujours de la même façon.  \n"
 msgstr "Ĉiu peco estas kodita kun du pulsbatoj, ĉiam sammaniere.  \n"
 
 #. type: Bullet: '* '
 #: index.md:111
-#, fuzzy
-msgid ""
-"chaque trame est entourée par deux signaux de synchronisation d'un temps "
-">2500µs.  \n"
-msgstr ""
-"Ĉiu kadro estas ĉirkaŭita de du sinkronigaj signaloj de tempo >2500 μs.  \n"
+#, fuzzy, no-wrap
+msgid "chaque trame est entourée par deux signaux de synchronisation d'un temps >2500µs.  \n"
+msgstr "Ĉiu kadro estas ĉirkaŭita de du sinkronigaj signaloj de tempo >2500 μs.  \n"
 
 #. type: Bullet: '* '
 #: index.md:112
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "une trame ne contient pas plus de 200 pulsations.  \n"
 msgstr "Kadro ne enhavas pli ol 200 pulsojn.  \n"
 
 #. type: Plain text
 #: index.md:114
-#, fuzzy
-msgid ""
-"À l'émission, les codes tournants et les sommes de vérification ne sont pas "
-"gérés.  \n"
-msgstr ""
-"En la spektaklo, la rotaciaj kodoj kaj la sumoj de konfirmo ne estas "
-"administritaj.  \n"
+#, fuzzy, no-wrap
+msgid "À l'émission, les codes tournants et les sommes de vérification ne sont pas gérés.  \n"
+msgstr "En la spektaklo, la rotaciaj kodoj kaj la sumoj de konfirmo ne estas administritaj.  \n"

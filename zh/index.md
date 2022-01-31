@@ -3,11 +3,11 @@ lang: zh
 lang-niv: auto
 lang-ref: indekso
 layout: page
-title: rf_gpio
+title: "_rf\\_gpio_"
 ---
 
 # 介绍
- _rf_GPO_ 可以使用直接连接到 _raspberry pi_的端口 _GPIO_ 的发射器和接收器的发射器和接收器模拟RFLINK。
+ _rf\_gpio_  使用发射器和接收器直接连接到  _GPIO_  的  _GPIO_  端口的接收器。  
 
 
 ## 安装：
@@ -21,14 +21,14 @@ sudo update-rc.d rf_gpio.sh defaults
 sudo service rf_gpio.sh start  
 ```
 
-将接收器连接到GPO2 BCM27  (引脚13 )   
-将发射器连接到GPO0 BCM17  (引脚11 )   
+将接收器连接到  _gpio2 bcm27_   ( 引脚13  )    
+将发射器连接到  _gpio0 bcm17_   ( 引脚11  )    
 
-## 与Hosticz一起使用：
+## 与  _domoticz_ 一起使用：
 添加 _«RFLink Gateway with LAN interface»_ 
  	远程地址：127.0.0.1   
 	端口：10000    
-如果识别硬件，与DOMOMITORZ的集成很简单：它足以在"交换机"选项卡上使用 "自动检测按钮"，或激活选项 "允许5分钟"    
+如果识别硬件，与  _domoticz_  的集成很简单：它足以在 "交换机"选项卡上使用 "自动检测"，或激活选项 "允许5分钟"    
 
 ## 收发器测试：
 * 用反应器反应器 ( ASIN = B00Z9SZNP0，MX-05V + MX-FS-03V )，在亚马逊1欧元以€1观看中文齿轮。   
@@ -44,13 +44,13 @@ sudo service rf_gpio.sh start
 
 ## 公认的材料：
 已成功测试：  
-* KYG (ASIN：B07DPMPW1，标记的性交，亚马逊)(的视角被识别为 "脉冲")  
+* ASIN：B07DPVWW1  _ ，标记为  _Intertek_，为  _amazon_)( 的视图确认为  _«Impuls»_)    
 
 
-* 中国中文anneng  ( 温度计与液晶屏，在aliexpress上观看。 )   
+* 温度计 - 脚器  _Aneng_   (  中式低成本，在  _aliexpress_上观看LCD屏幕。  )    
 
 
-* Digooo RG-8B厚度阶层 - 在AliExpress上观看的没有屏幕的追随量词。)  
+* 温度计 - 脚器  _Digoo RG-8B_   (  中国低成本，无屏幕，在  _aliexpress_上观看。  )    
 
 
 
@@ -89,7 +89,7 @@ sudo service rf_gpio.sh start
 
 您现在需要分析二进制数据以识别每个部件的含义。  
 然后，您可以在Dentilos.ini文件中添加一行，每行由分号分隔的三个元素组成：  
-* 第一个元素：设备的名称。注意，如果是开关，它必须是Penoticz识别的元素列表的一部分。  
+* 第一个元素：设备的名称。注意，如果它是一个开关，它必须是  _domoticz_识别的元素列表的一部分。    
 
 
 * 第二个元素：协议。复制RF_gpio ou analizo.  
@@ -107,8 +107,8 @@ sudo service rf_gpio.sh start
 	 	 ID：B1-20表示遥控器的ID位于位1至20  (位1 =第一位传递
  	  	 CMD：B21-21表示发送  (  ON / OFF  )  的命令位于ILO 21中。   
  	  	改变：B22-24表示操作的插孔的数量位于位22至24处。   
- 	通过DOMOMITORZ确认，该字段的名称必须在着名的列表 (中查看Sensilos.txt )。但是，我们可以放置我们想要的东西，只需将该领域忽略DOMOMITORZ。   
-	有几个比特套房，例如：CMD：B17-17：B15-15：B16-16依次连接位17和16。  
+ 	由  _domoticz_确认，字段名称必须位于识别的列表  ( 中，请参见SECEULOS.TXT  )。但是，我们可以放置我们想要的东西，只需将该字段忽略  _domoticz_。    
+ 	有几个位套件，例如：CMD：B17-17：B15-15：B16-15以该顺序连接位17和16。   
 	可以测试某些比特的值，例如：CST2：B43-48 = 1将确认位43 48在接收中包含值1 (，并影响这些部件分布，CST2：B43-48！ 1确认位438在接收中不含值1 (十六进制) 。  
 	我们可以声明BCD编码字段  ( 十进制编码二进制 ) ：放b而不是b。示例：TEMP：B12-15：B16-19：B20-23声明其第一数量为位12-15的温度场，第二到位16至20以及位21至23处的第三位。   
  	与 " -inv "的字段精加工是一个特殊的领域，将逆向 (补充在该节目中其HomonyST字段的一个) 。   

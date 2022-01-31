@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-04-02 20:46+0200\n"
+"POT-Creation-Date: 2022-01-31 22:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,57 +17,55 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: YAML Front Matter: lang
-#: ./index.md:1
+#: index.md:1
 #, no-wrap
 msgid "fr"
 msgstr ""
 
 #. type: YAML Front Matter: lang-niv
-#: ./index.md:1
+#: index.md:1
 #, no-wrap
 msgid "auto"
 msgstr ""
 
 #. type: YAML Front Matter: lang-ref
-#: ./index.md:1
+#: index.md:1
 #, no-wrap
 msgid "indekso"
 msgstr ""
 
 #. type: YAML Front Matter: layout
-#: ./index.md:1
+#: index.md:1
 #, no-wrap
 msgid "page"
 msgstr ""
 
 #. type: YAML Front Matter: title
-#: ./index.md:1
+#: index.md:1
 #, no-wrap
-msgid "rf_gpio"
+msgid "_rf\\_gpio_"
 msgstr ""
 
 #. type: Title #
-#: ./index.md:9
-#, markdown-text, no-wrap
-msgid "PRÉSENTATION"
+#: index.md:9
+#, no-wrap
+msgid "Présentation"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:11
-#, markdown-text, no-wrap
-msgid ""
-" _rf_gpio_ permet de simuler un RFLink avec un émetteur et un récepteur "
-"branchés directement sur les ports _GPIO_ d'un _raspberry pi_.\n"
+#: index.md:11
+#, no-wrap
+msgid " _rf\\_gpio_ permet de simuler un _RFLink_ avec un émetteur et un récepteur branchés directement sur les ports _GPIO_ d'un _raspberry pi_.\n"
 msgstr ""
 
 #. type: Title ##
-#: ./index.md:13
-#, markdown-text, no-wrap
-msgid "INSTALLATION :"
+#: index.md:13
+#, no-wrap
+msgid "Installation :"
 msgstr ""
 
 #. type: Fenced code block
-#: ./index.md:15
+#: index.md:15
 #, no-wrap
 msgid ""
 "cd /home/pi\n"
@@ -79,547 +77,447 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:24
-#, markdown-text, no-wrap
-msgid "connecter le récepteur sur gpio2 bcm27 (broche 13)  \n"
+#: index.md:24
+#, no-wrap
+msgid "connecter le récepteur sur _gpio2 bcm27_ (broche 13)  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:25
-#, markdown-text, no-wrap
-msgid "connecter l'émetteur sur gpio0 bcm17 (broche 11)  \n"
+#: index.md:25
+#, no-wrap
+msgid "connecter l'émetteur sur _gpio0 bcm17_ (broche 11)  \n"
 msgstr ""
 
 #. type: Title ##
-#: ./index.md:27
-#, markdown-text, no-wrap
-msgid "utilisation avec domoticz :"
+#: index.md:27
+#, no-wrap
+msgid "utilisation avec _domoticz_ :"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:29
-#, markdown-text, no-wrap
+#: index.md:29
+#, no-wrap
 msgid ""
 "ajouter un matériel de type _«RFLink Gateway with LAN interface»_\n"
 "\tadresse distante : 127.0.0.1  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:30
-#, markdown-text, no-wrap
+#: index.md:30
+#, no-wrap
 msgid "\tPort : 10000  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:31
-#, markdown-text, no-wrap
-msgid ""
-"Si le matériel est reconnu, l'intégration avec domoticz est simple : il "
-"suffit d'utiliser le bouton «détection auto» de l'onglet «Interrupteurs», ou "
-"d'activer l'option «Autoriser pendant 5 minutes»  \n"
+#: index.md:31
+#, no-wrap
+msgid "Si le matériel est reconnu, l'intégration avec _domoticz_ est simple : il suffit d'utiliser le bouton «détection auto» de l'onglet «Interrupteurs», ou d'activer l'option «Autoriser pendant 5 minutes»  \n"
 msgstr ""
 
 #. type: Title ##
-#: ./index.md:33
-#, markdown-text, no-wrap
+#: index.md:33
+#, no-wrap
 msgid "Émetteurs-récepteurs testés :"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./index.md:34
-#, markdown-text, no-wrap
-msgid ""
-"kit chinois avec un récepteur à réaction (ASIN=B00Z9SZNP0, MX-05V + "
-"MX-FS-03V), vu sur amazon à 1€.  \n"
+#: index.md:34
+#, no-wrap
+msgid "kit chinois avec un récepteur à réaction (ASIN=B00Z9SZNP0, MX-05V + MX-FS-03V), vu sur amazon à 1€.  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:35
-#, markdown-text, no-wrap
-msgid ""
-"\tl'émetteur est OK, mais le récepteur est très peu sensible (portée "
-"d'environ 4m), à n'utiliser que pour l'apprentissage des codes.  \n"
+#: index.md:35
+#, no-wrap
+msgid "\tl'émetteur est OK, mais le récepteur est très peu sensible (portée d'environ 4m), à n'utiliser que pour l'apprentissage des codes.  \n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./index.md:36
-#, markdown-text, no-wrap
+#: index.md:36
+#, no-wrap
 msgid "WL101-341 + WL102-341 , superhétérodyne 433 Mhz, vu sur aliexpress à 1€.  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:37
-#, markdown-text, no-wrap
+#: index.md:37
+#, no-wrap
 msgid "\tle récepteur a une meilleure sensibilité que le précédent.  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:40
-#, markdown-text, no-wrap
-msgid ""
-"Remarque: Pour de bons résultats, le récepteur doit être protégé contre les "
-"parasites émis par le _raspberry-pi_. Pour les tests, vous pouvez utiliser "
-"une feuille d'aluminium placée dans une feuille de papier pliée en deux.\n"
+#: index.md:40
+#, no-wrap
+msgid "Remarque: Pour de bons résultats, le récepteur doit être protégé contre les parasites émis par le _raspberry-pi_. Pour les tests, vous pouvez utiliser une feuille d'aluminium placée dans une feuille de papier pliée en deux.\n"
 msgstr ""
 
 #. type: Title ##
-#: ./index.md:41
-#, markdown-text, no-wrap
+#: index.md:41
+#, no-wrap
 msgid "MATÉRIELS RECONNUS :"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:42
-#, markdown-text, no-wrap
+#: index.md:42
+#, no-wrap
 msgid "ont été testés avec succès :  \n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./index.md:43
-#, markdown-text, no-wrap
-msgid ""
-"prises KYG (ASIN : B07DPMPVW1 , marquées Intertek, vues  sur "
-"amazon)(reconnues comme «Impuls»)  \n"
+#: index.md:43
+#, no-wrap
+msgid "prises _KYG_ (_ASIN : B07DPMPVW1_ , marquées _Intertek_, vues  sur _amazon_)(reconnues comme _«Impuls»_)  \n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./index.md:44
-#, markdown-text, no-wrap
-msgid ""
-"thermomètre-hygromètre Aneng ( chinois à bas coût, avec affichage LCD, vu "
-"sur aliexpress.)  \n"
+#: index.md:44
+#, no-wrap
+msgid "thermomètre-hygromètre _Aneng_ ( chinois à bas coût, avec affichage LCD, vu sur _aliexpress_.)  \n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./index.md:45
-#, markdown-text, no-wrap
-msgid ""
-"thermomètre-hygromètre Digoo RG-8B ( chinois à bas coût, sans affichage, vu "
-"sur aliexpress.)  \n"
+#: index.md:45
+#, no-wrap
+msgid "thermomètre-hygromètre _Digoo RG-8B_ ( chinois à bas coût, sans affichage, vu sur _aliexpress_.)  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:47
-#, markdown-text, no-wrap
-msgid ""
-"D'autres capteurs sont prédéfinis dans sentiloj.ini, mais n'ont pas été "
-"testés.  \n"
+#: index.md:47
+#, no-wrap
+msgid "D'autres capteurs sont prédéfinis dans sentiloj.ini, mais n'ont pas été testés.  \n"
 msgstr ""
 
 #. type: Title ##
-#: ./index.md:49
-#, markdown-text, no-wrap
+#: index.md:49
+#, no-wrap
 msgid "pour ajouter un nouveau capteur :"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:50
-#, markdown-text, no-wrap
-msgid ""
-"Il faut identifier le protocole de transfert des données et le format des "
-"données.  \n"
+#: index.md:50
+#, no-wrap
+msgid "Il faut identifier le protocole de transfert des données et le format des données.  \n"
 msgstr ""
 
 #. type: Title ###
-#: ./index.md:51
-#, markdown-text, no-wrap
+#: index.md:51
+#, no-wrap
 msgid "option 1 :"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:52
-#, markdown-text, no-wrap
-msgid ""
-"suivre la sortie de rf_gpio, soit en le lançant dans une fenêtre shell, soit "
-"en s'y connectant avec la commande «telnet 127.0.0.1 10000».  \n"
+#: index.md:52
+#, no-wrap
+msgid "suivre la sortie de rf_gpio, soit en le lançant dans une fenêtre shell, soit en s'y connectant avec la commande «telnet 127.0.0.1 10000».  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:53
-#, markdown-text, no-wrap
-msgid ""
-"Quand le capteur envoie des données, et que le protocole de transfert est "
-"reconnu, vous verrez quelque chose qui ressemble à ça :  \n"
+#: index.md:53
+#, no-wrap
+msgid "Quand le capteur envoie des données, et que le protocole de transfert est reconnu, vous verrez quelque chose qui ressemble à ça :  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:54
-#, markdown-text, no-wrap
-msgid ""
-"20;00;p0102,bits=36,D0=529,D1=949,D2=1926,DS=3865;binary=011100110000000011011000111100100000,hex=7300d8f20;  "
-"\n"
+#: index.md:54
+#, no-wrap
+msgid "20;00;p0102,bits=36,D0=529,D1=949,D2=1926,DS=3865;binary=011100110000000011011000111100100000,hex=7300d8f20;  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:55
-#, markdown-text, no-wrap
+#: index.md:55
+#, no-wrap
 msgid "  20; = toute trame d'émission RFLink commence comme ça.  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:56
-#, markdown-text, no-wrap
+#: index.md:56
+#, no-wrap
 msgid "  00; = première trame émise.  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:57
-#, markdown-text, no-wrap
-msgid ""
-"  p0102,bits=36,D0=529,D1=949,D2=1926,DS=3865 = rf_gpio a identifié un "
-"protocole du type :  \n"
+#: index.md:57
+#, no-wrap
+msgid "  p0102,bits=36,D0=529,D1=949,D2=1926,DS=3865 = rf_gpio a identifié un protocole du type :  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:58
-#, markdown-text, no-wrap
+#: index.md:58
+#, no-wrap
 msgid "\tbit 0 = D0 D1  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:59
-#, markdown-text, no-wrap
+#: index.md:59
+#, no-wrap
 msgid "\tbit 1 = D0 D2  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:60
-#, markdown-text, no-wrap
+#: index.md:60
+#, no-wrap
 msgid "\t36 bits de données  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:61
-#, markdown-text, no-wrap
+#: index.md:61
+#, no-wrap
 msgid "\tdurée D0 = 520 µs  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:62
-#, markdown-text, no-wrap
+#: index.md:62
+#, no-wrap
 msgid "\tdurée D1 = 957 µs  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:63
-#, markdown-text, no-wrap
+#: index.md:63
+#, no-wrap
 msgid "\tdurée D2 = 1936 µs  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:64
-#, markdown-text, no-wrap
+#: index.md:64
+#, no-wrap
 msgid "\tdurée de synchro DS = 3881 µs  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:65
-#, markdown-text, no-wrap
-msgid ""
-"  binary=011100110000000011011000111100100000,hex=7300d8f20; : données "
-"reçues en binaire et en hexa.  \n"
+#: index.md:65
+#, no-wrap
+msgid "  binary=011100110000000011011000111100100000,hex=7300d8f20; : données reçues en binaire et en hexa.  \n"
 msgstr ""
 
 #. type: Title ###
-#: ./index.md:67
-#, markdown-text, no-wrap
+#: index.md:67
+#, no-wrap
 msgid "option 2 :"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:68
-#, markdown-text, no-wrap
+#: index.md:68
+#, no-wrap
 msgid "exécuter dans un shell :  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:69
-#, markdown-text, no-wrap
+#: index.md:69
+#, no-wrap
 msgid "./analizi  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:70
-#, markdown-text, no-wrap
-msgid ""
-"et appuyer sur le bouton de la télécommande, ou attendre que le capteur "
-"envoie des données. Si le protocole est reconnu, on voit quelque chose qui "
-"ressemble à ça :  \n"
+#: index.md:70
+#, no-wrap
+msgid "et appuyer sur le bouton de la télécommande, ou attendre que le capteur envoie des données. Si le protocole est reconnu, on voit quelque chose qui ressemble à ça :  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:71
-#, markdown-text, no-wrap
-msgid ""
-" 73 pulsations protocole : "
-"\"xxx;p0001,bits=36,D0=689,D1=1923,DS=3890;ID:b1-b36\"  \n"
+#: index.md:71
+#, no-wrap
+msgid " 73 pulsations protocole : \"xxx;p0001,bits=36,D0=689,D1=1923,DS=3890;ID:b1-b36\"  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:72
-#, markdown-text, no-wrap
+#: index.md:72
+#, no-wrap
 msgid "  données binaires : 011100110000000011011000111100100000  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:73
-#, markdown-text, no-wrap
+#: index.md:73
+#, no-wrap
 msgid "  données hexa : 7300d8f20  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:76
-#, markdown-text, no-wrap
-msgid ""
-"Il vous faut maintenant analyser les données binaires pour identifier la "
-"signification de chaque bit.  \n"
+#: index.md:76
+#, no-wrap
+msgid "Il vous faut maintenant analyser les données binaires pour identifier la signification de chaque bit.  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:77
-#, markdown-text, no-wrap
-msgid ""
-"Vous pouvez ensuite ajouter une ligne dans le fichier sentiloj.ini, chaque "
-"ligne est composée de trois éléments séparés par un point-virgule :  \n"
+#: index.md:77
+#, no-wrap
+msgid "Vous pouvez ensuite ajouter une ligne dans le fichier sentiloj.ini, chaque ligne est composée de trois éléments séparés par un point-virgule :  \n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./index.md:78
-#, markdown-text, no-wrap
-msgid ""
-"premier élément : nom du matériel. Attention, si c'est un interrupteur, il "
-"doit obligatoirement faire partie de la liste des éléments reconnus par "
-"domoticz.  \n"
+#: index.md:78
+#, no-wrap
+msgid "premier élément : nom du matériel. Attention, si c'est un interrupteur, il doit obligatoirement faire partie de la liste des éléments reconnus par _domoticz_.  \n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./index.md:79
-#, markdown-text, no-wrap
-msgid ""
-"deuxième élément : protocole. Recopier ce qui est affiché par rf_gpio ou "
-"analizo.  \n"
+#: index.md:79
+#, no-wrap
+msgid "deuxième élément : protocole. Recopier ce qui est affiché par rf_gpio ou analizo.  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:80
-#, markdown-text, no-wrap
+#: index.md:80
+#, no-wrap
 msgid "\texemple : p0102,bits=36,D0=561,D1=1899,D2=3845,DS=9158  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:81
-#, markdown-text, no-wrap
-msgid ""
-"\t\tsignifie : protocole p0102 (bit 0 = D0 D1 , bit 1 = D0 D2), 36 bits par "
-"trame, durée D0 = 561 µs, durée D1 = 1899 µs, durée D2 = 3845 µs, durée "
-"synchro DS=9158 µs  \n"
+#: index.md:81
+#, no-wrap
+msgid "\t\tsignifie : protocole p0102 (bit 0 = D0 D1 , bit 1 = D0 D2), 36 bits par trame, durée D0 = 561 µs, durée D1 = 1899 µs, durée D2 = 3845 µs, durée synchro DS=9158 µs  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:82
-#, markdown-text, no-wrap
-msgid ""
-"\t\tles parties protocoles, bits, D0 et D1 sont utilisés pour différencier "
-"les dispositifs.  \n"
+#: index.md:82
+#, no-wrap
+msgid "\t\tles parties protocoles, bits, D0 et D1 sont utilisés pour différencier les dispositifs.  \n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./index.md:83
-#, markdown-text, no-wrap
-msgid ""
-"troisième élément : description des données, chaque champ séparé des autres "
-"par une virgule  \n"
+#: index.md:83
+#, no-wrap
+msgid "troisième élément : description des données, chaque champ séparé des autres par une virgule  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:84
-#, markdown-text, no-wrap
-msgid ""
-"\texemple pour une télécommande multi-canaux, on peut avoir : "
-"ID:b1-20,CMD:b21-21,SWITCH:b22-24  \n"
+#: index.md:84
+#, no-wrap
+msgid "\texemple pour une télécommande multi-canaux, on peut avoir : ID:b1-20,CMD:b21-21,SWITCH:b22-24  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:85
-#, markdown-text, no-wrap
-msgid ""
-"\t\tID:b1-20 signifie que l'ID de la télécommande se trouve dans les bits 1 "
-"à 20 (bit 1 = premier bit transmis)  \n"
+#: index.md:85
+#, no-wrap
+msgid "\t\tID:b1-20 signifie que l'ID de la télécommande se trouve dans les bits 1 à 20 (bit 1 = premier bit transmis)  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:86
-#, markdown-text, no-wrap
-msgid ""
-"\t\tCMD:b21-21 signifie que la commande transmise (ON/OFF) se situe au bit "
-"21.  \n"
+#: index.md:86
+#, no-wrap
+msgid "\t\tCMD:b21-21 signifie que la commande transmise (ON/OFF) se situe au bit 21.  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:87
-#, markdown-text, no-wrap
-msgid ""
-"\t\tSWITCH:b22-24 signifie que le numéro de la prise actionnée se trouve aux "
-"bits 22 à 24.  \n"
+#: index.md:87
+#, no-wrap
+msgid "\t\tSWITCH:b22-24 signifie que le numéro de la prise actionnée se trouve aux bits 22 à 24.  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:88
-#, markdown-text, no-wrap
-msgid ""
-"\tPour être reconnu par domoticz, le nom du champ doit être dans la liste "
-"reconnue (voir sentiloj.txt). On peut toutefois mettre ce qu'on veut, "
-"simplement le champ sera ignoré par domoticz.  \n"
+#: index.md:88
+#, no-wrap
+msgid "\tPour être reconnu par _domoticz_, le nom du champ doit être dans la liste reconnue (voir sentiloj.txt). On peut toutefois mettre ce qu'on veut, simplement le champ sera ignoré par _domoticz_.  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:89
-#, markdown-text, no-wrap
-msgid ""
-"\tOn peut concaténer plusieurs suites de bits, exemple : "
-"CMD:b17-17:b15-15:b16-16 va concaténer les bits 17 15 et 16 dans cet ordre.  "
-"\n"
+#: index.md:89
+#, no-wrap
+msgid "\tOn peut concaténer plusieurs suites de bits, exemple : CMD:b17-17:b15-15:b16-16 va concaténer les bits 17 15 et 16 dans cet ordre.  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:90
-#, markdown-text, no-wrap
-msgid ""
-"\tOn peut tester la valeur de certains bits, exemple : CST2:b43-48=1 va "
-"vérifier que les bits 43 a 48 contiennent la valeur 1 (hexadécimale) en "
-"réception, et va affecter ces bits en émission, CST2:b43-48!1 va vérifier "
-"que les bits 43 a 48 ne contiennent pas la valeur 1 (hexadécimale) en "
-"réception.  \n"
+#: index.md:90
+#, no-wrap
+msgid "\tOn peut tester la valeur de certains bits, exemple : CST2:b43-48=1 va vérifier que les bits 43 a 48 contiennent la valeur 1 (hexadécimale) en réception, et va affecter ces bits en émission, CST2:b43-48!1 va vérifier que les bits 43 a 48 ne contiennent pas la valeur 1 (hexadécimale) en réception.  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:91
-#, markdown-text, no-wrap
-msgid ""
-"\tOn peut déclarer des champs codés BCD (binaire codé décimal) : mettre B au "
-"lieu de b. exemple : TEMP:B12-15:B16-19:B20-23 déclare un champ température "
-"dont le premier chiffre se trouve aux bits 12-15, le deuxième aux bits 16 à "
-"20 et le troisième aux bits 21 à 23.  \n"
+#: index.md:91
+#, no-wrap
+msgid "\tOn peut déclarer des champs codés BCD (binaire codé décimal) : mettre B au lieu de b. exemple : TEMP:B12-15:B16-19:B20-23 déclare un champ température dont le premier chiffre se trouve aux bits 12-15, le deuxième aux bits 16 à 20 et le troisième aux bits 21 à 23.  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:92
-#, markdown-text, no-wrap
-msgid ""
-"\tUn champ finissant par «-inv» est un champ spécial qui prendra la valeur "
-"inverse (complément à un) de son champ homonyme à l'émission.  \n"
+#: index.md:92
+#, no-wrap
+msgid "\tUn champ finissant par «-inv» est un champ spécial qui prendra la valeur inverse (complément à un) de son champ homonyme à l'émission.  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:93
-#, markdown-text, no-wrap
-msgid ""
-"\tOn peut affecter une valeur à un champ qui ne se trouve pas dans les "
-"données en utilisant «=». exemple : CMD=ON  \n"
+#: index.md:93
+#, no-wrap
+msgid "\tOn peut affecter une valeur à un champ qui ne se trouve pas dans les données en utilisant «=». exemple : CMD=ON  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:94
-#, markdown-text, no-wrap
-msgid ""
-"\tOn peut faire des calculs simples : une addition, une multiplication et "
-"une soustraction sont possibles (dans cet ordre exact), les constantes sont "
-"en hexadécimal.  \n"
+#: index.md:94
+#, no-wrap
+msgid "\tOn peut faire des calculs simples : une addition, une multiplication et une soustraction sont possibles (dans cet ordre exact), les constantes sont en hexadécimal.  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:95
-#, markdown-text, no-wrap
-msgid ""
-"\t\tExemple pour convertir en dixièmes de °C une donnée qui est en dixièmes "
-"de °F+900:  \n"
+#: index.md:95
+#, no-wrap
+msgid "\t\tExemple pour convertir en dixièmes de °C une donnée qui est en dixièmes de °F+900:  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:96
-#, markdown-text, no-wrap
-msgid ""
-"\t\tTEMP:b17-28+-4c4*5/9  ( donc : donnée_finale = (donnée_brute -1220) * 5 "
-"/ 9 )  \n"
+#: index.md:96
+#, no-wrap
+msgid "\t\tTEMP:b17-28+-4c4*5/9  ( donc : donnée_finale = (donnée_brute -1220) * 5 / 9 )  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:98
-#, markdown-text, no-wrap
-msgid ""
-"En réception toutes les lignes qui satisfont la condition vont générer une "
-"ligne, si vous voulez éviter les faux positifs, vous pouvez mettre en "
-"commentaire ou supprimer les lignes qui ne correspondent pas à vos "
-"matériels.  \n"
+#: index.md:98
+#, no-wrap
+msgid "En réception toutes les lignes qui satisfont la condition vont générer une ligne, si vous voulez éviter les faux positifs, vous pouvez mettre en commentaire ou supprimer les lignes qui ne correspondent pas à vos matériels.  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:99
-#, markdown-text, no-wrap
-msgid ""
-"En émission, seule la première ligne ayant le bon nom de matériel sera "
-"utilisée.  \n"
+#: index.md:99
+#, no-wrap
+msgid "En émission, seule la première ligne ayant le bon nom de matériel sera utilisée.  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:102
-#, markdown-text, no-wrap
-msgid ""
-"Si le protocole n'est pas reconnu, vous pouvez utiliser analizi pour "
-"l'étudier en augmentant sa verbosité avec l'option -v, -vv ou -vvv. Mais "
-"rf_gpio ne pourra pas le reconnaitre sans développement supplémentaire.  \n"
+#: index.md:102
+#, no-wrap
+msgid "Si le protocole n'est pas reconnu, vous pouvez utiliser analizi pour l'étudier en augmentant sa verbosité avec l'option -v, -vv ou -vvv. Mais rf_gpio ne pourra pas le reconnaitre sans développement supplémentaire.  \n"
 msgstr ""
 
 #. type: Title ##
-#: ./index.md:105
-#, markdown-text, no-wrap
+#: index.md:105
+#, no-wrap
 msgid "PROTOCOLES SUPPORTÉS :"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:107
-#, markdown-text, no-wrap
-msgid ""
-"Seuls les protocoles ayant au moins les caractéristiques suivantes ont une "
-"chance d'être reconnus :  \n"
+#: index.md:107
+#, no-wrap
+msgid "Seuls les protocoles ayant au moins les caractéristiques suivantes ont une chance d'être reconnus :  \n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./index.md:108
-#, markdown-text, no-wrap
+#: index.md:108
+#, no-wrap
 msgid "temps d'une pulsation toujours > 100 µs  \n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./index.md:109
-#, markdown-text, no-wrap
+#: index.md:109
+#, no-wrap
 msgid "pas plus de trois durées différentes pour représenter les données.  \n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./index.md:110
-#, markdown-text, no-wrap
+#: index.md:110
+#, no-wrap
 msgid "chaque bit est codé avec deux pulsations, toujours de la même façon.  \n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./index.md:111
-#, markdown-text, no-wrap
-msgid ""
-"chaque trame est entourée par deux signaux de synchronisation d'un temps "
-">2500µs.  \n"
+#: index.md:111
+#, no-wrap
+msgid "chaque trame est entourée par deux signaux de synchronisation d'un temps >2500µs.  \n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: ./index.md:112
-#, markdown-text, no-wrap
+#: index.md:112
+#, no-wrap
 msgid "une trame ne contient pas plus de 200 pulsations.  \n"
 msgstr ""
 
 #. type: Plain text
-#: ./index.md:114
-#, markdown-text, no-wrap
-msgid ""
-"À l'émission, les codes tournants et les sommes de vérification ne sont pas "
-"gérés.  \n"
+#: index.md:114
+#, no-wrap
+msgid "À l'émission, les codes tournants et les sommes de vérification ne sont pas gérés.  \n"
 msgstr ""

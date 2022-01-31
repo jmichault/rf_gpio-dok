@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-09 21:37+0100\n"
+"POT-Creation-Date: 2022-01-31 22:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,9 +42,10 @@ msgstr "page"
 
 #. type: YAML Front Matter: title
 #: index.md:1
-#, fuzzy, no-wrap
-msgid "Rf_gpio"
-msgstr "RF_gpio"
+#, no-wrap
+#, fuzzy
+msgid "_rf\\_gpio_"
+msgstr "_rf\\_gpio_"
 
 #. type: Title #
 #: index.md:9
@@ -54,9 +55,10 @@ msgstr "عرض"
 
 #. type: Plain text
 #: index.md:11
-#, fuzzy, no-wrap
-msgid " _rf_GPIO_ ebligas simuli rflink kun dissendilo kaj ricevilo konektita rekte al la havenoj _GPIO_ de a _raspberry pi_.\n"
-msgstr " _rf_يتيح GPO_ من محاكاة Rflink مع جهاز إرسال واستقبال متصل مباشرة بالمنافذ _GPIO_ من _raspberry pi_.\n"
+#, no-wrap
+#, fuzzy
+msgid " _rf\\_gpio_  simuli  _RFLink_  kun dissendilo kaj ricevilo konektita rekte al la  _GPIO_  havenoj de  _raspberry pi_. \n"
+msgstr " _rf\\_gpio_   محاكاة   _RFLink_   مع المرسل والمستقبل متصل مباشرة إلى منافذ   _GPIO_   من   _raspberry pi_.  \n"
 
 #. type: Title ##
 #: index.md:13
@@ -83,33 +85,30 @@ msgstr ""
 "sudo service rf_gpio.sh start  \n"
 
 #. type: Plain text
-#: index.md:24
-#, no-wrap
-#, fuzzy
-msgid "Konekti la ricevilon al GPIO2 BCM27 (PIN 13)  \n"
-msgstr "قم بتوصيل جهاز الاستقبال إلى GPO2 BCM27  ( PIN 13 )   \n"
-
-#. type: Plain text
-#: index.md:25
-#, no-wrap
-#, fuzzy
-msgid "Konekti la dissendilon al GPIO0 BCM17 (PIN 11)  \n"
-msgstr "قم بتوصيل جهاز الإرسال إلى GPO0 BCM17  ( PIN 11 )   \n"
-
-#. type: Title ##
-#: index.md:27
-#, fuzzy, no-wrap
-msgid "Uzo kun DOMOTICZ:"
-msgstr "استخدام مع hosticz:"
-
-#. type: Plain text
-#: index.md:29
+#: index.md:26
 #, no-wrap
 #, fuzzy
 msgid ""
+"konekti la ricevilon al  _gpio2 bcm27_  ( pinglo 13 )   \n"
+"konektu la dissendilon al  _gpio0 bcm17_  ( pinglo 11 )   \n"
+msgstr "قم بتوصيل جهاز الاستقبال إلى   _gpio2 bcm27_   (  PIN 13  )    \n قم بتوصيل جهاز الإرسال إلى   _gpio0 bcm17_   (  PIN 11  )    \n"
+
+#. type: Title ##
+#: index.md:27
+#, no-wrap
+#, fuzzy
+msgid "Uzu kun  _domoticz_ :"
+msgstr "استخدام مع   _domoticz_ :"
+
+#. type: Plain text
+#: index.md:29
+#, fuzzy, no-wrap
+msgid ""
 "Aldoni materialon de tipo _«RFLink Gateway with LAN interface»_\n"
 "\tRemota Adreso: 127.0.0.1  \n"
-msgstr "إضافة مادة من النوع  _«RFLink Gateway with LAN interface»_ \n \t العنوان عن بعد: 127.0.0.1   \n"
+msgstr ""
+"إضافة مادة من النوع  _«RFLink Gateway with LAN interface»_ \n"
+" \t العنوان عن بعد: 127.0.0.1   \n"
 
 #. type: Plain text
 #: index.md:32
@@ -117,8 +116,8 @@ msgstr "إضافة مادة من النوع  _«RFLink Gateway with LAN interfac
 #, fuzzy
 msgid ""
 "\t haveno: 10000   \n"
-"Se la aparataro estas agnoskita, la integriĝo kun Domomoticz estas simpla: sufiĉas uzi la butonon \"Aŭtomata Detekto\" sur la langeto \"Ŝaltiloj\", aŭ aktivigi la opcion \"Permesi 5 Minutoj\"   \n"
-msgstr "\t المنفذ: 10000    \n إذا تم التعرف على الأجهزة، فإن التكامل مع Domomoticz بسيط: يكفي استخدام زر الكشف التلقائي  \" على \" على علامة التبويب \"، أو تنشيط الخيار  \" السماح ب 5 دقائق \"    \n"
+"Se la aparataro estas agnoskita, la integriĝo kun  _domoticz_  estas simpla: sufiĉas uzi la butonon \"aŭtomata detekto\" sur la langeto \"ŝaltiloj\", aŭ aktivigi la opcion \"Permesi 5 Minutoj\"   \n"
+msgstr "\t المنفذ: 10000    \n إذا تم التعرف على الأجهزة، فإن التكامل مع   _domoticz_   بسيط: يكفي استخدام الكشف التلقائي  \" \" على  \" تبديل \" علامة التبويب \"، أو تنشيط الخيار  \" السماح ب 5 دقائق \"    \n"
 
 #. type: Title ##
 #: index.md:33
@@ -128,8 +127,7 @@ msgstr "اختبار الإرسال والاستقبال:"
 
 #. type: Bullet: '* '
 #: index.md:34
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Ĉina ilaro kun reaga ricevilo (asin = b00z9sznp0, MX-05V + MX-FS-03V), vidita en Amazono je 1 €.  \n"
 msgstr "العتاد الصيني مع مفاعل المفاعل  ( ASIN = B00Z9SZNP0، MX-05V + MX-FS-03V )، ينظر إليه في الأمازون عند 1 يورو.   \n"
 
@@ -147,15 +145,13 @@ msgstr "WL101-341 + WL102-341، Superherotedyne 433 ميغاهيرتز، شوه�
 
 #. type: Plain text
 #: index.md:40
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "\t La ricevilo havas pli bonan sentemon ol la antaŭa.   \n"
 msgstr "\t جهاز الاستقبال لديه حساسية أفضل من السابق.    \n"
 
 #. type: Plain text
 #: index.md:42
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Noto: Por bonaj rezultoj, la ricevilo devas esti protektita kontraŭ pestoj elsenditaj de _raspberry-pi_. Por testado, vi povas uzi aluminan tavoleton en folio de papero faldita duone.\n"
 msgstr "ملاحظة: للحصول على نتائج جيدة، يجب حماية المتلقي من الآفات الصادرة عن  _raspberry-pi_. لاختبار، يمكنك استخدام معطف من الألمنيوم في ورقة مطوية في النصف. \n"
 
@@ -167,30 +163,30 @@ msgstr "المواد المعترف بها:"
 
 #. type: Plain text
 #: index.md:44
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "estis sukcese testita:  \n"
 msgstr "تم اختباره بنجاح:   \n"
 
 #. type: Bullet: '* '
-#: index.md:45
+#: index.md:46
 #, no-wrap
 #, fuzzy
-msgid "Kyg (ASIN: B07DPmpw1, markita Intertk, vidpunktoj de Amazon)(agnoskita kiel \"impulsoj\")  \n"
-msgstr "KYG  ( ASIN: B07DPMPW1، علامات الجماع، وجهات نظر Amazon )( المعترف بها ك  \" نبضات \" )    \n"
+msgid "Prenas  _KYG_  (_ ASIN: B07DPmpvw1 _ , markita  _Intertek_, vidpunktoj pri  _amazon_)( agnoskita kiel  _«Impuls»_)   \n"
+msgstr "تأخذ   _KYG_   (_  asin: b07dpvww1  _ ، ملحوظ   _Intertek_، وجهات النظر   _amazon_)(  المعترف بها ك   _«Impuls»_)    \n"
 
 #. type: Bullet: '* '
-#: index.md:47
+#: index.md:48
 #, no-wrap
 #, fuzzy
-msgid "Ĉina ĉina aneng ( termometro kun ekrano LCD, vidita sur AliExpress.)  \n"
-msgstr "الصينية الصينية Anneng  (  ميزان الحرارة مع شاشة LCD، ينظر إليها على Aliexpress. )   \n"
+msgid "Thermometer-higrometer  _Aneng_  (  ĉina malalta kosto, kun LCD-ekrano, vidita sur  _aliexpress_. )   \n"
+msgstr "ميزان الحرارة - Higometer   _Aneng_   (   التكلفة الصينية المنخفضة، مع شاشة LCD، ينظر إليها على   _aliexpress_.  )    \n"
 
 #. type: Bullet: '* '
-#: index.md:49
-#, fuzzy, no-wrap
-msgid "DigOOOO RG-8B higrometer-higrómetro ĉina-kosto, sen ekrano, vidita sur AliExpress.)  \n"
-msgstr "Digoooo RG-8B Higrometer-Higrometer التكلفة الصينية، دون شاشة، ينظر على Aliexpress.)  \n"
+#: index.md:50
+#, no-wrap
+#, fuzzy
+msgid "Termometro-higrometer  _Digoo RG-8B_  (  ĉina malalta kosto, sen ekrano, vidita sur  _aliexpress_. )   \n"
+msgstr "ميزان الحرارة - Higometer   _Digoo RG-8B_   (   الصينية منخفضة التكلفة، دون شاشة، ينظر إليها على   _aliexpress_.  )    \n"
 
 #. type: Plain text
 #: index.md:52
@@ -226,8 +222,7 @@ msgstr ""
 
 #. type: Plain text
 #: index.md:59
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kiam la sensor sendas datumojn, kaj la transiga protokolo estas agnoskita, vi vidos ion, kio aspektas tiel:  \n"
 msgstr "عندما يرسل المستشعر البيانات، ومعترف به بروتوكول النقل، سترى شيئا يشبه هذا:   \n"
 
@@ -245,12 +240,14 @@ msgstr "  20؛ = يبدأ أي إطار انبعاثات rflink مثل هذا.  
 
 #. type: Plain text
 #: index.md:63
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "   00; = Unua kadro eldonita.   \n"
 "   p0102, bitoj = 36, d0 = 529, d1 = 949, d2 = 1926, ds = 3865 = rf _gpio a identifié un protocole du type :  \n"
-msgstr "    00؛ = الإطار الأول المنشور.    \n p0102، bits = 36، d0 = 529، d1 = 949، d2 = 1926، ds = 3865 = rf  _gpio a identifié un protocole du type :  \n  \n"
+msgstr ""
+"    00؛ = الإطار الأول المنشور.    \n"
+" p0102، bits = 36، d0 = 529، d1 = 949، d2 = 1926، ds = 3865 = rf  _gpio a identifié un protocole du type :  \n"
+"  \n"
 
 #. type: Plain text
 #: index.md:65
@@ -290,12 +287,13 @@ msgstr "\tمدة D2 = 1936 μs  \n"
 
 #. type: Plain text
 #: index.md:72
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "\t sinkrona daŭro DS = 3881 μs   \n"
 "  Duuma = 0111001100000000100000, hex = 7300D8F20; : Datumoj ricevitaj en duuma kaj hexa.  \n"
-msgstr "\t مدة متزامنة DS = 3881 μs    \n Duuma = 0111001100000000100000، Hex = 7300D8F20؛ : البيانات الواردة في ثنائي و HEXA.   \n"
+msgstr ""
+"\t مدة متزامنة DS = 3881 μs    \n"
+" Duuma = 0111001100000000100000، Hex = 7300D8F20؛ : البيانات الواردة في ثنائي و HEXA.   \n"
 
 #. type: Title ###
 #: index.md:74
@@ -305,8 +303,7 @@ msgstr "الخيار 2:"
 
 #. type: Plain text
 #: index.md:75
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kuru en ŝelo:  \n"
 msgstr "تشغيل في اللحاء:   \n"
 
@@ -318,20 +315,21 @@ msgstr "./analyzi  \n"
 
 #. type: Plain text
 #: index.md:77
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "kaj premu la butonon sur la fora kontrolo, aŭ atendu la sensilon por sendi datumojn. Se la protokolo estas agnoskita, ni vidas ion similan al tio:  \n"
 msgstr "واضغط على الزر الموجود على جهاز التحكم عن بعد، أو انتظر المستشعر لإرسال البيانات. إذا تم التعرف على البروتوكول، نرى شيئا مشابها لذلك:   \n"
 
 #. type: Plain text
 #: index.md:81
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "  73 Praktika Protokolo:  \" XXX; P0001, Bits = 36, D0 = 689, D1 = 1923, DS = 3890; ID: B1-B36 \"   \n"
 "   Binary Datumoj: 0111001100000011011000111100100000   \n"
 "   hexa datumo: 7300d8f20   \n"
-msgstr "   73 بروتوكول عملي:   \" xxx؛ P00001، بت = 36، D0 = 689، D1 = 1923، DS = 3890؛ الرقم: B1-B36  \"    \n البيانات الثنائية: 01110011000000110110001100100000    \n بيانات HEXA: 7300D8F20    \n"
+msgstr ""
+"   73 بروتوكول عملي:   \" xxx؛ P00001، بت = 36، D0 = 689، D1 = 1923، DS = 3890؛ الرقم: B1-B36  \"    \n"
+" البيانات الثنائية: 01110011000000110110001100100000    \n"
+" بيانات HEXA: 7300D8F20    \n"
 
 #. type: Plain text
 #: index.md:83
@@ -341,16 +339,16 @@ msgstr "تحتاج الآن إلى تحليل البيانات الثنائية 
 
 #. type: Plain text
 #: index.md:84
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Vi povas tiam aldoni linion en la dosieron Dentilos.ini, ĉiu linio konsistas el tri elementoj apartigitaj per punktokomo:  \n"
 msgstr "يمكنك بعد ذلك إضافة خط في ملف Dentilos.ini، يتكون كل سطر من ثلاثة عناصر مفصولة بفاصلة منقوطة:   \n"
 
 #. type: Bullet: '* '
-#: index.md:85
-#, fuzzy, no-wrap
-msgid "Unua elemento: nomo de la teamo. Atento, se ĝi estas ŝaltilo, ĝi devas esti parto de la listo de elementoj agnoskitaj de DomotiCz.  \n"
-msgstr "العنصر الأول: اسم المعدات. انتباه، إذا كان مفتاح التبديل، يجب أن يكون جزءا من قائمة العناصر المعترف بها من قبل Penoticz.  \n"
+#: index.md:86
+#, no-wrap
+#, fuzzy
+msgid "Unua elemento: nomo de la teamo. Atento, se ĝi estas ŝaltilo, ĝi devas esti parto de la listo de elementoj agnoskitaj de  _domoticz_.   \n"
+msgstr "العنصر الأول: اسم المعدات. الاهتمام، إذا كان مفتاح التبديل، يجب أن يكون جزءا من قائمة العناصر المعترف بها بواسطة   _domoticz_.    \n"
 
 #. type: Bullet: '* '
 #: index.md:87
@@ -374,8 +372,7 @@ msgstr "\t\tيعني: بروتوكول P0102 (بت 0 = D0 D1، بت 1 = D0 D2)،
 
 #. type: Plain text
 #: index.md:92
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "\t\tLa protokolo, bitoj, D0 kaj D1-partoj estas uzataj por diferencigi aparatojn.  \n"
 msgstr "يتم استخدام \t \t البروتوكول، البتات، أجزاء D0 و D1 لتمييز الأجهزة.   \n"
 
@@ -392,21 +389,16 @@ msgid "\tEkzemplo por multi-kanalo Remote Kontrolo, ID: ID: B1-20, CMD: B21-21, 
 msgstr "\tمثال للتحكم عن بعد متعدد القنوات ومعرف: ID: B1-20، CMD: B21-21، SILES: B22-24  \n"
 
 #. type: Plain text
-#: index.md:99
+#: index.md:100
 #, no-wrap
 #, fuzzy
 msgid ""
 "\t\tID: B1-20 signifas, ke la ID de la fora kontrolo estas en bitoj 1 ĝis 20 (bito 1 = unua bito transdonita\n"
 "\t \t Cmd: B21-21 signifas, ke la komando transdonita  ( ON / OFF )  situas en Ilo 21.   \n"
 "\t \t ŝanĝi: B22-24 signifas, ke la nombro de la funkciigita Jack situas ĉe la bitoj 22 ĝis 24.   \n"
-"\tEsti agnoskita de Domomoticz, la nomo de la kampo devas esti en la rekonita listo (vidu sentilos.txt). Ni tamen povas meti tion, kion ni volas, simple la kampo estos ignorita de Domomoticz.  \n"
-msgstr "\t \t معرف: B1-20 يعني أن معرف جهاز التحكم عن بعد في BITS 1 إلى 20  ( بت 1 = أول بت تسليم \n \t  \t cmd: b21-21 يعني يقود الأمر Constrated   (  ON / OFF  )   في منظمة العمل الدولية 21.    \n \t  \t change: b22-24 يعني أن عدد المقبس المدنوع يقع في البتات 22 إلى 24.    \n \t يتم الاعتراف بها بواسطة Domomoticz، يجب أن يكون اسم الحقل في القائمة الشهيرة  ( انظر sensilos.txt ). ومع ذلك، يمكننا وضع ما نريده، ببساطة سيتم تجاهل الحقل بواسطة Domomoticz.   \n"
-
-#. type: Plain text
-#: index.md:100
-#, fuzzy, no-wrap
-msgid "\tEkzistas pluraj bita suitoj, ekzemple: CMD: B17-17: B15-15: B16-16 Concatenate la bitoj 17 kaj 16 en tiu ordo.  \n"
-msgstr "\tهناك العديد من أجنحة BIT، على سبيل المثال: CMD: B17-17: B15-15: B16-16 Bressenate بت 17 و 16 في هذا النظام.  \n"
+"\t Esti agnoskita de  _domoticz_, la kampa nomo devas esti en la rekonita listo  ( vidu sentilos.txt ). Tamen, ni povas meti tion, kion ni volas, simple la kampo estos ignorata de  _domoticz_.   \n"
+"\tEkzistas pluraj bita suitoj, ekzemple: CMD: B17-17: B15-15: B16-16 Concatenate la bitoj 17 kaj 16 en tiu ordo.  \n"
+msgstr "\t \t معرف: B1-20 يعني أن معرف جهاز التحكم عن بعد في BITS 1 إلى 20  ( بت 1 = أول بت تسليم \n \t  \t cmd: b21-21 يعني يقود الأمر Constrated   (  ON / OFF  )   في منظمة العمل الدولية 21.    \n \t  \t change: b22-24 يعني أن عدد المقبس المدنوع يقع في البتات 22 إلى 24.    \n \t يتم الاعتراف بها بواسطة   _domoticz_، يجب أن يكون اسم الحقل في القائمة المعترف بها   (  انظر sensulos.txt  ). ومع ذلك، يمكننا وضع ما نريده، ببساطة سيتم تجاهل الحقل بواسطة   _domoticz_.    \n \t هناك العديد من أجنحة BIT، على سبيل المثال: CMD: B17-17: B15-15: B16-16 تسلسل البتات 17 و 16 في هذا النظام.   \n"
 
 #. type: Plain text
 #: index.md:101
@@ -416,12 +408,13 @@ msgstr "\tيمكن اختبار قيمة بعض البتات، على سبيل �
 
 #. type: Plain text
 #: index.md:103
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "\t Ni povas deklari BCD-koditajn kampojn  ( Dekuma kodita duuma ) : metu b anstataŭ b. Ekzemplo: Temp: B12-15: B16-19: B20-23 deklaras temperaturan kampon kies unua cifero estas al la bitoj 12-15, la dua al la bitoj 16 ĝis 20 kaj la tria ĉe la bitoj 21 ĝis 23.   \n"
 "\tKampo finanta kun \"-inv\" estas speciala kampo kiu prenos la inversan (komplemento al unu) de ĝia homonima kampo en la spektaklo.  \n"
-msgstr "\t يمكننا إعلان الحقول المشفرة BCD   (  الترميز العشري ثنائي  ) : ضع B بدلا من B. مثال: TEMP: B12-15: B16-19: B20-23 يعلن حقل درجة الحرارة هو الرقم الأول له البتات 12-15، والثاني إلى البتات من 16 إلى 20 والثالث في البتات 21 إلى 23.    \n \t الانتهاء من الحقل مع  \" -inv \" هو مجال خاص سوف يستغرق معك حقل  ( إلى واحد )  من حقله الهاهن في العرض.   \n"
+msgstr ""
+"\t يمكننا إعلان الحقول المشفرة BCD   (  الترميز العشري ثنائي  ) : ضع B بدلا من B. مثال: TEMP: B12-15: B16-19: B20-23 يعلن حقل درجة الحرارة هو الرقم الأول له البتات 12-15، والثاني إلى البتات من 16 إلى 20 والثالث في البتات 21 إلى 23.    \n"
+" \t الانتهاء من الحقل مع  \" -inv \" هو مجال خاص سوف يستغرق معك حقل  ( إلى واحد )  من حقله الهاهن في العرض.   \n"
 
 #. type: Plain text
 #: index.md:104
@@ -431,17 +424,17 @@ msgstr "\tيمكنك تعيين قيمة إلى حقل غير موجود في ا
 
 #. type: Plain text
 #: index.md:106
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "\t Simplaj kalkuloj povas esti faritaj: aldono, multipliko kaj subtraho estas eblaj  ( en ĉi tiu ĝusta ordo ), la konstantoj estas en deksesuma.   \n"
 "\t\tEkzemplo por konverti en dekonojn de ° C datumo kiu estas en dekonoj de ° F + 900:  \n"
-msgstr "\t يمكن إجراء الحسابات البسيطة: إضافة، الضرب والطرح ممكنة   (  في هذا الترتيب الصحيح  )، الثوابت في السداسي عشري.    \n \t \t مثال لتحويله في أعشار البيانات درجة مئوية في أعشار من ° F + 900:   \n"
+msgstr ""
+"\t يمكن إجراء الحسابات البسيطة: إضافة، الضرب والطرح ممكنة   (  في هذا الترتيب الصحيح  )، الثوابت في السداسي عشري.    \n"
+" \t \t مثال لتحويله في أعشار البيانات درجة مئوية في أعشار من ° F + 900:   \n"
 
 #. type: Plain text
 #: index.md:108
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "\t \t TEMP: B17-28 + -4C4 * 5/9   (  SO: DATA _finale = (donnée_ BESTO -1220 )  *  5/9  )   \n"
 msgstr "\t  \t temp: b17-28 + -4c4  *  5/9    (   so: البيانات  _finale = (donnée_  الحيوان -1220  )   *   5/9   )    \n"
 
@@ -473,8 +466,7 @@ msgstr "البروتوكولات المدعومة:"
 
 #. type: Plain text
 #: index.md:119
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Nur protokoloj kun almenaŭ la sekvaj karakterizaĵoj havas ŝancon esti rekonitaj:  \n"
 msgstr "فقط البروتوكولات ذات الميزات التالية على الأقل لديها فرصة للتعرف عليها:   \n"
 
@@ -513,6 +505,87 @@ msgstr "لا يحتوي الإطار على أكثر من 200 نبضات.  \n"
 #, fuzzy, no-wrap
 msgid "En la spektaklo, la rotaciaj kodoj kaj la sumoj de konfirmo ne estas administritaj.  \n"
 msgstr "في العرض، لا يتم إدارة الرموز الدوارة ومبالغ التأكيد.  \n"
+
+#, fuzzy, no-wrap
+#~ msgid "Rf_gpio"
+#~ msgstr "RF_gpio"
+
+#, fuzzy, no-wrap
+#~ msgid " _rf_GPIO_ ebligas simuli rflink kun dissendilo kaj ricevilo konektita rekte al la havenoj _GPIO_ de a _raspberry pi_.\n"
+#~ msgstr " _rf_يتيح GPO_ من محاكاة Rflink مع جهاز إرسال واستقبال متصل مباشرة بالمنافذ _GPIO_ من _raspberry pi_.\n"
+
+#, fuzzy
+#~ msgid "Konekti la ricevilon al GPIO2 BCM27 (PIN 13)  \n"
+#~ msgstr "قم بتوصيل جهاز الاستقبال إلى GPO2 BCM27  ( PIN 13 )   \n"
+
+#, fuzzy
+#~ msgid "Konekti la dissendilon al GPIO0 BCM17 (PIN 11)  \n"
+#~ msgstr "قم بتوصيل جهاز الإرسال إلى GPO0 BCM17  ( PIN 11 )   \n"
+
+#, fuzzy, no-wrap
+#~ msgid "Uzo kun DOMOTICZ:"
+#~ msgstr "استخدام مع hosticz:"
+
+#, fuzzy
+#~ msgid ""
+#~ "\t haveno: 10000   \n"
+#~ "Se la aparataro estas agnoskita, la integriĝo kun Domomoticz estas "
+#~ "simpla: sufiĉas uzi la butonon \"Aŭtomata Detekto\" sur la langeto "
+#~ "\"Ŝaltiloj\", aŭ aktivigi la opcion \"Permesi 5 Minutoj\"   \n"
+#~ msgstr ""
+#~ "\t المنفذ: 10000    \n"
+#~ " إذا تم التعرف على الأجهزة، فإن التكامل مع Domomoticz بسيط: يكفي استخدام "
+#~ "زر الكشف التلقائي  \" على \" على علامة التبويب \"، أو تنشيط الخيار  \" "
+#~ "السماح ب 5 دقائق \"    \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Kyg (ASIN: B07DPmpw1, markita Intertk, vidpunktoj de Amazon)(agnoskita "
+#~ "kiel \"impulsoj\")  \n"
+#~ msgstr ""
+#~ "KYG  ( ASIN: B07DPMPW1، علامات الجماع، وجهات نظر Amazon )( المعترف بها ك  "
+#~ "\" نبضات \" )    \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Ĉina ĉina aneng ( termometro kun ekrano LCD, vidita sur AliExpress.)  \n"
+#~ msgstr ""
+#~ "الصينية الصينية Anneng  (  ميزان الحرارة مع شاشة LCD، ينظر إليها على "
+#~ "Aliexpress. )   \n"
+
+#, fuzzy, no-wrap
+#~ msgid "DigOOOO RG-8B higrometer-higrómetro ĉina-kosto, sen ekrano, vidita sur AliExpress.)  \n"
+#~ msgstr "Digoooo RG-8B Higrometer-Higrometer التكلفة الصينية، دون شاشة، ينظر على Aliexpress.)  \n"
+
+#, fuzzy, no-wrap
+#~ msgid "Unua elemento: nomo de la teamo. Atento, se ĝi estas ŝaltilo, ĝi devas esti parto de la listo de elementoj agnoskitaj de DomotiCz.  \n"
+#~ msgstr "العنصر الأول: اسم المعدات. انتباه، إذا كان مفتاح التبديل، يجب أن يكون جزءا من قائمة العناصر المعترف بها من قبل Penoticz.  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "\t\tID: B1-20 signifas, ke la ID de la fora kontrolo estas en bitoj 1 ĝis "
+#~ "20 (bito 1 = unua bito transdonita\n"
+#~ "\t \t Cmd: B21-21 signifas, ke la komando transdonita  ( ON / OFF )  "
+#~ "situas en Ilo 21.   \n"
+#~ "\t \t ŝanĝi: B22-24 signifas, ke la nombro de la funkciigita Jack situas "
+#~ "ĉe la bitoj 22 ĝis 24.   \n"
+#~ "\tEsti agnoskita de Domomoticz, la nomo de la kampo devas esti en la "
+#~ "rekonita listo (vidu sentilos.txt). Ni tamen povas meti tion, kion ni "
+#~ "volas, simple la kampo estos ignorita de Domomoticz.  \n"
+#~ msgstr ""
+#~ "\t \t معرف: B1-20 يعني أن معرف جهاز التحكم عن بعد في BITS 1 إلى 20  ( بت "
+#~ "1 = أول بت تسليم \n"
+#~ " \t  \t cmd: b21-21 يعني يقود الأمر Constrated   (  ON / OFF  )   في "
+#~ "منظمة العمل الدولية 21.    \n"
+#~ " \t  \t change: b22-24 يعني أن عدد المقبس المدنوع يقع في البتات 22 إلى "
+#~ "24.    \n"
+#~ " \t يتم الاعتراف بها بواسطة Domomoticz، يجب أن يكون اسم الحقل في القائمة "
+#~ "الشهيرة  ( انظر sensilos.txt ). ومع ذلك، يمكننا وضع ما نريده، ببساطة سيتم "
+#~ "تجاهل الحقل بواسطة Domomoticz.   \n"
+
+#, fuzzy, no-wrap
+#~ msgid "\tEkzistas pluraj bita suitoj, ekzemple: CMD: B17-17: B15-15: B16-16 Concatenate la bitoj 17 kaj 16 en tiu ordo.  \n"
+#~ msgstr "\tهناك العديد من أجنحة BIT، على سبيل المثال: CMD: B17-17: B15-15: B16-16 Bressenate بت 17 و 16 في هذا النظام.  \n"
 
 #, fuzzy
 #~ msgid "(° 1 ° Haveno: 10000  \n"

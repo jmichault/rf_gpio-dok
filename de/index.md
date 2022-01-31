@@ -3,11 +3,11 @@ lang: de
 lang-niv: auto
 lang-ref: indekso
 layout: page
-title: Rf_gpio
+title: "_rf\\_gpio_"
 ---
 
 # Präsentation
- _rf_GPO_ ermöglicht es, RFLINK mit einem Sender und Empfänger zu simulieren, der direkt an den Anschlüssen _GPIO_ von A _raspberry pi_verbunden ist.
+ _rf\_gpio_   Simulieren Sie   _RFLink_   mit Sender und Empfänger, der direkt an die   _GPIO_   -Anungen von   _raspberry pi_ angeschlossen ist.  
 
 
 ## Installation:
@@ -21,14 +21,14 @@ sudo update-rc.d rf_gpio.sh defaults
 sudo service rf_gpio.sh start  
 ```
 
-Verbinden Sie den Empfänger mit GPO2 BCM27 (-Hol 13)  
-Verbinden Sie den Sender mit GPO0 BCM17 (Pin 11)  
+Verbinden Sie den Empfänger an   _gpio2 bcm27_   (  Pin 13  )    
+ den Sender an   _gpio0 bcm17_   (  PIN 11  )     Verbinden
 
-## Verwendung mit Hosticz:
+## Verwendung mit   _domoticz_ :
 Fügen Sie Material des Typs  _«RFLink Gateway with LAN interface»_ 
  	 Remote-Adresse hinzu: 127.0.0.1   
 	 Anschluss: 10000    
- Wenn die Hardware erkannt wird, ist die Integration mit DOMOMOtoT-Integration einfach: Es reicht aus, die  "-automatische Erkennungsknopf " auf der Registerkarte " Switches " zu verwenden oder zu aktivieren Die Option  " erlaubt 5 Minuten "    
+ Wenn die Hardware erkannt wird, ist die Integration mit   _domoticz_   einfach: Es reicht aus, die  " Automatische Erkennung " auf der Registerkarte  " " zu verwenden oder zu aktivieren Die Option  " erlaubt 5 Minuten "    
 
 ## Transceivers getestet:
 * Chinesische Ausrüstung mit Reaktorreaktor  ( ASIN = B00Z9SZNP0, MX-05V + MX-FS-03V ), angesehen in Amazon in EUR 1.   
@@ -44,13 +44,13 @@ Hinweis: Bei guten Ergebnissen muss der Empfänger vor den von  _raspberry-pi_ a
 
 ## Anerkannte Materialien:
 erfolgreich getestet worden:   
-* KYG (AIN: B07DPMPW1, deutlicher Geschlechtsverkehr, Blickwinkel von Amazonas)(als "-Impulse"
+* Nehmen Sie   _KYG_   (_  ASIN: B07DPVWW1  _ , markiert   _Intertek_, Ansichten von   _amazon_)( , die als   _«Impuls»_)     bestätigt werden
 
 
-* Chinesischer chinesischer Ang ( Thermometer mit einem LCD-Bildschirm, gesehen auf AliExpress.)  
+* Thermometer-Higometer   _Aneng_   (   chinesische kostengünstige Kosten, mit LCD-Bildschirm, angesehen auf   _aliexpress_.  )    
 
 
-* Digoooo-RG-8B-Higrometer-Higrometer-chinesische Kosten ohne Bildschirm, angesehen auf AliExpress.)  
+* Thermometer-Higometer   _Digoo RG-8B_   (   chinesische kostengünstige Kosten ohne Bildschirm, angesehen auf   _aliexpress_.  )    
 
 
 
@@ -89,7 +89,7 @@ und drücken Sie die Taste an der Fernbedienung oder warten Sie, bis der Sensor 
 
 Sie müssen jetzt binäre Daten analysieren, um die Bedeutung jedes Stücks zu identifizieren.  
 Sie können dann eine Zeile in der Dentilos.ini-Datei hinzufügen. Jede Zeile besteht aus drei Elementen, die durch ein Semikolon getrennt sind:   
-* Erstes Element: Der Name des Geräts. Achtung, wenn es sich um ein Schalter handelt, muss es Teil der von Penoticz erkannten Elemente sind.  
+* Erstes Element: Der Name des Geräts. Achtung, wenn es sich um einen Schalter handelt, muss es Teil der Liste der von   _domoticz_ erkannten Elemente sein.    
 
 
 * Zweites Element: Protokoll. Kopieren Sie, was von RF_gpio ou analizo.  
@@ -106,8 +106,8 @@ Sie können dann eine Zeile in der Dentilos.ini-Datei hinzufügen. Jede Zeile be
 	Beispiel für Multi-Channel-Fernbedienung, ID: ID: B1-20, CMD: B21-21, SWILE: B22-24  
 	 	 ID: B1-20 bedeutet, dass die ID der Fernbedienung in den Bits 1 bis 20  ( Bit 1 = erster Bit geliefert wird 
  	  	 CMD: B21-21 bedeutet das Befehl, übertragenen Befehl   (  Ein / Aus  )   befindet sich in ILO 21.    
- 	  	 Änderung: B22-24 bedeutet, dass sich die Anzahl der betätigten Buchse an den Bits 22 bis 24 befindet.   (  > 	 werden von domomoticz anerkannt, der Name des Feldes muss in der renommierten Liste  ( siehe SENSILOS.TXT ) sein. Wir können jedoch ein, was wir wollen, einfach das Feld wird von domomotoz ignoriert.   
-	Es gibt mehrere Bit-Suiten, zum Beispiel: CMD: B17-17: B15-15: B16-16 Verketten von Bits 17 und 16 in dieser Reihenfolge.  
+ 	  	 Änderung: B22-24 bedeutet, dass sich die Anzahl der betätigten Buchse an den Bits 22 bis 24 befindet.   (  > 	 Von   _domoticz_ anerkannt werden, muss der Feldname in der erkannten Liste   (  siehe Sensulos.txt  ) sein. Wir können jedoch ein, was wir wollen, einfach das Feld wird von   _domoticz_ ignoriert.    
+ 	 Es gibt mehrere Bit-Suiten, zum Beispiel: CMD: B17-17: B15-15: B16-16 Verkettung der Bits 17 und 16 in dieser Reihenfolge.   
 	Der Wert bestimmter Bits kann zum Beispiel getestet werden: CST2: B43-48 = 1 bestätigt, dass die Bits 43 48 den Wert 1 (in der Rezeption enthalten und diese Teile in der Verteilung beeinflussen , CST2: B43-48! 1 Vergewissern Sie sich, dass die Bits 438 nicht den Wert 1enthalten  
 	 Wir können BCD-codierte Felder deklarieren   (  Dezimalcodierung Binärer  ) : Setzen Sie B statt b. Beispiel: TEMP: B12-15: B16-19: B20-23 deklariert ein Temperaturfeld, dessen erste Zahl an den Bits 12-15 ist, wobei der zweite an den Bits 16 bis 20 und das dritte an den Bits 21 bis 23 ist.    
  	 Feldveredelung mit  " -Inv " ist ein spezielles Feld, das die inverse )  ergänzende Ergänzung zu einem )  seinem Homonyst-Feld in der Show dauert.   

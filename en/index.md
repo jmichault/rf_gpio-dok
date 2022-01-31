@@ -3,11 +3,11 @@ lang: en
 lang-niv: auto
 lang-ref: indekso
 layout: page
-title: RF_gpio
+title: "_rf\\_gpio_"
 ---
 
 # Presentation
- _rf_GPO_ enables to simulate Rflink with a transmitter and receiver connected directly to the ports _GPIO_ of A _raspberry pi_.
+ _rf\_gpio_   Simulate   _RFLink_   with transmitter and receiver connected directly to the   _GPIO_   ports of   _raspberry pi_.  
 
 
 ## Installation:
@@ -21,14 +21,14 @@ sudo update-rc.d rf_gpio.sh defaults
 sudo service rf_gpio.sh start  
 ```
 
-Connect the receiver to GPO2 BCM27  ( PIN 13 )   
-Connect the transmitter to GPO0 BCM17  ( PIN 11 )   
+Connect the receiver to   _gpio2 bcm27_   (  Pin 13  )    
+ Connect the transmitter to   _gpio0 bcm17_   (  Pin 11  )    
 
-## Use with hosticz:
+## Use with   _domoticz_ :
 Add material of type  _«RFLink Gateway with LAN interface»_ 
  	 Remote Address: 127.0.0.1   
 	 Port: 10000    
- If the hardware is recognized, the integration with Domomoticz is simple: it is enough to use the  " automatic detection button " on the " Switches " tab, or activate the option  " Allow 5 minutes "    
+ If the hardware is recognized, integration with   _domoticz_   is simple: it is enough to use the  " automatic detection " on the  " Switches " tab, or activate the option  " Allow 5 minutes "    
 
 ## Transceivers Tested:
 * Chinese gear with reactor reactor  ( Asin = B00Z9SZNP0, MX-05V + MX-FS-03V ), viewed in Amazon at € 1.   
@@ -44,13 +44,13 @@ Note: For good results, the receiver must be protected from pests issued by  _ra
 
 ## Recognized materials:
 been successfully tested:   
-* Kyg (Asin: B07DPMPW1, marked intercourse, points of view of Amazon)(recognized as "impulses")  
+* Take   _KYG_   (_  Asin: B07DPVWW1  _ , marked   _Intertek_, views of   _amazon_)(  Acknowledged as   _«Impuls»_)    
 
 
-* Chinese Chinese anneng  (  Thermometer with LCD screen, viewed on AliExpress. )   
+* Thermometer-Higometer   _Aneng_   (   Chinese low cost, with LCD screen, viewed on   _aliexpress_.  )    
 
 
-* Digoooo RG-8B Higrometer-Higrometer Chinese cost, without screen, viewed on Aliexpress.)  
+* Thermometer-Higometer   _Digoo RG-8B_   (   Chinese low cost, without screen, viewed on   _aliexpress_.  )    
 
 
 
@@ -89,7 +89,7 @@ and press the button on the remote control, or wait for the sensor to send data.
 
 You now need to analyze binary data to identify the meaning of each piece.  
 You can then add a line in the Dentilos.ini file, each line consists of three elements separated by a semicolon:   
-* First element: the name of the equipment. Attention, if it is a switch, it must be part of the list of elements recognized by Penoticz.  
+* First element: The name of the equipment. Attention, if it's a switch, it must be part of the list of elements recognized by   _domoticz_.    
 
 
 * Second element: Protocol. Copy what is shown by RF_gpio ou analizo.  
@@ -107,8 +107,8 @@ You can then add a line in the Dentilos.ini file, each line consists of three el
 	 	 ID: B1-20 means that the ID of the remote control is in bits 1 to 20  ( bit 1 = first bit delivered 
  	  	 CMD: B21-21 means The command transmitted   (  ON / OFF  )   is located in ILO 21.    
  	  	 Change: B22-24 means that the number of the operated Jack is located at the bits 22 to 24.    
- 	 Be acknowledged by Domomoticz, the name of the field must be in the renowned list  ( See sensilos.txt ). However, we can put what we want, simply the field will be ignored by Domomoticz.   
-	There are several bit suites, for example: CMD: B17-17: B15-15: B16-16 Concatenate Bits 17 and 16 in that order.  
+ 	 Be acknowledged by   _domoticz_, the field name must be in the recognized list   (  See sensulos.txt  ). However, we can put what we want, simply the field will be ignored by   _domoticz_.    
+ 	 There are several bit suites, for example: CMD: B17-17: B15-15: B16-16 Concatenate The Bits 17 and 16 in that order.   
 	The value of certain bits can be tested, for example: CST2: B43-48 = 1 will confirm that the bits 43 48 contain the value 1 (in reception, and influence These pieces in distribution, CST2: B43-48! 1 Confirm that the bits 438 do not contain the value 1 (hexadecimal) in reception.  
 	 We can declare BCD-coded fields   (  Decimal coding binary  ) : Put B instead of b. Example: Temp: B12-15: B16-19: B20-23 declares a temperature field whose first number is to the bits 12-15, the second to the bits 16 to 20 and the third at the bits 21 to 23.    
  	 Field finishing with  " -Inv " is a special field that will take the inverse  ( complement to one )  of its homonyst field in the show.   

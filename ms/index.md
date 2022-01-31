@@ -3,11 +3,11 @@ lang: ms
 lang-niv: auto
 lang-ref: indekso
 layout: page
-title: Rf_gpio
+title: "_rf\\_gpio_"
 ---
 
 # Persembahan
- _rf_GPO_ Membolehkan untuk mensimulasikan rflink dengan pemancar dan penerima yang disambungkan terus ke port _GPIO_ daripada _raspberry pi_.
+ _rf\_gpio_   Simulasi   _RFLink_   dengan pemancar dan penerima yang disambungkan terus ke pelabuhan   _GPIO_     _raspberry pi_.  
 
 
 ## Pemasangan:
@@ -21,14 +21,14 @@ sudo update-rc.d rf_gpio.sh defaults
 sudo service rf_gpio.sh start  
 ```
 
-Sambungkan penerima ke GPO2 BCM27  ( PIN 13 )   
-Sambungkan pemancar ke GPO0 BCM17  ( PIN 11 )   
+Sambungkan penerima ke   _gpio2 bcm27_   (  pin 13  )    
+ Sambungkan pemancar ke   _gpio0 bcm17_   (  pin 11  )    
 
-## Gunakan dengan Hosticz:
+## Gunakan dengan   _domoticz_ :
 Tambah Bahan Jenis  _«RFLink Gateway with LAN interface»_ 
  	 Alamat Jauh: 127.0.0.1   
 	 port: 10000    
- Jika perkakasan diiktiraf, integrasi dengan domomoticz adalah mudah: ia cukup untuk menggunakan butang pengesanan automatik  " " pada suis " ", atau diaktifkan pilihan  " membenarkan 5 minit "    
+ Jika perkakasan diiktiraf, integrasi dengan   _domoticz_   adalah mudah: ia cukup untuk menggunakan pengesanan automatik  " " pada suis  " ", atau diaktifkan pilihan  " membenarkan 5 minit "    
 
 ## Transciers diuji:
 * Gear Cina dengan reaktor reaktor  ( asin = b00z9sznp0, mx-05v + mx-fs-03v ), dilihat di Amazon pada € 1.   
@@ -44,13 +44,13 @@ Nota: Untuk hasil yang baik, penerima mesti dilindungi dari perosak yang dikelua
 
 ## Bahan yang diiktiraf:
 telah berjaya diuji:   
-* Kyg (Asin: B07dpmpw1, bertanda persetubuhan, mata pandangan Amazon)(Diiktiraf sebagai "impuls")  
+* Ambil   _KYG_   (_  asin: b07dpvww1  _ , ditandakan   _Intertek_, pandangan   _amazon_)(  diiktiraf sebagai   _«Impuls»_)    
 
 
-* Cina Cina Anneng  (  Termometer dengan skrin LCD, dilihat pada AliExpress. )   
+* Thermometer-Higometer   _Aneng_   (   Kos Rendah Cina, dengan skrin LCD, dilihat pada   _aliexpress_.  )    
 
 
-* Digoooo RG-8B Higometer-Higometer Cost Cina, tanpa skrin, dilihat di AliExpress.)  
+* Thermometer-Higometer   _Digoo RG-8B_   (   Kos Rendah Cina, Tanpa Skrin, Dilihat pada   _aliexpress_.  )    
 
 
 
@@ -89,7 +89,7 @@ dan tekan butang pada alat kawalan jauh, atau tunggu sensor untuk menghantar dat
 
 Anda kini perlu menganalisis data binari untuk mengenal pasti makna setiap bahagian.  
 Anda kemudiannya boleh menambah garis dalam fail dentilos.ini, setiap baris terdiri daripada tiga elemen yang dipisahkan oleh titik koma:   
-* Elemen pertama: nama peralatan. Perhatian, jika ia adalah suis, ia mestilah sebahagian daripada senarai unsur yang diiktiraf oleh penotikz.  
+* Elemen pertama: nama peralatan. Perhatian, jika ia suis, ia mesti menjadi sebahagian daripada senarai unsur yang diiktiraf oleh   _domoticz_.    
 
 
 * Elemen Kedua: Protokol. Salin apa yang ditunjukkan oleh RF_gpio ou analizo.  
@@ -107,8 +107,8 @@ Anda kemudiannya boleh menambah garis dalam fail dentilos.ini, setiap baris terd
 	 	 ID: B1-20 bermakna bahawa ID alat kawalan jauh berada dalam bit 1 hingga 20  ( bit 1 = bit pertama dihantar 
  	  	 cmd: B21-21 bermaksud Perintah yang dihantar   (  ON / OFF  )   terletak di Ilo 21.    
  	  	 Perubahan: B22-24 bermaksud bahawa bilangan Jack yang dikendalikan terletak di Bits 22 hingga 24.    
- 	 Diakui oleh Domomoticz, nama lapangan mestilah berada di dalam senarai yang terkenal  ( See Sensilos.txt ). Walau bagaimanapun, kita boleh meletakkan apa yang kita mahu, hanya bidang yang akan diabaikan oleh Domomoticz.   
-	Terdapat beberapa suite kecil, sebagai contoh: CMD: B17-17: B15-15: B16-16 Concatenate bit 17 dan 16 dalam perintah itu.  
+ 	 diakui oleh   _domoticz_, nama medan mestilah dalam senarai yang diiktiraf   (  lihat sensulos.txt  ). Walau bagaimanapun, kita boleh meletakkan apa yang kita mahu, hanya bidang akan diabaikan oleh   _domoticz_.    
+ 	 Terdapat beberapa suite kecil, sebagai contoh: CMD: B17-17: B15-15: B16-16 Concatenate bit 17 dan 16 dalam perintah itu.   
 	Nilai bit tertentu boleh diuji, sebagai contoh: CST2: B43-48 = 1 akan mengesahkan bahawa bit 43 48 mengandungi nilai 1 (dalam penerimaan, dan mempengaruhi kepingan-kepingan ini dalam pengedaran , CST2: B43-48! 1 Sahkan bahawa bit 438 tidak mengandungi nilai 1 (heksadesimal) dalam penerimaan tetamu.  
 	 kita boleh mengisytiharkan medan berkod BCD   (  pengekodan perpuluhan binari  ) : letakkan B bukannya b. Contoh: Temp: B12-15: B16-19: B20-23 mengisytiharkan medan suhu yang nombor pertama adalah kepada bit 12-15, yang kedua kepada bit 16 hingga 20 dan yang ketiga di bit 21 hingga 23.    
  	 Finishing Finishing dengan  " -Inv " adalah medan khas yang akan mengambil songsang  ( melengkapkan kepada satu medan homemonya dalam persembahan.   

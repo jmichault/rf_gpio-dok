@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-09 21:42+0100\n"
+"POT-Creation-Date: 2022-01-31 22:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,9 +42,10 @@ msgstr "page"
 
 #. type: YAML Front Matter: title
 #: index.md:1
-#, fuzzy, no-wrap
-msgid "Rf_gpio"
-msgstr "RF_gpio"
+#, no-wrap
+#, fuzzy
+msgid "_rf\\_gpio_"
+msgstr "_rf\\_gpio_"
 
 #. type: Title #
 #: index.md:9
@@ -54,9 +55,10 @@ msgstr "Apresentação"
 
 #. type: Plain text
 #: index.md:11
-#, fuzzy, no-wrap
-msgid " _rf_GPIO_ ebligas simuli rflink kun dissendilo kaj ricevilo konektita rekte al la havenoj _GPIO_ de a _raspberry pi_.\n"
-msgstr " _rf_GPO_ permite simular RFLink com um transmissor e receptor conectado diretamente às portas _GPIO_ de um _raspberry pi_.\n"
+#, no-wrap
+#, fuzzy
+msgid " _rf\\_gpio_  simuli  _RFLink_  kun dissendilo kaj ricevilo konektita rekte al la  _GPIO_  havenoj de  _raspberry pi_. \n"
+msgstr " _rf\\_gpio_   Simular   _RFLink_   com transmissor e receptor conectado diretamente às portas   _GPIO_   de   _raspberry pi_.  \n"
 
 #. type: Title ##
 #: index.md:13
@@ -83,33 +85,30 @@ msgstr ""
 "sudo service rf_gpio.sh start  \n"
 
 #. type: Plain text
-#: index.md:24
-#, no-wrap
-#, fuzzy
-msgid "Konekti la ricevilon al GPIO2 BCM27 (PIN 13)  \n"
-msgstr "Conecte o receptor a GPO2 BCM27  ( PIN 13 )   \n"
-
-#. type: Plain text
-#: index.md:25
-#, no-wrap
-#, fuzzy
-msgid "Konekti la dissendilon al GPIO0 BCM17 (PIN 11)  \n"
-msgstr "Conecte o transmissor a GPO0 BCM17  ( PIN 11 )   \n"
-
-#. type: Title ##
-#: index.md:27
-#, fuzzy, no-wrap
-msgid "Uzo kun DOMOTICZ:"
-msgstr "Use com Hosticz:"
-
-#. type: Plain text
-#: index.md:29
+#: index.md:26
 #, no-wrap
 #, fuzzy
 msgid ""
+"konekti la ricevilon al  _gpio2 bcm27_  ( pinglo 13 )   \n"
+"konektu la dissendilon al  _gpio0 bcm17_  ( pinglo 11 )   \n"
+msgstr "Conecte o receptor a   _gpio2 bcm27_   (  pino 13  )    \n conecte o transmissor a   _gpio0 bcm17_   (  pin 11  )    \n"
+
+#. type: Title ##
+#: index.md:27
+#, no-wrap
+#, fuzzy
+msgid "Uzu kun  _domoticz_ :"
+msgstr "Use com   _domoticz_ :"
+
+#. type: Plain text
+#: index.md:29
+#, fuzzy, no-wrap
+msgid ""
 "Aldoni materialon de tipo _«RFLink Gateway with LAN interface»_\n"
 "\tRemota Adreso: 127.0.0.1  \n"
-msgstr "Adicionar material do tipo  _«RFLink Gateway with LAN interface»_ \n \t endereço remoto: 127.0.0.1   \n"
+msgstr ""
+"Adicionar material do tipo  _«RFLink Gateway with LAN interface»_ \n"
+" \t endereço remoto: 127.0.0.1   \n"
 
 #. type: Plain text
 #: index.md:32
@@ -117,8 +116,8 @@ msgstr "Adicionar material do tipo  _«RFLink Gateway with LAN interface»_ \n \
 #, fuzzy
 msgid ""
 "\t haveno: 10000   \n"
-"Se la aparataro estas agnoskita, la integriĝo kun Domomoticz estas simpla: sufiĉas uzi la butonon \"Aŭtomata Detekto\" sur la langeto \"Ŝaltiloj\", aŭ aktivigi la opcion \"Permesi 5 Minutoj\"   \n"
-msgstr "\t Porta: 10000    \n Se o hardware for reconhecido, a integração com Domomoticz é simples: basta usar o botão de detecção automática  \" \" na guia \" switches \" ou ativar A opção  \" Permitir 5 minutos \"    \n"
+"Se la aparataro estas agnoskita, la integriĝo kun  _domoticz_  estas simpla: sufiĉas uzi la butonon \"aŭtomata detekto\" sur la langeto \"ŝaltiloj\", aŭ aktivigi la opcion \"Permesi 5 Minutoj\"   \n"
+msgstr "\t Porta: 10000    \n Se o hardware for reconhecido, a integração com   _domoticz_   é simples: é suficiente para usar a detecção automática  \" \" na guia  \" switches \" ou ativar A opção  \" Permitir 5 minutos \"    \n"
 
 #. type: Title ##
 #: index.md:33
@@ -128,8 +127,7 @@ msgstr "Transceptores testados:"
 
 #. type: Bullet: '* '
 #: index.md:34
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Ĉina ilaro kun reaga ricevilo (asin = b00z9sznp0, MX-05V + MX-FS-03V), vidita en Amazono je 1 €.  \n"
 msgstr "Engrenagem chinesa com reator reator  ( asin = b00z9sznp0, MX-05V + MX-FS-03V ), visto na Amazon a € 1.   \n"
 
@@ -147,15 +145,13 @@ msgstr "WL101-341 + WL102-341, super-heróxado 433 MHz, visto em AliExpress a �
 
 #. type: Plain text
 #: index.md:40
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "\t La ricevilo havas pli bonan sentemon ol la antaŭa.   \n"
 msgstr "\t O receptor tem uma sensibilidade melhor do que a anterior.    \n"
 
 #. type: Plain text
 #: index.md:42
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Noto: Por bonaj rezultoj, la ricevilo devas esti protektita kontraŭ pestoj elsenditaj de _raspberry-pi_. Por testado, vi povas uzi aluminan tavoleton en folio de papero faldita duone.\n"
 msgstr "Nota: Para bons resultados, o receptor deve ser protegido de pragas emitidas por  _raspberry-pi_. Para testes, você pode usar um revestimento de alumínio em uma folha de papel dobrada ao meio. \n"
 
@@ -167,29 +163,30 @@ msgstr "Materiais reconhecidos:"
 
 #. type: Plain text
 #: index.md:44
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "estis sukcese testita:  \n"
 msgstr "foi testado com sucesso:   \n"
 
 #. type: Bullet: '* '
-#: index.md:45
-#, fuzzy, no-wrap
-msgid "Kyg (ASIN: B07DPmpw1, markita Intertk, vidpunktoj de Amazon)(agnoskita kiel \"impulsoj\")  \n"
-msgstr "KYG (ASIN: B07DPMPW1, marcada com relação, pontos de vista da Amazônia)(reconhecidos como \"impulsos\")  \n"
-
-#. type: Bullet: '* '
-#: index.md:47
+#: index.md:46
 #, no-wrap
 #, fuzzy
-msgid "Ĉina ĉina aneng ( termometro kun ekrano LCD, vidita sur AliExpress.)  \n"
-msgstr "Chinês chinês Anneng  (  Termômetro com tela LCD, visto em AliExpress. )   \n"
+msgid "Prenas  _KYG_  (_ ASIN: B07DPmpvw1 _ , markita  _Intertek_, vidpunktoj pri  _amazon_)( agnoskita kiel  _«Impuls»_)   \n"
+msgstr "Tome   _KYG_   (_  ASIN: B07DPVWW1  _ , marcado   _Intertek_, visualizações de   _amazon_)(  reconhecida como   _«Impuls»_)    \n"
 
 #. type: Bullet: '* '
-#: index.md:49
-#, fuzzy, no-wrap
-msgid "DigOOOO RG-8B higrometer-higrómetro ĉina-kosto, sen ekrano, vidita sur AliExpress.)  \n"
-msgstr "Digoooo RG-8B Higromômetro-Higromômetro Custo chinês, sem tela, visto no AliExpress.)  \n"
+#: index.md:48
+#, no-wrap
+#, fuzzy
+msgid "Thermometer-higrometer  _Aneng_  (  ĉina malalta kosto, kun LCD-ekrano, vidita sur  _aliexpress_. )   \n"
+msgstr "Termômetro-higômetro   _Aneng_   (   baixo custo chinês, com tela LCD, visualizada em   _aliexpress_.  )    \n"
+
+#. type: Bullet: '* '
+#: index.md:50
+#, no-wrap
+#, fuzzy
+msgid "Termometro-higrometer  _Digoo RG-8B_  (  ĉina malalta kosto, sen ekrano, vidita sur  _aliexpress_. )   \n"
+msgstr "Termômetro-higômetro   _Digoo RG-8B_   (   baixo custo chinês, sem tela, visto em   _aliexpress_.  )    \n"
 
 #. type: Plain text
 #: index.md:52
@@ -225,8 +222,7 @@ msgstr ""
 
 #. type: Plain text
 #: index.md:59
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kiam la sensor sendas datumojn, kaj la transiga protokolo estas agnoskita, vi vidos ion, kio aspektas tiel:  \n"
 msgstr "Quando o sensor envia dados, e o protocolo de transferência é reconhecido, você verá algo que se parece com isso:   \n"
 
@@ -244,12 +240,14 @@ msgstr "  20; = Qualquer quadro de emissões RFLink começa assim.  \n"
 
 #. type: Plain text
 #: index.md:63
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "   00; = Unua kadro eldonita.   \n"
 "   p0102, bitoj = 36, d0 = 529, d1 = 949, d2 = 1926, ds = 3865 = rf _gpio a identifié un protocole du type :  \n"
-msgstr "    00; = Primeira estrutura publicada.    \n p0102, bits = 36, d0 = 529, d1 = 949, d2 = 1926, ds = 3865 = rf  _gpio a identifié un protocole du type :  \n  \n"
+msgstr ""
+"    00; = Primeira estrutura publicada.    \n"
+" p0102, bits = 36, d0 = 529, d1 = 949, d2 = 1926, ds = 3865 = rf  _gpio a identifié un protocole du type :  \n"
+"  \n"
 
 #. type: Plain text
 #: index.md:65
@@ -289,12 +287,13 @@ msgstr "\tDuração d2 = 1936 μs  \n"
 
 #. type: Plain text
 #: index.md:72
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "\t sinkrona daŭro DS = 3881 μs   \n"
 "  Duuma = 0111001100000000100000, hex = 7300D8F20; : Datumoj ricevitaj en duuma kaj hexa.  \n"
-msgstr "\t duração síncrona DS = 3881 μs    \n duuma = 0111001100000000100000, hex = 7300d8f20; : Dados recebidos em binário e hexá.   \n"
+msgstr ""
+"\t duração síncrona DS = 3881 μs    \n"
+" duuma = 0111001100000000100000, hex = 7300d8f20; : Dados recebidos em binário e hexá.   \n"
 
 #. type: Title ###
 #: index.md:74
@@ -304,8 +303,7 @@ msgstr "Opção 2:"
 
 #. type: Plain text
 #: index.md:75
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kuru en ŝelo:  \n"
 msgstr "Correr em casca:   \n"
 
@@ -317,20 +315,21 @@ msgstr "./analyzi  \n"
 
 #. type: Plain text
 #: index.md:77
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "kaj premu la butonon sur la fora kontrolo, aŭ atendu la sensilon por sendi datumojn. Se la protokolo estas agnoskita, ni vidas ion similan al tio:  \n"
 msgstr "e pressione o botão no controle remoto ou aguarde o sensor enviar dados. Se o protocolo é reconhecido, vemos algo semelhante à:   \n"
 
 #. type: Plain text
 #: index.md:81
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "  73 Praktika Protokolo:  \" XXX; P0001, Bits = 36, D0 = 689, D1 = 1923, DS = 3890; ID: B1-B36 \"   \n"
 "   Binary Datumoj: 0111001100000011011000111100100000   \n"
 "   hexa datumo: 7300d8f20   \n"
-msgstr "   73 Protocolo Prático:   \" XXX; P0001, bits = 36, d0 = 689, d1 = 1923, DS = 3890; ID: B1-B36  \"    \n Dados binários: 011100110000110110001100100000    \n Hexa Dados: 7300D8F20    \n"
+msgstr ""
+"   73 Protocolo Prático:   \" XXX; P0001, bits = 36, d0 = 689, d1 = 1923, DS = 3890; ID: B1-B36  \"    \n"
+" Dados binários: 011100110000110110001100100000    \n"
+" Hexa Dados: 7300D8F20    \n"
 
 #. type: Plain text
 #: index.md:83
@@ -340,16 +339,16 @@ msgstr "Agora você precisa analisar dados binários para identificar o signific
 
 #. type: Plain text
 #: index.md:84
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Vi povas tiam aldoni linion en la dosieron Dentilos.ini, ĉiu linio konsistas el tri elementoj apartigitaj per punktokomo:  \n"
 msgstr "Você pode adicionar uma linha no arquivo Dentilos.ini, cada linha consiste em três elementos separados por um ponto-e-vírgula:   \n"
 
 #. type: Bullet: '* '
-#: index.md:85
-#, fuzzy, no-wrap
-msgid "Unua elemento: nomo de la teamo. Atento, se ĝi estas ŝaltilo, ĝi devas esti parto de la listo de elementoj agnoskitaj de DomotiCz.  \n"
-msgstr "Primeiro elemento: o nome do equipamento. Atenção, se for um interruptor, deve fazer parte da lista de elementos reconhecidos pela Penoticz.  \n"
+#: index.md:86
+#, no-wrap
+#, fuzzy
+msgid "Unua elemento: nomo de la teamo. Atento, se ĝi estas ŝaltilo, ĝi devas esti parto de la listo de elementoj agnoskitaj de  _domoticz_.   \n"
+msgstr "Primeiro elemento: o nome do equipamento. Atenção, se é um interruptor, deve fazer parte da lista de elementos reconhecidos pelo   _domoticz_.    \n"
 
 #. type: Bullet: '* '
 #: index.md:87
@@ -373,8 +372,7 @@ msgstr "\t\tsignifica: protocolo P0102 (Bit 0 = d0 d1, bit 1 = d0 d2), 36 bits p
 
 #. type: Plain text
 #: index.md:92
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "\t\tLa protokolo, bitoj, D0 kaj D1-partoj estas uzataj por diferencigi aparatojn.  \n"
 msgstr "\t \t O protocolo, bits, d0 e peças D1 são usados para diferenciar dispositivos.   \n"
 
@@ -391,21 +389,16 @@ msgid "\tEkzemplo por multi-kanalo Remote Kontrolo, ID: ID: B1-20, CMD: B21-21, 
 msgstr "\tExemplo para controle remoto multicanal, ID: ID: B1-20, CMD: B21-21, Swille: B22-24  \n"
 
 #. type: Plain text
-#: index.md:99
+#: index.md:100
 #, no-wrap
 #, fuzzy
 msgid ""
 "\t\tID: B1-20 signifas, ke la ID de la fora kontrolo estas en bitoj 1 ĝis 20 (bito 1 = unua bito transdonita\n"
 "\t \t Cmd: B21-21 signifas, ke la komando transdonita  ( ON / OFF )  situas en Ilo 21.   \n"
 "\t \t ŝanĝi: B22-24 signifas, ke la nombro de la funkciigita Jack situas ĉe la bitoj 22 ĝis 24.   \n"
-"\tEsti agnoskita de Domomoticz, la nomo de la kampo devas esti en la rekonita listo (vidu sentilos.txt). Ni tamen povas meti tion, kion ni volas, simple la kampo estos ignorita de Domomoticz.  \n"
-msgstr "\t \t id: b1-20 significa que o ID do controle remoto está em bits 1 a 20  ( bit 1 = primeiro bit entregue \n \t  \t cmd: b21-21 significa o Comando transmitido   (  ON / OFF  )   está localizado na OIT 21.    \n \t  \t Alteração: B22-24 significa que o número da tomada operada está localizado nos bits 22 a 24.    \n \t Reconhecido por Domomoticz, o nome do campo deve estar na lista renomada  ( ver sensilos.txt ). No entanto, podemos colocar o que queremos, simplesmente o campo será ignorado por Domomoticz.   \n"
-
-#. type: Plain text
-#: index.md:100
-#, fuzzy, no-wrap
-msgid "\tEkzistas pluraj bita suitoj, ekzemple: CMD: B17-17: B15-15: B16-16 Concatenate la bitoj 17 kaj 16 en tiu ordo.  \n"
-msgstr "\tHá várias suites, por exemplo: CMD: B17-17: B15-15: B16-16 Concatenate Bits 17 e 16 nessa ordem.  \n"
+"\t Esti agnoskita de  _domoticz_, la kampa nomo devas esti en la rekonita listo  ( vidu sentilos.txt ). Tamen, ni povas meti tion, kion ni volas, simple la kampo estos ignorata de  _domoticz_.   \n"
+"\tEkzistas pluraj bita suitoj, ekzemple: CMD: B17-17: B15-15: B16-16 Concatenate la bitoj 17 kaj 16 en tiu ordo.  \n"
+msgstr "\t \t id: b1-20 significa que o ID do controle remoto está em bits 1 a 20  ( bit 1 = primeiro bit entregue \n \t  \t cmd: b21-21 significa o Comando transmitido   (  ON / OFF  )   está localizado na OIT 21.    \n \t  \t Alteração: B22-24 significa que o número da tomada operada está localizado nos bits 22 a 24.    \n \t Ser confirmado por   _domoticz_, o nome do campo deve estar na lista reconhecida   (  ver sensóis.txt  ). No entanto, podemos colocar o que queremos, simplesmente o campo será ignorado por   _domoticz_.    \n \t Existem várias suítes, por exemplo: CMD: B17-17: B15-15: B16-16 Concatenar os bits 17 e 16 nessa ordem.   \n"
 
 #. type: Plain text
 #: index.md:101
@@ -415,12 +408,13 @@ msgstr "\tO valor de certos bits pode ser testado, por exemplo: cst2: B43-48 = 1
 
 #. type: Plain text
 #: index.md:103
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "\t Ni povas deklari BCD-koditajn kampojn  ( Dekuma kodita duuma ) : metu b anstataŭ b. Ekzemplo: Temp: B12-15: B16-19: B20-23 deklaras temperaturan kampon kies unua cifero estas al la bitoj 12-15, la dua al la bitoj 16 ĝis 20 kaj la tria ĉe la bitoj 21 ĝis 23.   \n"
 "\tKampo finanta kun \"-inv\" estas speciala kampo kiu prenos la inversan (komplemento al unu) de ĝia homonima kampo en la spektaklo.  \n"
-msgstr "\t podemos declarar campos codificados com BCD   (  codificação decimal  ) : colocar B em vez de b. Exemplo: Temp: B12-15: B16-19: B20-23 declara um campo de temperatura cujo primeiro número é para os bits 12-15, o segundo para os bits 16 a 20 e o terceiro nos bits 21 a 23.    \n \t Acabamento de campo com  \" -inv \" é um campo especial que levará o complemento inverso  ( para um )  de seu campo homonyst no show.   \n"
+msgstr ""
+"\t podemos declarar campos codificados com BCD   (  codificação decimal  ) : colocar B em vez de b. Exemplo: Temp: B12-15: B16-19: B20-23 declara um campo de temperatura cujo primeiro número é para os bits 12-15, o segundo para os bits 16 a 20 e o terceiro nos bits 21 a 23.    \n"
+" \t Acabamento de campo com  \" -inv \" é um campo especial que levará o complemento inverso  ( para um )  de seu campo homonyst no show.   \n"
 
 #. type: Plain text
 #: index.md:104
@@ -430,17 +424,17 @@ msgstr "\tVocê pode atribuir um valor a um campo que não é encontrado nos dad
 
 #. type: Plain text
 #: index.md:106
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "\t Simplaj kalkuloj povas esti faritaj: aldono, multipliko kaj subtraho estas eblaj  ( en ĉi tiu ĝusta ordo ), la konstantoj estas en deksesuma.   \n"
 "\t\tEkzemplo por konverti en dekonojn de ° C datumo kiu estas en dekonoj de ° F + 900:  \n"
-msgstr "\t Cálculos simples podem ser feitos: adição, multiplicação e subtração são possíveis   (  Nesta ordem correta  ), as constantes estão em hexadecimal.    \n \t \t exemplo para converter em décimos de dados ° C que está em décimos de ° F + 900:   \n"
+msgstr ""
+"\t Cálculos simples podem ser feitos: adição, multiplicação e subtração são possíveis   (  Nesta ordem correta  ), as constantes estão em hexadecimal.    \n"
+" \t \t exemplo para converter em décimos de dados ° C que está em décimos de ° F + 900:   \n"
 
 #. type: Plain text
 #: index.md:108
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "\t \t TEMP: B17-28 + -4C4 * 5/9   (  SO: DATA _finale = (donnée_ BESTO -1220 )  *  5/9  )   \n"
 msgstr "\t  \t Temp: B17-28 + -4C4  *  5/9    (   Assim: Dados  _finale = (donnée_  animal -1220  )   *   5/9   )    \n"
 
@@ -472,8 +466,7 @@ msgstr "Protocolos suportados:"
 
 #. type: Plain text
 #: index.md:119
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Nur protokoloj kun almenaŭ la sekvaj karakterizaĵoj havas ŝancon esti rekonitaj:  \n"
 msgstr "Apenas protocolos com pelo menos os seguintes recursos têm a chance de ser reconhecido:   \n"
 
@@ -512,6 +505,83 @@ msgstr "O quadro não contém mais de 200 pulsos.  \n"
 #, fuzzy, no-wrap
 msgid "En la spektaklo, la rotaciaj kodoj kaj la sumoj de konfirmo ne estas administritaj.  \n"
 msgstr "No show, os códigos rotativos e os montantes de confirmação não são administrados.  \n"
+
+#, fuzzy, no-wrap
+#~ msgid "Rf_gpio"
+#~ msgstr "RF_gpio"
+
+#, fuzzy, no-wrap
+#~ msgid " _rf_GPIO_ ebligas simuli rflink kun dissendilo kaj ricevilo konektita rekte al la havenoj _GPIO_ de a _raspberry pi_.\n"
+#~ msgstr " _rf_GPO_ permite simular RFLink com um transmissor e receptor conectado diretamente às portas _GPIO_ de um _raspberry pi_.\n"
+
+#, fuzzy
+#~ msgid "Konekti la ricevilon al GPIO2 BCM27 (PIN 13)  \n"
+#~ msgstr "Conecte o receptor a GPO2 BCM27  ( PIN 13 )   \n"
+
+#, fuzzy
+#~ msgid "Konekti la dissendilon al GPIO0 BCM17 (PIN 11)  \n"
+#~ msgstr "Conecte o transmissor a GPO0 BCM17  ( PIN 11 )   \n"
+
+#, fuzzy, no-wrap
+#~ msgid "Uzo kun DOMOTICZ:"
+#~ msgstr "Use com Hosticz:"
+
+#, fuzzy
+#~ msgid ""
+#~ "\t haveno: 10000   \n"
+#~ "Se la aparataro estas agnoskita, la integriĝo kun Domomoticz estas "
+#~ "simpla: sufiĉas uzi la butonon \"Aŭtomata Detekto\" sur la langeto "
+#~ "\"Ŝaltiloj\", aŭ aktivigi la opcion \"Permesi 5 Minutoj\"   \n"
+#~ msgstr ""
+#~ "\t Porta: 10000    \n"
+#~ " Se o hardware for reconhecido, a integração com Domomoticz é simples: "
+#~ "basta usar o botão de detecção automática  \" \" na guia \" switches \" "
+#~ "ou ativar A opção  \" Permitir 5 minutos \"    \n"
+
+#, fuzzy, no-wrap
+#~ msgid "Kyg (ASIN: B07DPmpw1, markita Intertk, vidpunktoj de Amazon)(agnoskita kiel \"impulsoj\")  \n"
+#~ msgstr "KYG (ASIN: B07DPMPW1, marcada com relação, pontos de vista da Amazônia)(reconhecidos como \"impulsos\")  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Ĉina ĉina aneng ( termometro kun ekrano LCD, vidita sur AliExpress.)  \n"
+#~ msgstr ""
+#~ "Chinês chinês Anneng  (  Termômetro com tela LCD, visto em "
+#~ "AliExpress. )   \n"
+
+#, fuzzy, no-wrap
+#~ msgid "DigOOOO RG-8B higrometer-higrómetro ĉina-kosto, sen ekrano, vidita sur AliExpress.)  \n"
+#~ msgstr "Digoooo RG-8B Higromômetro-Higromômetro Custo chinês, sem tela, visto no AliExpress.)  \n"
+
+#, fuzzy, no-wrap
+#~ msgid "Unua elemento: nomo de la teamo. Atento, se ĝi estas ŝaltilo, ĝi devas esti parto de la listo de elementoj agnoskitaj de DomotiCz.  \n"
+#~ msgstr "Primeiro elemento: o nome do equipamento. Atenção, se for um interruptor, deve fazer parte da lista de elementos reconhecidos pela Penoticz.  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "\t\tID: B1-20 signifas, ke la ID de la fora kontrolo estas en bitoj 1 ĝis "
+#~ "20 (bito 1 = unua bito transdonita\n"
+#~ "\t \t Cmd: B21-21 signifas, ke la komando transdonita  ( ON / OFF )  "
+#~ "situas en Ilo 21.   \n"
+#~ "\t \t ŝanĝi: B22-24 signifas, ke la nombro de la funkciigita Jack situas "
+#~ "ĉe la bitoj 22 ĝis 24.   \n"
+#~ "\tEsti agnoskita de Domomoticz, la nomo de la kampo devas esti en la "
+#~ "rekonita listo (vidu sentilos.txt). Ni tamen povas meti tion, kion ni "
+#~ "volas, simple la kampo estos ignorita de Domomoticz.  \n"
+#~ msgstr ""
+#~ "\t \t id: b1-20 significa que o ID do controle remoto está em bits 1 a "
+#~ "20  ( bit 1 = primeiro bit entregue \n"
+#~ " \t  \t cmd: b21-21 significa o Comando transmitido   (  ON / OFF  )   "
+#~ "está localizado na OIT 21.    \n"
+#~ " \t  \t Alteração: B22-24 significa que o número da tomada operada está "
+#~ "localizado nos bits 22 a 24.    \n"
+#~ " \t Reconhecido por Domomoticz, o nome do campo deve estar na lista "
+#~ "renomada  ( ver sensilos.txt ). No entanto, podemos colocar o que "
+#~ "queremos, simplesmente o campo será ignorado por Domomoticz.   \n"
+
+#, fuzzy, no-wrap
+#~ msgid "\tEkzistas pluraj bita suitoj, ekzemple: CMD: B17-17: B15-15: B16-16 Concatenate la bitoj 17 kaj 16 en tiu ordo.  \n"
+#~ msgstr "\tHá várias suites, por exemplo: CMD: B17-17: B15-15: B16-16 Concatenate Bits 17 e 16 nessa ordem.  \n"
 
 #, fuzzy
 #~ msgid "(° 1 ° Haveno: 10000  \n"

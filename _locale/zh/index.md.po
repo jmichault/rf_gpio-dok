@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-09 21:43+0100\n"
+"POT-Creation-Date: 2022-01-31 22:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,9 +42,10 @@ msgstr "page"
 
 #. type: YAML Front Matter: title
 #: index.md:1
-#, fuzzy, no-wrap
-msgid "Rf_gpio"
-msgstr "rf_gpio"
+#, no-wrap
+#, fuzzy
+msgid "_rf\\_gpio_"
+msgstr "_rf\\_gpio_"
 
 #. type: Title #
 #: index.md:9
@@ -54,9 +55,10 @@ msgstr "介绍"
 
 #. type: Plain text
 #: index.md:11
-#, fuzzy, no-wrap
-msgid " _rf_GPIO_ ebligas simuli rflink kun dissendilo kaj ricevilo konektita rekte al la havenoj _GPIO_ de a _raspberry pi_.\n"
-msgstr " _rf_GPO_ 可以使用直接连接到 _raspberry pi_的端口 _GPIO_ 的发射器和接收器的发射器和接收器模拟RFLINK。\n"
+#, no-wrap
+#, fuzzy
+msgid " _rf\\_gpio_  simuli  _RFLink_  kun dissendilo kaj ricevilo konektita rekte al la  _GPIO_  havenoj de  _raspberry pi_. \n"
+msgstr " _rf\\_gpio_  使用发射器和接收器直接连接到  _GPIO_  的  _GPIO_  端口的接收器。  \n"
 
 #. type: Title ##
 #: index.md:13
@@ -83,33 +85,30 @@ msgstr ""
 "sudo service rf_gpio.sh start  \n"
 
 #. type: Plain text
-#: index.md:24
-#, no-wrap
-#, fuzzy
-msgid "Konekti la ricevilon al GPIO2 BCM27 (PIN 13)  \n"
-msgstr "将接收器连接到GPO2 BCM27  (引脚13 )   \n"
-
-#. type: Plain text
-#: index.md:25
-#, no-wrap
-#, fuzzy
-msgid "Konekti la dissendilon al GPIO0 BCM17 (PIN 11)  \n"
-msgstr "将发射器连接到GPO0 BCM17  (引脚11 )   \n"
-
-#. type: Title ##
-#: index.md:27
-#, fuzzy, no-wrap
-msgid "Uzo kun DOMOTICZ:"
-msgstr "与Hosticz一起使用："
-
-#. type: Plain text
-#: index.md:29
+#: index.md:26
 #, no-wrap
 #, fuzzy
 msgid ""
+"konekti la ricevilon al  _gpio2 bcm27_  ( pinglo 13 )   \n"
+"konektu la dissendilon al  _gpio0 bcm17_  ( pinglo 11 )   \n"
+msgstr "将接收器连接到  _gpio2 bcm27_   ( 引脚13  )    \n将发射器连接到  _gpio0 bcm17_   ( 引脚11  )    \n"
+
+#. type: Title ##
+#: index.md:27
+#, no-wrap
+#, fuzzy
+msgid "Uzu kun  _domoticz_ :"
+msgstr "与  _domoticz_ 一起使用："
+
+#. type: Plain text
+#: index.md:29
+#, fuzzy, no-wrap
+msgid ""
 "Aldoni materialon de tipo _«RFLink Gateway with LAN interface»_\n"
 "\tRemota Adreso: 127.0.0.1  \n"
-msgstr "添加 _«RFLink Gateway with LAN interface»_ \n \t远程地址：127.0.0.1   \n"
+msgstr ""
+"添加 _«RFLink Gateway with LAN interface»_ \n"
+" \t远程地址：127.0.0.1   \n"
 
 #. type: Plain text
 #: index.md:32
@@ -117,8 +116,8 @@ msgstr "添加 _«RFLink Gateway with LAN interface»_ \n \t远程地址：127.0
 #, fuzzy
 msgid ""
 "\t haveno: 10000   \n"
-"Se la aparataro estas agnoskita, la integriĝo kun Domomoticz estas simpla: sufiĉas uzi la butonon \"Aŭtomata Detekto\" sur la langeto \"Ŝaltiloj\", aŭ aktivigi la opcion \"Permesi 5 Minutoj\"   \n"
-msgstr "\t端口：10000    \n如果识别硬件，与DOMOMITORZ的集成很简单：它足以在\"交换机\"选项卡上使用 \"自动检测按钮\"，或激活选项 \"允许5分钟\"    \n"
+"Se la aparataro estas agnoskita, la integriĝo kun  _domoticz_  estas simpla: sufiĉas uzi la butonon \"aŭtomata detekto\" sur la langeto \"ŝaltiloj\", aŭ aktivigi la opcion \"Permesi 5 Minutoj\"   \n"
+msgstr "\t端口：10000    \n如果识别硬件，与  _domoticz_  的集成很简单：它足以在 \"交换机\"选项卡上使用 \"自动检测\"，或激活选项 \"允许5分钟\"    \n"
 
 #. type: Title ##
 #: index.md:33
@@ -128,8 +127,7 @@ msgstr "收发器测试："
 
 #. type: Bullet: '* '
 #: index.md:34
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Ĉina ilaro kun reaga ricevilo (asin = b00z9sznp0, MX-05V + MX-FS-03V), vidita en Amazono je 1 €.  \n"
 msgstr "用反应器反应器 ( ASIN = B00Z9SZNP0，MX-05V + MX-FS-03V )，在亚马逊1欧元以€1观看中文齿轮。   \n"
 
@@ -147,15 +145,13 @@ msgstr "WL101-341 + WL102-341，Superheredyne 433 MHz，在AliExpress上看到1�
 
 #. type: Plain text
 #: index.md:40
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "\t La ricevilo havas pli bonan sentemon ol la antaŭa.   \n"
 msgstr "\t接收器具有比前一个更好的灵敏度。    \n"
 
 #. type: Plain text
 #: index.md:42
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Noto: Por bonaj rezultoj, la ricevilo devas esti protektita kontraŭ pestoj elsenditaj de _raspberry-pi_. Por testado, vi povas uzi aluminan tavoleton en folio de papero faldita duone.\n"
 msgstr "注意：出于良好的结果，必须保护接收器免受 _raspberry-pi_发出的害虫。对于测试，您可以在折叠成一半的纸张中使用铝制涂层。 \n"
 
@@ -167,29 +163,30 @@ msgstr "公认的材料："
 
 #. type: Plain text
 #: index.md:44
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "estis sukcese testita:  \n"
 msgstr "已成功测试：  \n"
 
 #. type: Bullet: '* '
-#: index.md:45
-#, fuzzy, no-wrap
-msgid "Kyg (ASIN: B07DPmpw1, markita Intertk, vidpunktoj de Amazon)(agnoskita kiel \"impulsoj\")  \n"
-msgstr "KYG (ASIN：B07DPMPW1，标记的性交，亚马逊)(的视角被识别为 \"脉冲\")  \n"
-
-#. type: Bullet: '* '
-#: index.md:47
+#: index.md:46
 #, no-wrap
 #, fuzzy
-msgid "Ĉina ĉina aneng ( termometro kun ekrano LCD, vidita sur AliExpress.)  \n"
-msgstr "中国中文anneng  ( 温度计与液晶屏，在aliexpress上观看。 )   \n"
+msgid "Prenas  _KYG_  (_ ASIN: B07DPmpvw1 _ , markita  _Intertek_, vidpunktoj pri  _amazon_)( agnoskita kiel  _«Impuls»_)   \n"
+msgstr "ASIN：B07DPVWW1  _ ，标记为  _Intertek_，为  _amazon_)( 的视图确认为  _«Impuls»_)    \n"
 
 #. type: Bullet: '* '
-#: index.md:49
-#, fuzzy, no-wrap
-msgid "DigOOOO RG-8B higrometer-higrómetro ĉina-kosto, sen ekrano, vidita sur AliExpress.)  \n"
-msgstr "Digooo RG-8B厚度阶层 - 在AliExpress上观看的没有屏幕的追随量词。)  \n"
+#: index.md:48
+#, no-wrap
+#, fuzzy
+msgid "Thermometer-higrometer  _Aneng_  (  ĉina malalta kosto, kun LCD-ekrano, vidita sur  _aliexpress_. )   \n"
+msgstr "温度计 - 脚器  _Aneng_   (  中式低成本，在  _aliexpress_上观看LCD屏幕。  )    \n"
+
+#. type: Bullet: '* '
+#: index.md:50
+#, no-wrap
+#, fuzzy
+msgid "Termometro-higrometer  _Digoo RG-8B_  (  ĉina malalta kosto, sen ekrano, vidita sur  _aliexpress_. )   \n"
+msgstr "温度计 - 脚器  _Digoo RG-8B_   (  中国低成本，无屏幕，在  _aliexpress_上观看。  )    \n"
 
 #. type: Plain text
 #: index.md:52
@@ -225,8 +222,7 @@ msgstr ""
 
 #. type: Plain text
 #: index.md:59
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kiam la sensor sendas datumojn, kaj la transiga protokolo estas agnoskita, vi vidos ion, kio aspektas tiel:  \n"
 msgstr "当传感器发送数据时，传输协议被识别出来时，您将看到类似于这样的东西：  \n"
 
@@ -244,12 +240,14 @@ msgstr "  20; =任何RFLINK排放帧都开始如此。  \n"
 
 #. type: Plain text
 #: index.md:63
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "   00; = Unua kadro eldonita.   \n"
 "   p0102, bitoj = 36, d0 = 529, d1 = 949, d2 = 1926, ds = 3865 = rf _gpio a identifié un protocole du type :  \n"
-msgstr "    00; =第一个框架发布。    \n P0102，位= 36，D0 = 529，D1 = 949，D2 = 1926，DS = 3865 = RF  _gpio a identifié un protocole du type :  \n  \n"
+msgstr ""
+"    00; =第一个框架发布。    \n"
+" P0102，位= 36，D0 = 529，D1 = 949，D2 = 1926，DS = 3865 = RF  _gpio a identifié un protocole du type :  \n"
+"  \n"
 
 #. type: Plain text
 #: index.md:65
@@ -289,12 +287,13 @@ msgstr "\t持续时间D2 =1936μs  \n"
 
 #. type: Plain text
 #: index.md:72
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "\t sinkrona daŭro DS = 3881 μs   \n"
 "  Duuma = 0111001100000000100000, hex = 7300D8F20; : Datumoj ricevitaj en duuma kaj hexa.  \n"
-msgstr "\t同步持续时间DS =3881μs   \n duuma = 011100110000000000100000，hex = 7300d8f20; ：在二进制和六躯中收到的数据。   \n"
+msgstr ""
+"\t同步持续时间DS =3881μs   \n"
+" duuma = 011100110000000000100000，hex = 7300d8f20; ：在二进制和六躯中收到的数据。   \n"
 
 #. type: Title ###
 #: index.md:74
@@ -304,8 +303,7 @@ msgstr "选项2："
 
 #. type: Plain text
 #: index.md:75
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kuru en ŝelo:  \n"
 msgstr "在树皮中运行：  \n"
 
@@ -317,20 +315,21 @@ msgstr "./Analyzi  \n"
 
 #. type: Plain text
 #: index.md:77
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "kaj premu la butonon sur la fora kontrolo, aŭ atendu la sensilon por sendi datumojn. Se la protokolo estas agnoskita, ni vidas ion similan al tio:  \n"
 msgstr "然后按遥控器上的按钮，或等待传感器发送数据。如果识别出协议，我们会看到类似于以下的东西：  \n"
 
 #. type: Plain text
 #: index.md:81
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "  73 Praktika Protokolo:  \" XXX; P0001, Bits = 36, D0 = 689, D1 = 1923, DS = 3890; ID: B1-B36 \"   \n"
 "   Binary Datumoj: 0111001100000011011000111100100000   \n"
 "   hexa datumo: 7300d8f20   \n"
-msgstr "   73实用方案：  \" XXX; P0001，位= 36，D0 = 689，D1 = 1923，DS = 3890; ID：B1-B36  \"    \n二进制数据：01110011000000110110001100100000    \n六数据：7300d8f20    \n"
+msgstr ""
+"   73实用方案：  \" XXX; P0001，位= 36，D0 = 689，D1 = 1923，DS = 3890; ID：B1-B36  \"    \n"
+"二进制数据：01110011000000110110001100100000    \n"
+"六数据：7300d8f20    \n"
 
 #. type: Plain text
 #: index.md:83
@@ -340,16 +339,16 @@ msgstr "您现在需要分析二进制数据以识别每个部件的含义。  \
 
 #. type: Plain text
 #: index.md:84
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Vi povas tiam aldoni linion en la dosieron Dentilos.ini, ĉiu linio konsistas el tri elementoj apartigitaj per punktokomo:  \n"
 msgstr "然后，您可以在Dentilos.ini文件中添加一行，每行由分号分隔的三个元素组成：  \n"
 
 #. type: Bullet: '* '
-#: index.md:85
-#, fuzzy, no-wrap
-msgid "Unua elemento: nomo de la teamo. Atento, se ĝi estas ŝaltilo, ĝi devas esti parto de la listo de elementoj agnoskitaj de DomotiCz.  \n"
-msgstr "第一个元素：设备的名称。注意，如果是开关，它必须是Penoticz识别的元素列表的一部分。  \n"
+#: index.md:86
+#, no-wrap
+#, fuzzy
+msgid "Unua elemento: nomo de la teamo. Atento, se ĝi estas ŝaltilo, ĝi devas esti parto de la listo de elementoj agnoskitaj de  _domoticz_.   \n"
+msgstr "第一个元素：设备的名称。注意，如果它是一个开关，它必须是  _domoticz_识别的元素列表的一部分。    \n"
 
 #. type: Bullet: '* '
 #: index.md:87
@@ -373,8 +372,7 @@ msgstr "\t\t表示：协议P0102 (位0 = D0 D1，位1 = D0 D2)，36位按帧，�
 
 #. type: Plain text
 #: index.md:92
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "\t\tLa protokolo, bitoj, D0 kaj D1-partoj estas uzataj por diferencigi aparatojn.  \n"
 msgstr "\t \t协议，比特，D0和D1部件用于区分设备。   \n"
 
@@ -391,21 +389,16 @@ msgid "\tEkzemplo por multi-kanalo Remote Kontrolo, ID: ID: B1-20, CMD: B21-21, 
 msgstr "\t多通道遥控器示例，ID：ID：B1-20，CMD：B21-21，Swile：B22-24  \n"
 
 #. type: Plain text
-#: index.md:99
+#: index.md:100
 #, no-wrap
 #, fuzzy
 msgid ""
 "\t\tID: B1-20 signifas, ke la ID de la fora kontrolo estas en bitoj 1 ĝis 20 (bito 1 = unua bito transdonita\n"
 "\t \t Cmd: B21-21 signifas, ke la komando transdonita  ( ON / OFF )  situas en Ilo 21.   \n"
 "\t \t ŝanĝi: B22-24 signifas, ke la nombro de la funkciigita Jack situas ĉe la bitoj 22 ĝis 24.   \n"
-"\tEsti agnoskita de Domomoticz, la nomo de la kampo devas esti en la rekonita listo (vidu sentilos.txt). Ni tamen povas meti tion, kion ni volas, simple la kampo estos ignorita de Domomoticz.  \n"
-msgstr "\t \t ID：B1-20表示遥控器的ID位于位1至20  (位1 =第一位传递\n \t  \t CMD：B21-21表示发送  (  ON / OFF  )  的命令位于ILO 21中。   \n \t  \t改变：B22-24表示操作的插孔的数量位于位22至24处。   \n \t通过DOMOMITORZ确认，该字段的名称必须在着名的列表 (中查看Sensilos.txt )。但是，我们可以放置我们想要的东西，只需将该领域忽略DOMOMITORZ。   \n"
-
-#. type: Plain text
-#: index.md:100
-#, fuzzy, no-wrap
-msgid "\tEkzistas pluraj bita suitoj, ekzemple: CMD: B17-17: B15-15: B16-16 Concatenate la bitoj 17 kaj 16 en tiu ordo.  \n"
-msgstr "\t有几个比特套房，例如：CMD：B17-17：B15-15：B16-16依次连接位17和16。  \n"
+"\t Esti agnoskita de  _domoticz_, la kampa nomo devas esti en la rekonita listo  ( vidu sentilos.txt ). Tamen, ni povas meti tion, kion ni volas, simple la kampo estos ignorata de  _domoticz_.   \n"
+"\tEkzistas pluraj bita suitoj, ekzemple: CMD: B17-17: B15-15: B16-16 Concatenate la bitoj 17 kaj 16 en tiu ordo.  \n"
+msgstr "\t \t ID：B1-20表示遥控器的ID位于位1至20  (位1 =第一位传递\n \t  \t CMD：B21-21表示发送  (  ON / OFF  )  的命令位于ILO 21中。   \n \t  \t改变：B22-24表示操作的插孔的数量位于位22至24处。   \n \t由  _domoticz_确认，字段名称必须位于识别的列表  ( 中，请参见SECEULOS.TXT  )。但是，我们可以放置我们想要的东西，只需将该字段忽略  _domoticz_。    \n \t有几个位套件，例如：CMD：B17-17：B15-15：B16-15以该顺序连接位17和16。   \n"
 
 #. type: Plain text
 #: index.md:101
@@ -415,12 +408,13 @@ msgstr "\t可以测试某些比特的值，例如：CST2：B43-48 = 1将确认�
 
 #. type: Plain text
 #: index.md:103
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "\t Ni povas deklari BCD-koditajn kampojn  ( Dekuma kodita duuma ) : metu b anstataŭ b. Ekzemplo: Temp: B12-15: B16-19: B20-23 deklaras temperaturan kampon kies unua cifero estas al la bitoj 12-15, la dua al la bitoj 16 ĝis 20 kaj la tria ĉe la bitoj 21 ĝis 23.   \n"
 "\tKampo finanta kun \"-inv\" estas speciala kampo kiu prenos la inversan (komplemento al unu) de ĝia homonima kampo en la spektaklo.  \n"
-msgstr "\t我们可以声明BCD编码字段  ( 十进制编码二进制 ) ：放b而不是b。示例：TEMP：B12-15：B16-19：B20-23声明其第一数量为位12-15的温度场，第二到位16至20以及位21至23处的第三位。   \n \t与 \" -inv \"的字段精加工是一个特殊的领域，将逆向 (补充在该节目中其HomonyST字段的一个) 。   \n"
+msgstr ""
+"\t我们可以声明BCD编码字段  ( 十进制编码二进制 ) ：放b而不是b。示例：TEMP：B12-15：B16-19：B20-23声明其第一数量为位12-15的温度场，第二到位16至20以及位21至23处的第三位。   \n"
+" \t与 \" -inv \"的字段精加工是一个特殊的领域，将逆向 (补充在该节目中其HomonyST字段的一个) 。   \n"
 
 #. type: Plain text
 #: index.md:104
@@ -430,17 +424,17 @@ msgstr "\t您可以为每个 \"=\"中未找到的字段分配值。示例：CMD 
 
 #. type: Plain text
 #: index.md:106
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "\t Simplaj kalkuloj povas esti faritaj: aldono, multipliko kaj subtraho estas eblaj  ( en ĉi tiu ĝusta ordo ), la konstantoj estas en deksesuma.   \n"
 "\t\tEkzemplo por konverti en dekonojn de ° C datumo kiu estas en dekonoj de ° F + 900:  \n"
-msgstr "\t简单计算可以进行：添加，乘法和减法是可能的  ( ，在这种正确的顺序 )中，常量处于十六进制中。    \n \t \t用于转换为十分之一的°F + 900：的数据  \n"
+msgstr ""
+"\t简单计算可以进行：添加，乘法和减法是可能的  ( ，在这种正确的顺序 )中，常量处于十六进制中。    \n"
+" \t \t用于转换为十分之一的°F + 900：的数据  \n"
 
 #. type: Plain text
 #: index.md:108
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "\t \t TEMP: B17-28 + -4C4 * 5/9   (  SO: DATA _finale = (donnée_ BESTO -1220 )  *  5/9  )   \n"
 msgstr "\t  \t温度：B17-28 + -4C4  *  5/9    (   SO：Data  _finale = (donnée_  Animal -1220  )   *   5/9   )    \n"
 
@@ -472,8 +466,7 @@ msgstr "支持的协议："
 
 #. type: Plain text
 #: index.md:119
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Nur protokoloj kun almenaŭ la sekvaj karakterizaĵoj havas ŝancon esti rekonitaj:  \n"
 msgstr "只有至少具有以下功能的协议有机会被识别：  \n"
 
@@ -512,6 +505,76 @@ msgstr "框架不含200多个脉冲。  \n"
 #, fuzzy, no-wrap
 msgid "En la spektaklo, la rotaciaj kodoj kaj la sumoj de konfirmo ne estas administritaj.  \n"
 msgstr "在该节目中，不施用旋转码和确认量。  \n"
+
+#, fuzzy, no-wrap
+#~ msgid "Rf_gpio"
+#~ msgstr "rf_gpio"
+
+#, fuzzy, no-wrap
+#~ msgid " _rf_GPIO_ ebligas simuli rflink kun dissendilo kaj ricevilo konektita rekte al la havenoj _GPIO_ de a _raspberry pi_.\n"
+#~ msgstr " _rf_GPO_ 可以使用直接连接到 _raspberry pi_的端口 _GPIO_ 的发射器和接收器的发射器和接收器模拟RFLINK。\n"
+
+#, fuzzy
+#~ msgid "Konekti la ricevilon al GPIO2 BCM27 (PIN 13)  \n"
+#~ msgstr "将接收器连接到GPO2 BCM27  (引脚13 )   \n"
+
+#, fuzzy
+#~ msgid "Konekti la dissendilon al GPIO0 BCM17 (PIN 11)  \n"
+#~ msgstr "将发射器连接到GPO0 BCM17  (引脚11 )   \n"
+
+#, fuzzy, no-wrap
+#~ msgid "Uzo kun DOMOTICZ:"
+#~ msgstr "与Hosticz一起使用："
+
+#, fuzzy
+#~ msgid ""
+#~ "\t haveno: 10000   \n"
+#~ "Se la aparataro estas agnoskita, la integriĝo kun Domomoticz estas "
+#~ "simpla: sufiĉas uzi la butonon \"Aŭtomata Detekto\" sur la langeto "
+#~ "\"Ŝaltiloj\", aŭ aktivigi la opcion \"Permesi 5 Minutoj\"   \n"
+#~ msgstr ""
+#~ "\t端口：10000    \n"
+#~ "如果识别硬件，与DOMOMITORZ的集成很简单：它足以在\"交换机\"选项卡上使用 "
+#~ "\"自动检测按钮\"，或激活选项 \"允许5分钟\"    \n"
+
+#, fuzzy, no-wrap
+#~ msgid "Kyg (ASIN: B07DPmpw1, markita Intertk, vidpunktoj de Amazon)(agnoskita kiel \"impulsoj\")  \n"
+#~ msgstr "KYG (ASIN：B07DPMPW1，标记的性交，亚马逊)(的视角被识别为 \"脉冲\")  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Ĉina ĉina aneng ( termometro kun ekrano LCD, vidita sur AliExpress.)  \n"
+#~ msgstr "中国中文anneng  ( 温度计与液晶屏，在aliexpress上观看。 )   \n"
+
+#, fuzzy, no-wrap
+#~ msgid "DigOOOO RG-8B higrometer-higrómetro ĉina-kosto, sen ekrano, vidita sur AliExpress.)  \n"
+#~ msgstr "Digooo RG-8B厚度阶层 - 在AliExpress上观看的没有屏幕的追随量词。)  \n"
+
+#, fuzzy, no-wrap
+#~ msgid "Unua elemento: nomo de la teamo. Atento, se ĝi estas ŝaltilo, ĝi devas esti parto de la listo de elementoj agnoskitaj de DomotiCz.  \n"
+#~ msgstr "第一个元素：设备的名称。注意，如果是开关，它必须是Penoticz识别的元素列表的一部分。  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "\t\tID: B1-20 signifas, ke la ID de la fora kontrolo estas en bitoj 1 ĝis "
+#~ "20 (bito 1 = unua bito transdonita\n"
+#~ "\t \t Cmd: B21-21 signifas, ke la komando transdonita  ( ON / OFF )  "
+#~ "situas en Ilo 21.   \n"
+#~ "\t \t ŝanĝi: B22-24 signifas, ke la nombro de la funkciigita Jack situas "
+#~ "ĉe la bitoj 22 ĝis 24.   \n"
+#~ "\tEsti agnoskita de Domomoticz, la nomo de la kampo devas esti en la "
+#~ "rekonita listo (vidu sentilos.txt). Ni tamen povas meti tion, kion ni "
+#~ "volas, simple la kampo estos ignorita de Domomoticz.  \n"
+#~ msgstr ""
+#~ "\t \t ID：B1-20表示遥控器的ID位于位1至20  (位1 =第一位传递\n"
+#~ " \t  \t CMD：B21-21表示发送  (  ON / OFF  )  的命令位于ILO 21中。   \n"
+#~ " \t  \t改变：B22-24表示操作的插孔的数量位于位22至24处。   \n"
+#~ " \t通过DOMOMITORZ确认，该字段的名称必须在着名的列表 (中查看Sensilos."
+#~ "txt )。但是，我们可以放置我们想要的东西，只需将该领域忽略DOMOMITORZ。   \n"
+
+#, fuzzy, no-wrap
+#~ msgid "\tEkzistas pluraj bita suitoj, ekzemple: CMD: B17-17: B15-15: B16-16 Concatenate la bitoj 17 kaj 16 en tiu ordo.  \n"
+#~ msgstr "\t有几个比特套房，例如：CMD：B17-17：B15-15：B16-16依次连接位17和16。  \n"
 
 #, fuzzy
 #~ msgid "(° 1 ° Haveno: 10000  \n"
